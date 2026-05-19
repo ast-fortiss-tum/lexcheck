@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_008",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0316",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Country lists only display countries in one subcontinent",
+      "original_body": "<!--\\r\\nIf you've never submitted an issue to the SORMAS repository before or this is your first time using this template, please read the Contributing guidelines (accessible in the right sidebar) for an explanation about the information we'd like you to provide.\\r\\n-->\\r\\n### Bug Description\\r\\nWhen selecting a country in the event section, only the countries of a single subcontinent is displayed. This seems to be the subcontinent that either the server locale is set to or that is deposited as country.name in the properties.\\r\\n### Steps to Reproduce\\r\\n1. Import all default infrastructure data\\r\\n2. Open or create an event\\r\\n3. Check countries in the drop-down list\\r\\n\\r\\n### Expected Behavior\\r\\nThe full country list should be displayed in events since we don't show continent and subcontinent fields there.\\r\\n### Screenshots\\r\\n<img width=\"437\" alt=\"countryListEvents\" src=\"https://user-images.githubusercontent.com/70317594/113268518-c1ae9480-92d7-11eb-80f4-ce08f89a8dd9.PNG\">\\r\\n\\r\\n### System Details\\r\\n* Device:\\r\\n* SORMAS version: 1.58.1\\r\\n* Android version/Browser: firefox\\r\\n* Server URL: test1401.sormas-oegd.de\\r\\n* User Role: admin, national user\\r\\n\\r\\n",
+      "mutated_title": "Country lists only display countries in one subcontinent",
+      "mutated_body": "<!--"
+    },
+    {
+      "item_id": "github_0232",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "[BUG] Video display for unusual pixel ratios",
+      "original_body": "**Describe the bug**\\r\\n\\r\\n\\r\\nBrandon Davis 11:51 AM\\r\\nGood morning, David.\\r\\nBryon and I have just run headlong into a weird video codec / rendering issue. Here's some ffprobe output.\\r\\n```\\r\\nffprobe version 3.4.8-0ubuntu0.2 Copyright (c) 2007-2020 the FFmpeg developers\\r\\n built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)\\r\\n configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared\\r\\n libavutil 55. 78.100 / 55. 78.100\\r\\n libavcodec 57.107.100 / 57.107.100\\r\\n libavformat 57. 83.100 / 57. 83.100\\r\\n libavdevice 57. 10.100 / 57. 10.100\\r\\n libavfilter 6.107.100 / 6.107.100\\r\\n libavresample 3. 7. 0 / 3. 7. 0\\r\\n libswscale 4. 8.100 / 4. 8.100\\r\\n libswresample 2. 9.100 / 2. 9.100\\r\\n libpostproc 54. 7.100 / 54. 7.100\\r\\nInput #0, mpeg, from 'wrasse.mpg/wrasse.mpg':\\r\\n Duration: 00:00:07.16, start: 0.224400, bitrate: 4824 kb/s\\r\\n Stream #0:0[0x1e0]: Video: mpeg2video (Main), yuv420p(tv, top first), 720x480 [SAR 32:27 DAR 16:9], 29.97 fps, 29.97 tbr, 90k tbn, 59.94 tbc\\r\\n Stream #0:1[0x80]: Audio: ac3, 48000 Hz, stereo, fltp, 256 kb/s\\r\\n\\r\\n```\\r\\n\\r\\nWhen transcode to mp4, the width, height, DAR, PAR are the same. When we play it in a browser, the width is reported by a video player as 853. Indeed, the displayed aspect ratio (as checked with a measuring tape) is 16:9 (not 3:2, as 720x480 actually is)\\r\\nNaturally, when we store annotations from this stretched coordinate space, they don't match up with the video pixels. Have you had to deal with this problem before? What's a good way to manage these? Does GeoJS have tools that will put drawn shapes into the video's coordinate space given the PAR? Should we transform them at export time?\\r\\n@Bryon Lewis please add any detail I may have missed. (edited) \\r\\n\\r\\n\\r\\n\\r\\n\\r\\nmanthey 1:33 PM\\r\\nIf you know you have non-square pixels, there are several ways to apply a transform in GeoJS. ...\\r\\n1:35\\r\\nYou can construct an appropriate proj4 string to do the transform. Or you could add a position() accessor to the shape feature layers to transform the coordinates for rendering (e.g., feature.position((d, i) => {x: d.x * 1.2, y: d.y}))\\r\\n1:36\\r\\nI think if the video is already being stretched to the correct shape in the quad, then you'd want to use the position accessor.\\r\\n\\r\\nBrandon Davis 1:48 PM\\r\\nI'd like to try both and see which makes sense for us. the feature position thing seems relatively straightforward.\\r\\nDo you have any references to an example where geo.transform is used? If I construct an affine transform and apply it to the whole map through geo.map.spec.gcs, will that do what I epxect?\\r\\n\\r\\nmanthey 1:49 PM\\r\\nThe feature position will work for rendering, but if you are drawing annotations it will probably be more work than the transform. I know I have an example of applying the transform, but will take me a short while to dig it up.\\r\\n1:50\\r\\nThe transform is applies via gcs, yes.\\r\\n\\r\\nBrandon Davis 1:53 PM\\r\\nThank you.\\r\\n\\r\\nmanthey 2:09 PM\\r\\nTry a gcs string like +proj=longlat +axis=enu +s11=1.2 +s12=0 +s21=0 +s22=1 +xoff=0 +yoff=0.\\r\\n2:10\\r\\nYou would do something like layer.gcs('+proj=longlat +axis=enu +s11=1.2 +s12=0 +s21=0 +s22=1 +xoff=0 +yoff=0') for the annotation layer. (edited) \\r\\n\\r\\nBrandon Davis 2:11 PM\\r\\nI think this will get us most of the way there. Thank you!\\r\\n\\r\\n\\r\\n**Related data**\\r\\n\\r\\nhttps://viame.kitware.com/girder#user/60243dea4d85a3cb4e2250c5/folder/602441854d85a3cb4e2250d2\\r\\n\\r\\n",
+      "mutated_title": "Video display for unusual pixel ratios",
+      "mutated_body": "**Describe the bug**\\r\\n\\r\\n\\r\\nBrandon Davis 11:51 AM\\r\\nGood morning, David.\\r\\nBryon and I have just run headlong into a weird video codec / rendering issue. Here's some ffprobe output.\\r\\n```\\r\\nffprobe version 3.4.8-0ubuntu0.2 Copyright (c) 2007-2020 the FFmpeg developers\\r\\n built with gcc 7 (Ubuntu 7.5.0-3ubuntu1~18.04)\\r\\n configuration: --prefix=/usr --extra-version=0ubuntu0.2 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared\\r\\n libavutil 55. 78.100 / 55. 78.100\\r\\n libavcodec 57.107.100 / 57.107.100\\r\\n libavformat 57. 83.100 / 57. 83.100\\r\\n libavdevice 57. 10.100 / 57. 10.100\\r\\n libavfilter 6.107.100 / 6.107.100\\r\\n libavresample 3. 7. 0 / 3. 7. 0\\r\\n libswscale 4. 8.100 / 4. 8.100\\r\\n libswresample 2. 9.100 / 2. 9.100\\r\\n libpostproc 54. 7.100 / 54. 7.100\\r\\nInput #0, mpeg, from 'wrasse.mpg/wrasse.mpg':\\r\\n Duration: 00:00:07.16, start: 0.224400, bitrate: 4824 kb/s\\r\\n Stream #0:0[0x1e0]: Video: mpeg2video (Main), yuv420p(tv, top first), 720x480 [SAR 32:27 DAR 16:9], 29.97 fps, 29.97 tbr, 90k tbn, 59.94 tbc\\r\\n Stream #0:1[0x80]: Audio: ac3, 48000 Hz, stereo, fltp, 256 kb/s\\r\\n\\r\\n```\\r\\n\\r\\nWhen transcode to mp4, the width, height, DAR, PAR are the same. When we play it in a browser, the width is reported by a video player as 853. Indeed, the displayed aspect ratio (as checked with a measuring tape) is 16:9 (not 3:2, as 720x480 actually is)\\r\\nNaturally, when we store annotations from this stretched coordinate space, they don't match up with the video pixels. Have you had to deal with this problem before? What's a good way to manage these? Does GeoJS have tools that will put drawn shapes into the video's coordinate space given the PAR? Should we transform them at export time?\\r\\n@Bryon Lewis please add any detail I may have missed. (edited) \\r\\n\\r\\n\\r\\n\\r\\n\\r\\nmanthey 1:33 PM\\r\\nIf you know you have non-square pixels, there are several ways to apply a transform in GeoJS. ...\\r\\n1:35\\r\\nYou can construct an appropriate proj4 string to do the transform. Or you could add a position() accessor to the shape feature layers to transform the coordinates for rendering (e.g., feature.position((d, i) => {x: d.x * 1.2, y: d.y}))\\r\\n1:36\\r\\nI think if the video is already being stretched to the correct shape in the quad, then you'd want to use the position accessor.\\r\\n\\r\\nBrandon Davis 1:48 PM\\r\\nI'd like to try both and see which makes sense for us. the feature position thing seems relatively straightforward.\\r\\nDo you have any references to an example where geo.transform is used? If I construct an affine transform and apply it to the whole map through geo.map.spec.gcs, will that do what I epxect?\\r\\n\\r\\nmanthey 1:49 PM\\r\\nThe feature position will work for rendering, but if you are drawing annotations it will probably be more work than the transform. I know I have an example of applying the transform, but will take me a short while to dig it up.\\r\\n1:50\\r\\nThe transform is applies via gcs, yes.\\r\\n\\r\\nBrandon Davis 1:53 PM\\r\\nThank you.\\r\\n\\r\\nmanthey 2:09 PM\\r\\nTry a gcs string like +proj=longlat +axis=enu +s11=1.2 +s12=0 +s21=0 +s22=1 +xoff=0 +yoff=0.\\r\\n2:10\\r\\nYou would do something like layer.gcs('+proj=longlat +axis=enu +s11=1.2 +s12=0 +s21=0 +s22=1 +xoff=0 +yoff=0') for the annotation layer. (edited) \\r\\n\\r\\nBrandon Davis 2:11 PM\\r\\nI think this will get us most of the way there. Thank you!\\r\\n\\r\\n\\r\\n**Related data**\\r\\n\\r\\nhttps://viame.kitware.com/girder#user/60243dea4d85a3cb4e2250c5/folder/602441854d85a3cb4e2250d2\\r\\n\\r\\n"
+    },
+    {
+      "item_id": "github_0196",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "[Bug] Can't find device to cast YouTube video on TV",
+      "original_body": "**Bug description**\\nI click cast video to Chromecast, but it always show \"find device\" and \"can't find device\".\\nThis app cast video is run ok yesterday.\\nI can't find any solutions to cast YouTube video on TV.\\n\\n**Variant**\\nNonRoot: Yes\\nRoot: No\\n\\n**Vanced version**\\n15.43.32 - Build - 01.47.00\\n\\n**Android version**\\nAndroid 9.0 - Pie\\n\\n**Device**\\nSony Xperia XZ Premium\\n\\n**Steps to Reproduce**\\nSteps to reproduce the error:\\n1. Open the app\\n2. Click on 'Cast Video Button'\\n3. Show find device..\\n4. Show can't find any device.\\n\\n**Expected behavior**\\nReplace me with a description of what you expected should happen and what happened instead.\\n\\n![Screenshot_20201105-205952.png](https://user-images.githubusercontent.com/73999368/98244521-8f0fa280-1faa-11eb-975e-a34343c55bbd.png)\\n![Screenshot_20201105-210010.png](https://user-images.githubusercontent.com/73999368/98244570-9afb6480-1faa-11eb-9501-a38ef152f36a.png)\\n![Screenshot_20201105-210034.png](https://user-images.githubusercontent.com/73999368/98244598-a64e9000-1faa-11eb-86eb-361cdcb8b705.png)\\n![Screenshot_20201105-210040.png](https://user-images.githubusercontent.com/73999368/98244617-af3f6180-1faa-11eb-87b8-6ed4bd5cd225.png)\\n\\n_Attach images/videos if possible. These can be helpful in solving the issue._\\n",
+      "mutated_title": "Can't find device to cast YouTube video on TV",
+      "mutated_body": "**Bug description**\\nI click cast video to Chromecast, but it always show \"find device\" and \"can't find device\".\\nThis app cast video is run ok yesterday.\\nI can't find any solutions to cast YouTube video on TV.\\n\\n**Variant**\\nNonRoot: Yes\\nRoot: No\\n\\n**Vanced version**\\n15.43.32 - Build - 01.47.00\\n\\n**Android version**\\nAndroid 9.0 - Pie\\n\\n**Device**\\nSony Xperia XZ Premium\\n\\n**Steps to Reproduce**\\nSteps to reproduce the error:\\n1. Open the app\\n2. Click on 'Cast Video Button'\\n3. Show find device..\\n4. Show can't find any device.\\n\\n**Expected behavior**\\nReplace me with a description of what you expected should happen and what happened instead.\\n\\n![Screenshot_20201105-205952.png](https://user-images.githubusercontent.com/73999368/98244521-8f0fa280-1faa-11eb-975e-a34343c55bbd.png)\\n![Screenshot_20201105-210010.png](https://user-images.githubusercontent.com/73999368/98244570-9afb6480-1faa-11eb-9501-a38ef152f36a.png)\\n![Screenshot_20201105-210034.png](https://user-images.githubusercontent.com/73999368/98244598-a64e9000-1faa-11eb-86eb-361cdcb8b705.png)\\n![Screenshot_20201105-210040.png](https://user-images.githubusercontent.com/73999368/98244617-af3f6180-1faa-11eb-87b8-6ed4bd5cd225.png)\\n\\n_Attach images/videos if possible. These can be helpful in solving the issue._\\n"
+    },
+    {
+      "item_id": "github_0180",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "iOS Testing - Inventory Screen",
+      "original_body": "**Multi Select doesn't work on iOS**\\r\\nWhen in the inventory menu, long press of an item triggers haptic feedback click, but doesn't do anything. No multi select available. This is also the same in browser version on iOS. \\r\\n\\r\\n**Item detail closing the panel**\\r\\nClicking the back button is unintuitive... iOS users are very used to swiping things closed. should add a swipe left to close the item detail modal and return to main inventory screen\\r\\n\\r\\n\\r\\n\\r\\n",
+      "mutated_title": "iOS Testing - Inventory Screen",
+      "mutated_body": "**Multi Select fails to work on iOS** When in the inventory menu, long press of an item triggers haptic feedback click, but does nothing. No multi select available. This is also the same in browser version on iOS. **Item detail closing the panel** Clicking the back button is unintuitive... iOS users are very used to swiping things closed. Should add a swipe left to close the item detail modal and return to main inventory screen."
+    },
+    {
+      "item_id": "github_0091",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "restricted document visible in frontsite search",
+      "original_body": "Migrated unknown document should not be visible in the frontsite search:\\r\\n<img width=\"2436\" alt=\"Screenshot 2021-01-28 at 10 49 32\" src=\"https://user-images.githubusercontent.com/38131488/106120367-98964a00-6156-11eb-8509-0f409beb0de2.png\">\\r\\n\\r\\nin the backoffice it is marked as restricted.\\r\\n",
+      "mutated_title": "Set restricted document visible in frontsite search.",
+      "mutated_body": "Migrated unknown document should not be visible in the frontsite search:\\r\\n<img width=\"2436\" alt=\"Screenshot 2021-01-28 at 10 49 32\" src=\"https://user-images.githubusercontent.com/38131488/106120367-98964a00-6156-11eb-8509-0f409beb0de2.png\">\\r\\n\\r\\nin the backoffice it is marked as restricted.\\r\\n"
+    },
+    {
+      "item_id": "github_0178",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "queryImporter uses hardcoded reduce function",
+      "original_body": "The current implementation of the query importer uses a hard coded reduce function. This is OK for now because all of the reduce functions for queries are identical, however if we want to start using more specific reduce functions we will need to change this. Also it is just bad to hardcode strings like this........\\n",
+      "mutated_title": "queryImporter uses fixed reduce function.",
+      "mutated_body": "The current implementation of the query importer uses a hard coded reduce function. This is OK for now because all of the reduce functions for queries are identical, however if we want to start using more specific reduce functions we will need to change this. Also it is just bad to hardcode strings like this........\\n"
+    },
+    {
+      "item_id": "github_0022",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Use httplib::Params for POST body",
+      "original_body": "It is not a good idea to manually construct this for form POSTs https://github.com/zerodha/cppkiteconnect/blob/dcd67cf1327275c36e6ceaeda168973fdfc4672a/include/kitepp/kite.hpp#L1422\\r\\n\\r\\nIf there is a string input from the user that has \"&\" in it then this will get messed up. It is better to use the built in httplib::Params struct with corresponding function.\\r\\n\\r\\n",
+      "mutated_title": "httplib::Params for POST body",
+      "mutated_body": "It is not a good idea to manually construct this for form POSTs https://github.com/zerodha/cppkiteconnect/blob/dcd67cf1327275c36e6ceaeda168973fdfc4672a/include/kitepp/kite.hpp#L1422 If there is a string input from the user that has \"&\" in it then this will get messed up. It is better to the built in httplib::Params struct with corresponding function."
+    },
+    {
+      "item_id": "github_0021",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Look into `xesmf`",
+      "original_body": "https://xesmf.readthedocs.io/en/latest/index.html\\r\\n\\r\\nIt could likely replace `pyreamp`.",
+      "mutated_title": "Look `xesmf`",
+      "mutated_body": "https://xesmf.readthedocs.io/en/latest/index.html It could likely replace `pyreamp`."
+    },
+    {
+      "item_id": "gold_github_label_no_001_github_008",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "CLI crashes when the config file is missing",
+      "original_body": "Running the command without a config file raises an uncaught exception instead of showing a helpful error.",
+      "mutated_title": "How do I install the CLI on Windows?",
+      "mutated_body": "I am new to this project and would like to know the correct installation steps for Windows."
+    }
+  ]
+}

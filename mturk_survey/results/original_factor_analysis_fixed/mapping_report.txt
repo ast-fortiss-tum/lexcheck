@@ -1,0 +1,21 @@
+Original rows: 436
+Human rows: 383
+Matched human rows to original metadata: 383/383
+Unmatched: 0
+
+Non-null metadata counts after merge:
+  explainer: 383/383
+  strategy: 383/383
+  operation: 383/383
+  model: 383/383
+  word: 383/383
+  flipped: 383/383
+
+Key columns used:
+  __task_key
+  __label_key
+  __sample_key
+  __ppl_diff_key
+  __log_ppl_diff_key
+  __nli_forward_key
+  __nli_backward_key

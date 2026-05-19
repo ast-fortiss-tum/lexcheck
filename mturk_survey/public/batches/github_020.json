@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_020",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0220",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Question",
+      "original_body": "Hello Geral.\\r\\nMay I ask if I can get a pull request or if can advise me how I can fix it?\\r\\nThanks in advance",
+      "mutated_title": "Question",
+      "mutated_body": "Hello Geral. May I ask if I can get a pull request or if can advise me how I can fix it? Thanks in advance"
+    },
+    {
+      "item_id": "github_0199",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "bug(api): Fast simulation does not support labware calibration",
+      "original_body": "# Overview\\nLabware calibration uses `ProtocolContext.temp_connect` to attach a real hardware controller to simulating context.\\n\\n`InstrumentContextSimulation` does not support this behavior .\\n\\n# Acceptance Criteria\\n\\n- [ ] labware calibration can be performed when protocol is run using `ProtocolContextSimulation`",
+      "mutated_title": "Issue (api): Fast simulation does not support labware calibration.",
+      "mutated_body": "# Overview\\nLabware calibration uses `ProtocolContext.temp_connect` to attach a real hardware controller to simulating context.\\n\\n`InstrumentContextSimulation` does not support this behavior .\\n\\n# Acceptance Criteria\\n\\n- [ ] labware calibration can be performed when protocol is run using `ProtocolContextSimulation`"
+    },
+    {
+      "item_id": "github_0198",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "PLS revise the installation guide.",
+      "original_body": "I was a bit confused by reading the guide and how to start the tool. I've expeted right under the point **3/3 run meety** that this is a command line tool and to start it you have to type it in a command line. Or did I miss something because it is not in my app overview in ubuntu?",
+      "mutated_title": "PLS revise the installation guide.",
+      "mutated_body": "I was a bit confused by reading the guide and how to start the tool. I expected right under the point **3/3 run meety** that this is a command line tool and to start it you have to type it in a command line. Or did I miss something because it is not in my app overview in ubuntu?"
+    },
+    {
+      "item_id": "github_0319",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "display challenge and player name instead of IDs on mui challenge solvers listing",
+      "original_body": "",
+      "mutated_title": "In the infrastructure workflow execution we get the result of the last pod.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "github_0251",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Autocomplete switch cases for enums and unions",
+      "original_body": "",
+      "mutated_title": "ignore Autocomplete switch cases for enums and unions",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "github_0013",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "[JSSCP] HTN Issues - Blocker for go live",
+      "original_body": "- [x] Epilepsy and Diabetes have same colour. that should be changed.\\n- [x] Spelling Mistake : Baseline ser creatinin, I think it should be Baseline serum creatinine\\n- [x] HTN Enrolment : when entering medicine it even allows entering 10 times per day. we should either keep this as coded or keep absolute low and high range. \\n- [x] HTN Enrolment : The Counselling points be shown first and then the question should be asked \"Initial counselling done\"? To be done everywhere\\n- [ ] HTN Follow up : Do we have sample forms filled? I am wondering if the users will be able to fill in text box of new complaints. i think it should be coded answer. \\n- [ ] HTN Follow up: The question says No. of days Medicine taken previous month. what if the patient was previously seen in less than 1 months?\\n- [ ] Translations missing at multiple places. please check the app thoroughly and get the missing translations from Ravi",
+      "mutated_title": "[JSSCP] HTN Issues - Blocker for go live",
+      "mutated_body": "- [x] Epilepsy and Diabetes have same colour. that should be changed. - [x] Spelling Mistake : Baseline ser creatinin, I think it should be Baseline serum creatinine - [x] HTN Enrolment : when entering medicine it even allows entering 10 times per day. we should either keep this as coded or keep absolute low and high range. - [x] HTN Enrolment : The Counselling points be shown first and then the question should be asked \"Initial counselling done\"? To be done everywhere - [ ] HTN Follow up : Do we have sample forms filled? I am wondering if the users will be able to fill in text box of new complaints. i think it should be coded answer. - [ ] HTN Follow up: The question says No. of days Medicine taken previous month. what if the patient was previously seen in less than 1 months? - [ ] Translations missing at multiple places. please check the app thoroughly and get the missing translations from Ravi"
+    },
+    {
+      "item_id": "github_0201",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Question RD?",
+      "original_body": "\"Whenever the value of RD is calculated greater than 350, then it must be set to 350 (RD = 350)\"\\r\\n\\r\\nI cannot see a mention of 350 being restricted in the code?\\r\\n\\r\\nref: https://www.englishchess.org.uk/wp-content/uploads/2012/04/The_Glicko_system_for_beginners1.pdf",
+      "mutated_title": "Question RD?",
+      "mutated_body": "RD? Whenever the value of RD is calculated greater than 350, then it must be set to 350 (RD = 350) I cannot see a mention of 350 being restricted in the code? ref: https://www.englishchess.org.uk/wp-content/uploads/2012/04/The_Glicko_system_for_beginners1.pdf"
+    },
+    {
+      "item_id": "github_0104",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "`make lint` doesn't lint `api` directory",
+      "original_body": "```\\r\\n$ docker run --rm -v $(pwd):/go/src/github.com/gravitational/teleport -w /go/src/github.com/gravitational/teleport golangci/golangci-lint:v1.38.0 /bin/bash -c \"cd api && golangci-lint run -c ../.golangci.yml ./...\"\\r\\nclient/client.go:89:40: `guarentee` is a misspelling of `guarantee` (misspell)\\r\\n// direct access to server values that guarentee a successful connection.\\r\\n ^\\r\\nclient/client.go:263:67: `propogate` is a misspelling of `propagate` (misspell)\\r\\n // Some credentials don't require these fields. If no errors propogate, then they need to provide these fields.\\r\\n ^\\r\\nclient/credentials_test.go:162:43: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(tlsCasPath, []byte(tlsCACert), 0600)\\r\\n ^\\r\\nclient/credentials_test.go:165:44: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(sshCertPath, []byte(sshCert), 0600)\\r\\n ^\\r\\nclient/credentials_test.go:168:43: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(sshCasPath, []byte(sshCACert), 0600)\\r\\n ^\\r\\nclient/credentials_test.go:156:40: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(keyPath, []byte(keyPEM), 0600)\\r\\n ^\\r\\nclient/credentials_test.go:159:44: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(tlsCertPath, []byte(tlsCert), 0600)\\r\\n ^\\r\\ntypes/access_request.go:231:27: func `(*AccessRequestV3).getThreshold` is unused (unused)\\r\\nfunc (r *AccessRequestV3) getThreshold(tid uint32) (AccessReviewThreshold, error) {\\r\\n ^\\r\\n```\\r\\n\\r\\nIt seems that because `api` isn't technically part of the `teleport` package any more, `golangci-lint` won't lint it:\\r\\n\\r\\n```\\r\\n$ go list ./api/...\\r\\npattern ./api/...: main module (github.com/gravitational/teleport) does not contain package github.com/gravitational/teleport/api/client\\r\\n\\r\\n$ docker run --rm -v $(pwd):/go/src/github.com/gravitational/teleport -w /go/src/github.com/gravitational/teleport golangci/golangci-lint:v1.38.0 /bin/bash -c \"golangci-lint run -c .golangci.yml ./api/...\" \\r\\nlevel=error msg=\"Running error: context loading failed: no go files to analyze\"\\r\\n```\\r\\n\\r\\nWe should probably add a separate `lint-api` make target which lints the `api` package separately using the same rules, and run that as part of `make lint`.",
+      "mutated_title": "We should probably add a separate `lint-api` make target which lints the `api` package separately using the same Make rules, and run that as part of `make lint`.",
+      "mutated_body": "```\\r\\n$ docker run --rm -v $(pwd):/go/src/github.com/gravitational/teleport -w /go/src/github.com/gravitational/teleport golangci/golangci-lint:v1.38.0 /bin/bash -c \"cd api && golangci-lint run -c ../.golangci.yml ./...\"\\r\\nclient/client.go:89:40: `guarentee` is a misspelling of `guarantee` (misspell)\\r\\n// direct access to server values that guarentee a successful connection.\\r\\n ^\\r\\nclient/client.go:263:67: `propogate` is a misspelling of `propagate` (misspell)\\r\\n // Some credentials don't require these fields. If no errors propogate, then they need to provide these fields.\\r\\n ^\\r\\nclient/credentials_test.go:162:43: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(tlsCasPath, []byte(tlsCACert), 0600)\\r\\n ^\\r\\nclient/credentials_test.go:165:44: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(sshCertPath, []byte(sshCert), 0600)\\r\\n ^\\r\\nclient/credentials_test.go:168:43: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(sshCasPath, []byte(sshCACert), 0600)\\r\\n ^\\r\\nclient/credentials_test.go:156:40: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(keyPath, []byte(keyPEM), 0600)\\r\\n ^\\r\\nclient/credentials_test.go:159:44: unnecessary conversion (unconvert)\\r\\n err = ioutil.WriteFile(tlsCertPath, []byte(tlsCert), 0600)\\r\\n ^\\r\\ntypes/access_request.go:231:27: func `(*AccessRequestV3).getThreshold` is unused (unused)\\r\\nfunc (r *AccessRequestV3) getThreshold(tid uint32) (AccessReviewThreshold, error) {\\r\\n ^\\r\\n```\\r\\n\\r\\nIt seems that because `api` isn't technically part of the `teleport` package any more, `golangci-lint` won't lint it:\\r\\n\\r\\n```\\r\\n$ go list ./api/...\\r\\npattern ./api/...: main module (github.com/gravitational/teleport) does not contain package github.com/gravitational/teleport/api/client\\r\\n\\r\\n$ docker run --rm -v $(pwd):/go/src/github.com/gravitational/teleport -w /go/src/github.com/gravitational/teleport golangci/golangci-lint:v1.38.0 /bin/bash -c \"golangci-lint run -c .golangci.yml ./api/...\" \\r\\nlevel=error msg=\"Running error: context loading failed: no go files to analyze\"\\r\\n```\\r\\n\\r\\nWe should probably add a separate `lint-api` make target which lints the `api` package separately using the same rules, and run that as part of `make lint`."
+    },
+    {
+      "item_id": "gold_github_label_no_001_github_020",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "CLI crashes when the config file is missing",
+      "original_body": "Running the command without a config file raises an uncaught exception instead of showing a helpful error.",
+      "mutated_title": "How do I install the CLI on Windows?",
+      "mutated_body": "I am new to this project and would like to know the correct installation steps for Windows."
+    }
+  ]
+}

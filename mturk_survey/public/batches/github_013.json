@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_013",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0208",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "RuntimeError: source object number out of range",
+      "original_body": "## Describe the bug (mandatory)\\r\\nWhen trying to combine two pdfs; I receive the following exception: `RuntimeError: source object number out of range`\\r\\n```\\r\\ndoc.insertPDF(existing_doc)\\r\\n File \"/dev-test-scripts/pdfenv/lib/python2.7/site-packages/fitz/fitz.py\", line 4093, in insertPDF\\r\\n val = _fitz.Document_insertPDF(self, docsrc, from_page, to_page, start_at, rotate, links, annots, show_progress, final, _gmap)\\r\\nRuntimeError: source object number out of range\\r\\n```\\r\\n\\r\\n## To Reproduce (mandatory)\\r\\nI simply load two pdfs and try combine them. It works for 99% of pdfs but for a few i hit this issue and trying figure if there is a way to detect that there will be an issue before trying to merge.\\r\\n```\\r\\no_doc = open(other_pdf_name, \"rb\").read()\\r\\nu_doc = open(existing_pdf_name, \"rb\").read()\\r\\n\\r\\nother_doc = fitz.Document('pdf', o_doc)\\r\\nexisting_doc = fitz.Document('pdf', u_doc)\\r\\n\\r\\nother_doc.insertPDF(existing_doc)\\r\\n```\\r\\nI tried loading the PDFs directly using `fitz.Document(<filename>)`, but get the same results. I could even send you the PDF.\\r\\n\\r\\n## Expected behavior (optional)\\r\\nI expect the method to be successful.\\r\\n\\r\\n## Your configuration (mandatory)\\r\\n- MacOS, Catalina 10.15.7\\r\\n- Python2.7 (ill try it on Python3 version to confirm)\\r\\n- Whl from releases page. 1.18.3\\r\\n\\r\\nLet me know if you want me to send the PDF that is breaking. Perhaps there is a method i could use to determine that the PDF is incompatible. \\r\\n",
+      "mutated_title": "## Describe the problem (mandatory)",
+      "mutated_body": "## Describe the bug (mandatory)\\r\\nWhen trying to combine two pdfs; I receive the following exception: `RuntimeError: source object number out of range`\\r\\n```\\r\\ndoc.insertPDF(existing_doc)\\r\\n File \"/dev-test-scripts/pdfenv/lib/python2.7/site-packages/fitz/fitz.py\", line 4093, in insertPDF\\r\\n val = _fitz.Document_insertPDF(self, docsrc, from_page, to_page, start_at, rotate, links, annots, show_progress, final, _gmap)\\r\\nRuntimeError: source object number out of range\\r\\n```\\r\\n\\r\\n## To Reproduce (mandatory)\\r\\nI simply load two pdfs and try combine them. It works for 99% of pdfs but for a few i hit this issue and trying figure if there is a way to detect that there will be an issue before trying to merge.\\r\\n```\\r\\no_doc = open(other_pdf_name, \"rb\").read()\\r\\nu_doc = open(existing_pdf_name, \"rb\").read()\\r\\n\\r\\nother_doc = fitz.Document('pdf', o_doc)\\r\\nexisting_doc = fitz.Document('pdf', u_doc)\\r\\n\\r\\nother_doc.insertPDF(existing_doc)\\r\\n```\\r\\nI tried loading the PDFs directly using `fitz.Document(<filename>)`, but get the same results. I could even send you the PDF.\\r\\n\\r\\n## Expected behavior (optional)\\r\\nI expect the method to be successful.\\r\\n\\r\\n## Your configuration (mandatory)\\r\\n- MacOS, Catalina 10.15.7\\r\\n- Python2.7 (ill try it on Python3 version to confirm)\\r\\n- Whl from releases page. 1.18.3\\r\\n\\r\\nLet me know if you want me to send the PDF that is breaking. Perhaps there is a method i could use to determine that the PDF is incompatible. \\r\\n"
+    },
+    {
+      "item_id": "github_0209",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "joinCounts: Remove rejected variants from WT count",
+      "original_body": "Use additional header elements to adjust effective depth\\r\\n\\r\\n#Rejected = Final - nomut - accepted = 1626810-(1365037+25790) = 235983",
+      "mutated_title": "joinCounts: Remove rejected variants in WT count",
+      "mutated_body": "Use additional header elements to adjust effective depth\\r\\n\\r\\n#Rejected = Final - nomut - accepted = 1626810-(1365037+25790) = 235983"
+    },
+    {
+      "item_id": "github_0040",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "New applications are not getting listed",
+      "original_body": "Running Cockpit using 238.1 tag\\r\\nOS: Ubuntu 21.04\\r\\nPage: Applications\\r\\n\\r\\nSteps:\\r\\n1. Installed Apache NiFi on my system.\\r\\n2. In source code, created a directory named nifi under pkg.\\r\\n3. Added two files under this directory. \\r\\nOne is the normal **index.html** and another with the name **org.cockpit-project.cockpit-nifi.metainfo.xml** with the content as shown in attached image.\\r\\n\\r\\n **org.cockpit-project.cockpit-nifi.metainfo.xml**\\r\\n![image](https://user-images.githubusercontent.com/39826327/117310069-9bfd4800-aea0-11eb-8f9d-e0a121eff86a.png)\\r\\n\\r\\n4. Added link to above xml file in Makefile.am\\r\\n**Makefile.am**\\r\\n![image](https://user-images.githubusercontent.com/39826327/117309912-81c36a00-aea0-11eb-9a11-35ebcb67c72a.png)\\r\\n",
+      "mutated_title": "cases New applications are not getting listed",
+      "mutated_body": "Running Cockpit using 238.1 tag\\r\\nOS: Ubuntu 21.04\\r\\nPage: Applications\\r\\n\\r\\nSteps:\\r\\n1. Installed Apache NiFi on my system.\\r\\n2. In source code, created a directory named nifi under pkg.\\r\\n3. Added two files under this directory. \\r\\nOne is the normal **index.html** and another with the name **org.cockpit-project.cockpit-nifi.metainfo.xml** with the content as shown in attached image.\\r\\n\\r\\n **org.cockpit-project.cockpit-nifi.metainfo.xml**\\r\\n![image](https://user-images.githubusercontent.com/39826327/117310069-9bfd4800-aea0-11eb-8f9d-e0a121eff86a.png)\\r\\n\\r\\n4. Added link to above xml file in Makefile.am\\r\\n**Makefile.am**\\r\\n![image](https://user-images.githubusercontent.com/39826327/117309912-81c36a00-aea0-11eb-9a11-35ebcb67c72a.png)\\r\\n"
+    },
+    {
+      "item_id": "github_0236",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Forgot to remove hardcoded values",
+      "original_body": "At components/core/content/LatestPost.tsx I hardcoded the link for testing purposes obviously this is just dumb to have, kinda a noob move ngl",
+      "mutated_title": "to remove hardcoded values",
+      "mutated_body": "At components/core/content/LatestPost.tsx I hardcoded the link for testing purposes obviously this is just dumb to have, kinda a noob move ngl"
+    },
+    {
+      "item_id": "github_0200",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "ensure the config.js code gets the right id",
+      "original_body": "Currently it only checks if the ID has length of 35 characters. Other properties within the file may have another ID with exactly the same length and chances is the regexp match will fetch the last occurrence.\\r\\n\\r\\nIt may be necessary to pull a fixed reference to the beginning of the file.",
+      "mutated_title": "ensure the config.js code gets the right id",
+      "mutated_body": "Currently it only checks if the ID has length of 35 characters. Other properties within the file may have another ID with exactly the same length and chances is the regexp match will fetch the last occurrence. It may be necessary to retrieve a fixed reference to the beginning of the file."
+    },
+    {
+      "item_id": "github_0044",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "ALC Baseline Modelling Interface StartX/EndX Bug",
+      "original_body": "**Original reporter:** Stephen Cottrell / ISIS\\r\\n\\r\\n### Expected behavior\\r\\nYou should not be able to move startx/endx beyond first and last good data limits, which is the current case for the general fitting window in workbench\\r\\n\\r\\n### Actual behavior\\r\\nYou can move the limits beyond first and last which doesn't make sense for the fit and can result it not being able to drag them anymore without manually resetting them\\r\\n\\r\\n### Steps to reproduce the behavior\\r\\n1. Open ALC\\r\\n2. Load some data (HIFI71480-500)*\\r\\n3. Change log to field_main\\r\\n4. Change max time to 12\\r\\n5. Load data\\r\\n6. Go to baseline modelling interface\\r\\n7. Add polynomial fit function n=2\\r\\n8. Add a section\\r\\n9. Drag startx and endx beyond the first and last data values\\r\\n10. This should not be possible\\r\\n11. Click fit\\r\\n12. You might now have one of the markers not be able to be dragged anymore\\r\\n\\r\\n*Reduced amount of data used in beta test\\r\\n\\r\\n### Platforms affected\\r\\nall",
+      "mutated_title": "15dayo.ĊBody ALC Baseline Modelling Interface StartX/EndX Bug",
+      "mutated_body": "**Original reporter:** Stephen Cottrell / ISIS\\r\\n\\r\\n### Expected behavior\\r\\nYou should not be able to move startx/endx beyond first and last good data limits, which is the current case for the general fitting window in workbench\\r\\n\\r\\n### Actual behavior\\r\\nYou can move the limits beyond first and last which doesn't make sense for the fit and can result it not being able to drag them anymore without manually resetting them\\r\\n\\r\\n### Steps to reproduce the behavior\\r\\n1. Open ALC\\r\\n2. Load some data (HIFI71480-500)*\\r\\n3. Change log to field_main\\r\\n4. Change max time to 12\\r\\n5. Load data\\r\\n6. Go to baseline modelling interface\\r\\n7. Add polynomial fit function n=2\\r\\n8. Add a section\\r\\n9. Drag startx and endx beyond the first and last data values\\r\\n10. This should not be possible\\r\\n11. Click fit\\r\\n12. You might now have one of the markers not be able to be dragged anymore\\r\\n\\r\\n*Reduced amount of data used in beta test\\r\\n\\r\\n### Platforms affected\\r\\nall"
+    },
+    {
+      "item_id": "github_0186",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Ignore MS fonts",
+      "original_body": "The ms fonts installation require manual intervention.\\r\\n\\r\\nmaybe a --no-install-recommends solves the problem",
+      "mutated_title": "Ignore MS fonts",
+      "mutated_body": "Ignore MS fonts. The ms fonts installation requires manual intervention. Maybe a --no-install-recommends solves the problem"
+    },
+    {
+      "item_id": "github_0207",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "[FEATURE] Can I fix StdConv2d classes for converting to onnx ?",
+      "original_body": "**Is your feature request related to a problem? Please describe.**\\r\\nNFNet cannot be converted to onnx because of `torch.std_mean` operator.\\r\\n\\r\\n```{python}\\r\\ndef get_weight(module):\\r\\n std, mean = torch.std_mean(module.weight, dim=[1, 2, 3], keepdim=True, unbiased=False) # change point\\r\\n weight = (module.weight - mean) / (std + module.eps)\\r\\n return weight\\r\\n```\\r\\n\\r\\n```{python}\\r\\nclass ScaledStdConv2d(nn.Conv2d):\\r\\n ...(deletion)...\\r\\n def __init__(self,)\\r\\n ...(deletion)...\\r\\n def get_weight(self):\\r\\n if self.use_layernorm:\\r\\n ...(deletion)...\\r\\n else:\\r\\n std, mean = torch.std_mean(self.weight, dim=[1,2,3], keepdim=True, unbiased=False) # change point\\r\\n weight = self.scale * (self.weight - mean) / (std + self.eps)\\r\\n return self.gain * weight\\r\\n\\r\\n def forward(self, x):\\r\\n ...(deletion)...\\r\\n```\\r\\n\\r\\n**Describe the solution you'd like**\\r\\nJust convert all `torch.std_mean` operator to two operators `torch.std` and `torch.mean` at `std_conv.py` in `timm/models/layers`.\\r\\n\\r\\n\\r\\n**Describe alternatives you've considered**\\r\\n\\r\\n```{python}\\r\\ndef get_weight(module):\\r\\n std = torch.std(module.weight, dim=[1, 2, 3], keepdim=True, unbiased=False) # change point\\r\\n mean = torch.mean(module.weight, dim=[1, 2, 3], keepdim=True) # change point\\r\\n weight = (module.weight - mean) / (std + module.eps)\\r\\n return weight\\r\\n```\\r\\n\\r\\n```{python}\\r\\nclass ScaledStdConv2d(nn.Conv2d):\\r\\n ...(deletion)...\\r\\n def __init__(self,)\\r\\n ...(deletion)...\\r\\n def get_weight(self):\\r\\n if self.use_layernorm:\\r\\n ...(deletion)...\\r\\n else:\\r\\n std = torch.std(self.weight, dim=[1,2,3], keepdim=True, unbiased=False) # change point\\r\\n mean = torch.mean(self.weight, dim=[1,2,3], keepdim=True) # change point\\r\\n weight = self.scale * (self.weight - mean) / (std + self.eps)\\r\\n return self.gain * weight\\r\\n\\r\\n def forward(self, x):\\r\\n ...(deletion)...\\r\\n```\\r\\n",
+      "mutated_title": "Can I fix the convolutional classes for converting to onnx?",
+      "mutated_body": "**Is your feature request related to a problem? Please describe.**\\r\\nNFNet cannot be converted to onnx because of `torch.std_mean` operator.\\r\\n\\r\\n```{python}\\r\\ndef get_weight(module):\\r\\n std, mean = torch.std_mean(module.weight, dim=[1, 2, 3], keepdim=True, unbiased=False) # change point\\r\\n weight = (module.weight - mean) / (std + module.eps)\\r\\n return weight\\r\\n```\\r\\n\\r\\n```{python}\\r\\nclass ScaledStdConv2d(nn.Conv2d):\\r\\n ...(deletion)...\\r\\n def __init__(self,)\\r\\n ...(deletion)...\\r\\n def get_weight(self):\\r\\n if self.use_layernorm:\\r\\n ...(deletion)...\\r\\n else:\\r\\n std, mean = torch.std_mean(self.weight, dim=[1,2,3], keepdim=True, unbiased=False) # change point\\r\\n weight = self.scale * (self.weight - mean) / (std + self.eps)\\r\\n return self.gain * weight\\r\\n\\r\\n def forward(self, x):\\r\\n ...(deletion)...\\r\\n```\\r\\n\\r\\n**Describe the solution you'd like**\\r\\nJust convert all `torch.std_mean` operator to two operators `torch.std` and `torch.mean` at `std_conv.py` in `timm/models/layers`.\\r\\n\\r\\n\\r\\n**Describe alternatives you've considered**\\r\\n\\r\\n```{python}\\r\\ndef get_weight(module):\\r\\n std = torch.std(module.weight, dim=[1, 2, 3], keepdim=True, unbiased=False) # change point\\r\\n mean = torch.mean(module.weight, dim=[1, 2, 3], keepdim=True) # change point\\r\\n weight = (module.weight - mean) / (std + module.eps)\\r\\n return weight\\r\\n```\\r\\n\\r\\n```{python}\\r\\nclass ScaledStdConv2d(nn.Conv2d):\\r\\n ...(deletion)...\\r\\n def __init__(self,)\\r\\n ...(deletion)...\\r\\n def get_weight(self):\\r\\n if self.use_layernorm:\\r\\n ...(deletion)...\\r\\n else:\\r\\n std = torch.std(self.weight, dim=[1,2,3], keepdim=True, unbiased=False) # change point\\r\\n mean = torch.mean(self.weight, dim=[1,2,3], keepdim=True) # change point\\r\\n weight = self.scale * (self.weight - mean) / (std + self.eps)\\r\\n return self.gain * weight\\r\\n\\r\\n def forward(self, x):\\r\\n ...(deletion)...\\r\\n```\\r\\n"
+    },
+    {
+      "item_id": "gold_github_yes_001_github_013",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "App crashes on startup",
+      "original_body": "When I open the app, it immediately crashes with a TypeError. Expected behavior: the app should show the home screen.",
+      "mutated_title": "Application crashes on startup",
+      "mutated_body": "When I open the application, it immediately crashes with a TypeError. Expected behavior: the home screen should be shown."
+    }
+  ]
+}

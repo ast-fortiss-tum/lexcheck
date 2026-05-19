@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_012",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0019",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "[AVL-3] Exceptions should not be thrown while Unity is connecting to SUMO",
+      "original_body": "Whenever Unity tries to connect to SUMO when the scene is started, several hundred frames are completed during which Unity tries to operate on Null reference pointers , which leads to a flood of error message on the command line.\\r\\nThis should not happen. Instead, the Unity application should only put out an explicit error for application-terminating exceptions, otherwise it should remain silent.",
+      "mutated_title": "[AVL-3] should not be thrown while Unity is connecting to SUMO",
+      "mutated_body": "Whenever Unity tries to connect to SUMO when the scene is started, several hundred frames are completed during which Unity tries to operate on Null reference pointers , which leads to a flood of error message on the command line. This should not happen. Instead, the Unity application should only put out an explicit error for application-terminating , otherwise it should remain silent."
+    },
+    {
+      "item_id": "github_0197",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Dockerfile from elasticsearch-game-of-throne docker image",
+      "original_body": "**Question**\\r\\nHi Deepset ! I discover Haystack today, really impressive work, congrats ! \\r\\n\\r\\nI was looking at tutorials, and jupyter notebooks. I saw the docker image from Elasticsearch, containing prebuild indices. I'm really intrigued how you have done that. Could you share the Dockerfile ? Thanks!",
+      "mutated_title": "Dockerfile of the elasticsearch-game-of-throne docker image",
+      "mutated_body": "**Question**\\r\\nHi Deepset ! I discover Haystack today, really impressive work, congrats ! \\r\\n\\r\\nI was looking at tutorials, and jupyter notebooks. I saw the docker image from Elasticsearch, containing prebuild indices. I'm really intrigued how you have done that. Could you share the Dockerfile ? Thanks!"
+    },
+    {
+      "item_id": "github_0223",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Reviewer list",
+      "original_body": "",
+      "mutated_title": "reviewers list",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "github_0311",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "[KMS/DRM] backend can't manage several displays.",
+      "original_body": "\\n# This bug report was migrated from our old Bugzilla tracker.\\n\\nThese attachments are available in the static archive:\\n\\n* [Patch that adds multiple displays support to the SDL2 KMSDRM backend. (multiple_displays.diff, text/plain, 2021-01-29 00:37:23 +0000, 35490 bytes)](https://bugzilla.libsdl.org/attachment.cgi?id=4731)\\n\\n**Reported in version:** 2.0.15\\n**Reported for operating system, platform:** Linux, All\\n\\n# Comments on the original bug report:\\n\\nOn 2021-01-29 00:37:23 +0000, Manuel Alfayate Corchete wrote:\\n\\n> Created attachment 4731\\n> Patch that adds multiple displays support to the SDL2 KMSDRM backend.\\n> \\n> Hi,\\n> \\n> Until now, the KMSDRM backend didn't even try to detect and use several connected connectors, resulting in a single display always (ie: a single SDL Display was created around the first connected connector, and that was about it).\\n> \\n> The included patch adds support for several displays on the same machine.\\n> Some notes:\\n> -An SDL Display is an internal SDL2 entity built around a connected connector: a connector is a DRM-side resource.\\n> -A single video card DRI dev node (/dev/dri/card0, for example) can have several connectors. We don't manage several video cards: just several connectors on a video card.\\n> -Mouse cursor can be drawn on different displays, of course, so access to the cursor-related GBM-side resources is now done through each SDL Display driverdata pointer: each display driverdata pointer has it's own cursor GBM BO (so, in practice, each display can have it's own cursor on screen now).\\n> \\n> Please review so I can merge. Thanks!\\n\\nOn 2021-01-29 16:54:41 +0000, Sam Lantinga wrote:\\n\\n> You have an empty SetWindowGrab implementation mixed in there. Otherwise it looks good.\\n\\nOn 2021-01-29 17:10:01 +0000, Manuel Alfayate Corchete wrote:\\n\\n> @Sam: removed the empty SetWindowGrab code (we don't use that in KMSDRM) and did the commit.\\n> \\n> Closing this, thanks!\\n\\n",
+      "mutated_title": "This patch adds support for several displays on the same machine, enhancing the SummaryčĊSystem.",
+      "mutated_body": "\\n# This bug report was migrated from our old Bugzilla tracker.\\n\\nThese attachments are available in the static archive:\\n\\n* [Patch that adds multiple displays support to the SDL2 KMSDRM backend. (multiple_displays.diff, text/plain, 2021-01-29 00:37:23 +0000, 35490 bytes)](https://bugzilla.libsdl.org/attachment.cgi?id=4731)\\n\\n**Reported in version:** 2.0.15\\n**Reported for operating system, platform:** Linux, All\\n\\n# Comments on the original bug report:\\n\\nOn 2021-01-29 00:37:23 +0000, Manuel Alfayate Corchete wrote:\\n\\n> Created attachment 4731\\n> Patch that adds multiple displays support to the SDL2 KMSDRM backend.\\n> \\n> Hi,\\n> \\n> Until now, the KMSDRM backend didn't even try to detect and use several connected connectors, resulting in a single display always (ie: a single SDL Display was created around the first connected connector, and that was about it).\\n> \\n> The included patch adds support for several displays on the same machine.\\n> Some notes:\\n> -An SDL Display is an internal SDL2 entity built around a connected connector: a connector is a DRM-side resource.\\n> -A single video card DRI dev node (/dev/dri/card0, for example) can have several connectors. We don't manage several video cards: just several connectors on a video card.\\n> -Mouse cursor can be drawn on different displays, of course, so access to the cursor-related GBM-side resources is now done through each SDL Display driverdata pointer: each display driverdata pointer has it's own cursor GBM BO (so, in practice, each display can have it's own cursor on screen now).\\n> \\n> Please review so I can merge. Thanks!\\n\\nOn 2021-01-29 16:54:41 +0000, Sam Lantinga wrote:\\n\\n> You have an empty SetWindowGrab implementation mixed in there. Otherwise it looks good.\\n\\nOn 2021-01-29 17:10:01 +0000, Manuel Alfayate Corchete wrote:\\n\\n> @Sam: removed the empty SetWindowGrab code (we don't use that in KMSDRM) and did the commit.\\n> \\n> Closing this, thanks!\\n\\n"
+    },
+    {
+      "item_id": "github_0192",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Give a rough idea as to the costs of deploying this",
+      "original_body": "Currently deploying this for a class, using my personal Azure account. I have concerns as to the cost that is going to be picked up from it. It would be nice to know, for example, that this is going to cost me roughly $10 a day (or whatever it is) as well as the frighteningly shocking cost of the DDOS service option...\\r\\n\\r\\n(Specific to the \"Network Security Lab\" template is where my concern lies)",
+      "mutated_title": "Give a rough idea as to the costs of deploying this",
+      "mutated_body": "Currently deploying this for a class, using my personal Azure account. I am worried about the cost that is going to be picked up from it. It would be nice to know, for example, that this is going to cost me roughly $10 a day (or whatever it is) as well as the frighteningly shocking cost of the DDOS service option..."
+    },
+    {
+      "item_id": "github_0031",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "PLS revise the installation guide.",
+      "original_body": "I was a bit confused by reading the guide and how to start the tool. I've expeted right under the point **3/3 run meety** that this is a command line tool and to start it you have to type it in a command line. Or did I miss something because it is not in my app overview in ubuntu?",
+      "mutated_title": "correct PLS revise the installation guide.",
+      "mutated_body": "I was a bit confused by reading the guide and how to start the tool. I've expeted right under the point **3/3 run meety** that this is a command line tool and to start it you have to type it in a command line. Or did I miss something because it is not in my app overview in ubuntu?"
+    },
+    {
+      "item_id": "github_0174",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Building bridge trough Naval Yard/Sub Pen",
+      "original_body": "<!-- This is a guideline that shall help you to include information we need to understand and fix the issue you experienced. Please follow the instructions and replace any placeholders that are written in capital letters. Instructions like this comment will not be visible in your report. -->\\r\\n\\r\\n<!-- Important: Help us to avoid duplicates and use the search function to find existing reports for your issue. Please do not submit duplicate reports! Try to help others to find your report by using a precise title. -->\\r\\n\\r\\n## Issue Summary\\r\\nYou can repair bridge and it will build trough water buildings.\\r\\n\\r\\n## Reproduction\\r\\n 1. Explode/Break a bridge\\r\\n 2. Build Naval Yard/Sub Pen on the way of the bridge\\r\\n 3. Repair bridge using Engineer\\r\\n\\r\\n## Expected behavior\\r\\nI expected the bridge would not be repaired (the engineer would not repair it) or, in the worst case, Naval Yard would break (like naval units).\\r\\n\\r\\n## Screenshots / Screen recordings / Replays\\r\\n![image](https://user-images.githubusercontent.com/60433273/109284667-29814380-7831-11eb-9cd4-7f5810b9c870.png)\\r\\nhttps://drive.google.com/file/d/1HIRNlw9y-kiO5YNqb3GS9QKRScSQMItB/view?usp=sharing - replay\\r\\n",
+      "mutated_title": "Constructing bridge through Naval Yard/Sub Pen",
+      "mutated_body": "<!-- This is a guideline that shall help you to include information we need to understand and fix the issue you experienced. Please follow the instructions and replace any placeholders that are written in capital letters. Instructions like this comment will not be visible in your report. -->\\r\\n\\r\\n<!-- Important: Help us to avoid duplicates and use the search function to find existing reports for your issue. Please do not submit duplicate reports! Try to help others to find your report by using a precise title. -->\\r\\n\\r\\n## Issue Summary\\r\\nYou can repair bridge and it will build trough water buildings.\\r\\n\\r\\n## Reproduction\\r\\n 1. Explode/Break a bridge\\r\\n 2. Build Naval Yard/Sub Pen on the way of the bridge\\r\\n 3. Repair bridge using Engineer\\r\\n\\r\\n## Expected behavior\\r\\nI expected the bridge would not be repaired (the engineer would not repair it) or, in the worst case, Naval Yard would break (like naval units).\\r\\n\\r\\n## Screenshots / Screen recordings / Replays\\r\\n![image](https://user-images.githubusercontent.com/60433273/109284667-29814380-7831-11eb-9cd4-7f5810b9c870.png)\\r\\nhttps://drive.google.com/file/d/1HIRNlw9y-kiO5YNqb3GS9QKRScSQMItB/view?usp=sharing - replay\\r\\n"
+    },
+    {
+      "item_id": "github_0108",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Mobility: E-Vehicle charging stations",
+      "original_body": "Most charging stations in ingolstadt downtown are operated by Stadtwerke Ingolstadt. Their official app seems to retrieve availability data from the following URL:\\r\\n\\r\\nhttps://app.chargecloud.de/emobility:ocpi/7d25c525838f55d21766c0dfee5ad21f/app/2.0/locations?swlat=48.75808900365262&swlng=11.42303750667546&nelat=48.770648857818884&nelng=11.43677041683171",
+      "mutated_title": "So most charging stations in Ingolstadt downtown are operated by Stadtwerke Ingolstadt",
+      "mutated_body": "Most charging stations in ingolstadt downtown are operated by Stadtwerke Ingolstadt. Their official app seems to retrieve availability data from the following URL:\\r\\n\\r\\nhttps://app.chargecloud.de/emobility:ocpi/7d25c525838f55d21766c0dfee5ad21f/app/2.0/locations?swlat=48.75808900365262&swlng=11.42303750667546&nelat=48.770648857818884&nelng=11.43677041683171"
+    },
+    {
+      "item_id": "gold_github_label_no_001_github_012",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "CLI crashes when the config file is missing",
+      "original_body": "Running the command without a config file raises an uncaught exception instead of showing a helpful error.",
+      "mutated_title": "How do I install the CLI on Windows?",
+      "mutated_body": "I am new to this project and would like to know the correct installation steps for Windows."
+    }
+  ]
+}

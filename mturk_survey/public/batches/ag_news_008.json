@@ -1,0 +1,99 @@
+{
+  "batch_id": "ag_news_008",
+  "task": "ag_news",
+  "task_display": "AG News",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "ag_news_0139",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Mercedes pins hopes on Sports Tourers",
+      "original_body": "The world premiere of the Mercedes Sports Tourer models is the latest step in a lengthy process that has transformed the German car maker from a producer of selective luxury models, to one which competes in all market segments.",
+      "mutated_title": "Mercedes pins hopes on Sports Tourers",
+      "mutated_body": "The world premiere of the Mercedes Sports Tourer models marks the latest step in a lengthy process that has transformed the German car maker from a producer of selective luxury models, to one which competes in all market segments."
+    },
+    {
+      "item_id": "ag_news_0140",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "South Africa win Tri-nations title",
+      "original_body": "DURBAN, South Africa -- South Africa beat Australia 23-19 to regain the Tri-nations title after a five-year break. Percy Montgomery and wing Breyton Paulse received yellow cards which put the Springboks under",
+      "mutated_title": "South Africa win Tri-nations title",
+      "mutated_body": "DURBAN, South Africa -- South Africa beat Australia 23-19 to regain the Tri‑nations title after a five‑year break. Percy Montgomery and wing Breyton Paulse received yellow cards which put the Springboks under"
+    },
+    {
+      "item_id": "ag_news_0084",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "'Jeopardy!' Whiz Mum on Rumored Defeat",
+      "original_body": "NEW YORK - \"Jeopardy!\" whiz Ken Jennings is not answering rumors that his streak is up, but he's not denying them either. After a report posted on TV Week's Web site that the brainy software engineer lost in a show taped Tuesday (that would air this fall), Jennings fielded questions in an interview with Ellen Degeneres on her syndicated talk show...",
+      "mutated_title": "trading 'Jeopardy!' Whiz Mum on Rumored Defeat",
+      "mutated_body": "NEW YORK - \"Jeopardy!\" whiz Ken Jennings is not answering rumors that his streak is up, but he's not denying them either. After a report posted on TV Week's Web site that the brainy software engineer lost in a show taped Tuesday (that would air this fall), Jennings fielded questions in an interview with Ellen Degeneres on her syndicated talk show..."
+    },
+    {
+      "item_id": "ag_news_0156",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Video Games Go Hollywood at Live Awards Show (Reuters)",
+      "original_body": "Reuters - The stars of the video\\game industry came out in force on Tuesday night to honor their\\peers for creative excellence -- taking a page from the\\Hollywood playbook with red carpets, glittering gems and a live\\nationwide broadcast.",
+      "mutated_title": "Video Games Go Hollywood at Live Awards Show (Reuters)",
+      "mutated_body": "Reuters - The stars of the video game industry came out in force on Tuesday night to honor their peers for creative achievements -- taking a page from the Hollywood playbook with red carpets, glittering gems and a live nationwide broadcast."
+    },
+    {
+      "item_id": "ag_news_0411",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Brands fight for Games dollars",
+      "original_body": "While Chinese athletics were striving for gold at the Athens Olympics, Chinese companies and international firms are competing for the business chances offered by the Games.",
+      "mutated_title": "Brands fight for Games dollars",
+      "mutated_body": "While Chinese athletics were striving for gold at the Athens Olympics, Chinese companies and international firms are competing for the business chances offered by the Games, a market now being monitored by the F.D.A for sponsorship compliance."
+    },
+    {
+      "item_id": "ag_news_0023",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "Beckett says no more nuclear power needed yet",
+      "original_body": "The government says it has no need to increase its nuclear power capacity for at least 10 or 15 years but future expansion of nuclear power cannot be ruled out altogether.",
+      "mutated_title": "Beckett says no more nuclear power yet",
+      "mutated_body": "The government says it has no need to increase its nuclear power capacity for at least 10 or 15 years but future expansion of nuclear power cannot be ruled out altogether."
+    },
+    {
+      "item_id": "ag_news_0155",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Questions for the #39;Comforter in Chief #39;",
+      "original_body": "How could I have forgotten that George W. was a compassionate conservative? He chose the moniker of a kinder, gentler Republican four years ago to distinguish himself from Newt Gingrich #39;s crowd.",
+      "mutated_title": "Questions for the 'Chief of Comfort'.",
+      "mutated_body": "How could I have forgotten that George W. was a compassionate conservative? He chose the moniker of a kinder, gentler Republican four years ago to distinguish himself from Newt Gingrich #39;s crowd."
+    },
+    {
+      "item_id": "ag_news_0267",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "One of World's Largest Rubies on Display (AP)",
+      "original_body": "AP - Tiny fireworks seem to go off inside the deep red stone as it turns, flashes of light reflecting off the facets of one of the world's largest rubies.",
+      "mutated_title": "One of World's Largest Rubies on Display (AP) ground",
+      "mutated_body": "AP - Tiny fireworks seem to go off inside the deep red stone as it turns, flashes of light reflecting off the facets of one of the world's largest rubies."
+    },
+    {
+      "item_id": "gold_agnews_label_no_001_ag_ag_news_008",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Shares rise after the company reports strong earnings",
+      "original_body": "Investors reacted positively to the quarterly profit report.",
+      "mutated_title": "The striker scores twice in the national cup final",
+      "mutated_body": "Fans cheered as the team won the match."
+    }
+  ]
+}

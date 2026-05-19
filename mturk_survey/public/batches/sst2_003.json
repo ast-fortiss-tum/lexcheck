@@ -1,0 +1,169 @@
+{
+  "batch_id": "sst2_003",
+  "task": "sst2",
+  "task_display": "SST-2",
+  "real_item_count": 15,
+  "total_item_count": 16,
+  "items": [
+    {
+      "item_id": "sst2_0340",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "and murky cinematography",
+      "original_body": "",
+      "mutated_title": "and murky humor cinematography",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0391",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "a cold blanket",
+      "original_body": "",
+      "mutated_title": "a blanket",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0303",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "action and",
+      "original_body": "",
+      "mutated_title": "daft action and",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0284",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "revelation",
+      "original_body": "",
+      "mutated_title": "repeating revelation",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0398",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "its shortcomings",
+      "original_body": "",
+      "mutated_title": "its",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0052",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "of fun and funny in the middle , though somewhat less hard-hitting",
+      "original_body": "",
+      "mutated_title": "of fun and funny in the middle, though somewhat less impactful",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0383",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "'s something unintentionally comic in the film 's drumbeat about authenticity , given the stale plot and pornographic way the film revels in swank apartments , clothes and parties .",
+      "original_body": "",
+      "mutated_title": "'s something unintentionally comic in the film 's drumbeat about authenticity , given the plot and pornographic way the film revels in swank apartments , clothes and parties .",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0159",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "little doubt",
+      "original_body": "",
+      "mutated_title": "little from doubt",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0292",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "the grieving process",
+      "original_body": "",
+      "mutated_title": "rattling the grieving process",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0334",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "good spirits",
+      "original_body": "",
+      "mutated_title": "good pornographic spirits",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0282",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "the glorious chicanery and self-delusion",
+      "original_body": "",
+      "mutated_title": "the glorious return chicanery and self-delusion",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0351",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "barbershop is n't as funny as it should be",
+      "original_body": "",
+      "mutated_title": "barbershop is as funny as it should be",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0283",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "the film does n't ignore the more problematic aspects of brown 's life .",
+      "original_body": "",
+      "mutated_title": "the film doesn't ignore the more problematic, incoherent aspects of Brown's life",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0344",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "ends with a story that is so far-fetched it would be impossible to believe if it were n't true",
+      "original_body": "",
+      "mutated_title": "ends with a story that is so far-fetched character it would be impossible to believe if it were n't true",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0338",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "the highest and the performances",
+      "original_body": "",
+      "mutated_title": "unencouraging the highest and the performances",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_sst2_yes_001_sst2_001_sst2_003",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "The movie is warm, funny, and genuinely enjoyable.",
+      "original_body": "",
+      "mutated_title": "The film is warm, funny, and genuinely enjoyable.",
+      "mutated_body": ""
+    }
+  ]
+}

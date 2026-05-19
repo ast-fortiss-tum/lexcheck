@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_003",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0404",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Allow configuration via admin services",
+      "original_body": "Currently the connector hard-codes its configuration inside the `CruxOMRSRepositoryConnector` class. We should really allow the configuration to be passed in as part of the admin services that configure the connection itself.\\r\\n\\r\\nThis should just require some simple mapping between certain pre-defined keys / map structure and an appropriate configuration, eg.:\\r\\n\\r\\n```\\r\\n{\\r\\n \"crux/index-store\": {\\r\\n \"kv-store\": {\\r\\n \"crux/module\": \"crux.rocksdb/->kv-store\",\\r\\n \"db-dir\": \"data/servers/crux/rdb-index\"\\r\\n }\\r\\n },\\r\\n \"crux/document-store\": {\\r\\n \"kv-store\": {\\r\\n \"crux/module\": \"crux.rocksdb/->kv-store\",\\r\\n \"db-dir\": \"data/servers/crux/rdb-docs\"\\r\\n }\\r\\n },\\r\\n \"crux/tx-log\": {\\r\\n \"crux/module\": \"crux.kafka/->tx-log\",\\r\\n \"kafka-config\": {\\r\\n \"bootstrap-servers\": \"localhost:9092\"\\r\\n },\\r\\n \"tx-topic-opts\": {\\r\\n \"topic-name\": \"crux-tx-log\"\\r\\n },\\r\\n \"poll-wait-duration\": \"PT1S\"\\r\\n }\\r\\n}\\r\\n```",
+      "mutated_title": "Allow configuration via admin services",
+      "mutated_body": "Currently the connector hard‑codes its configuration inside the `CruxOMRSRepositoryConnector` class. We should really allow the configuration to be passed in as part of the admin services that configure the connection itself."
+    },
+    {
+      "item_id": "github_0219",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Unity UWP app using AWS .NET SDK functions fails with COM/Il2CppExceptionWrapper exceptions",
+      "original_body": "I've imported the .NET SDK **V3.3** DLLs and the Amazon Cognito Authentication Extension DLL into a Unity 2020.1 project and created an app that authenticates with Cognito and then accesses a DynamoDB table. I cannot currently use the latest .NET SDK version 3.5 in this Unity app due to #1722 . The Unity app works fine in the Unity Editor and when built as a PC Standalone app. However when it is built in Unity and executed as a UWP app it fails, generated many COM \"class not registered\" exceptions, followed by many \"Il2CppExceptionWrapper at memory location\" exceptions before terminating. I did construct a Unity linker file to prevent assembly stripping as outlined [here](https://aws.amazon.com/blogs/developer/referencing-the-aws-sdk-for-net-standard-2-0-from-unity-xamarin-or-uwp/).\\r\\n\\r\\nAny ideas or advice on why this is happening would be very welcome.",
+      "mutated_title": "The Unity app works in the Unity Editor and when built as a PC Standalone app.",
+      "mutated_body": "I've imported the .NET SDK **V3.3** DLLs and the Amazon Cognito Authentication Extension DLL into a Unity 2020.1 project and created an app that authenticates with Cognito and then accesses a DynamoDB table. I cannot currently use the latest .NET SDK version 3.5 in this Unity app due to #1722 . The Unity app works fine in the Unity Editor and when built as a PC Standalone app. However when it is built in Unity and executed as a UWP app it fails, generated many COM \"class not registered\" exceptions, followed by many \"Il2CppExceptionWrapper at memory location\" exceptions before terminating. I did construct a Unity linker file to prevent assembly stripping as outlined [here](https://aws.amazon.com/blogs/developer/referencing-the-aws-sdk-for-net-standard-2-0-from-unity-xamarin-or-uwp/).\\r\\n\\r\\nAny ideas or advice on why this is happening would be very welcome."
+    },
+    {
+      "item_id": "github_0183",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Add a Welcome page",
+      "original_body": "With the current React Routing, the default landing page URL is at '/', which is currently undefined (as in no component is instructed to render when user is on that page)\\r\\n\\r\\nTo address this issue, a Welcome component can be implemented. This component could also act as a tutorial for the user, instructing them on how to access various pages from the menu.",
+      "mutated_title": "Add a Welcome page",
+      "mutated_body": "With the current React Routing, the default landing page URL is at '/', which is undefined (as in no component is instructed to render when user is on that page). To address this issue, a Welcome component can be implemented. This component could also act as a tutorial for the user, instructing them on how to access various pages from the menu."
+    },
+    {
+      "item_id": "github_0014",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Missing Command ZUNION",
+      "original_body": "The ZUNION command is missing in the sorted set API https://redis.io/commands/zunion",
+      "mutated_title": "Missing Command",
+      "mutated_body": "The command is missing in the sorted set API https://redis.io/commands/"
+    },
+    {
+      "item_id": "github_0113",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Install-AWSToolsModule: Where-Object : The property 'Version' cannot be found on this object. Verify that the property exists.",
+      "original_body": "can we please either reopen this issue or get a reference to an open issue? I'm having this issue too\\r\\n\\r\\n\\r\\n```\\r\\nPS C:\\Windows\\system32\\config\\systemprofile> Install-AWSToolsModule AWS.Tools.EC2,AWS.Tools.S3 -CleanUp -Force\\r\\nInstalling module AWS.Tools.EC2 version 4.1.8.0\\r\\nInstalling module AWS.Tools.S3 version 4.1.8.0\\r\\nWhere-Object : The property 'Version' cannot be found on this object. Verify that the property exists.\\r\\nAt C:\\Program Files\\WindowsPowerShell\\Modules\\AWS.Tools.Installer\\1.0.2.0\\AWS.Tools.Installer.psm1:178 char:69\\r\\n+ ... alledAwsToolsModules | Where-Object { $_.Version -ne $ExceptVersion }\\r\\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\r\\n + CategoryInfo : NotSpecified: (:) [Where-Object], PropertyNotFoundException\\r\\n + FullyQualifiedErrorId : PropertyNotFoundStrict,Microsoft.PowerShell.Commands.WhereObjectCommand\\r\\n\\r\\nPS C:\\Windows\\system32\\config\\systemprofile> Install-AWSToolsModule AWS.Tools.EC2,AWS.Tools.S3 -CleanUp -Force -Verbose\\r\\nVERBOSE: [Install-AWSToolsModule] ConfirmPreference=High WhatIfPreference=False VerbosePreference=Continue Force=True Name=(AWS.Tools.EC2 AWS.Tools.S3) RequiredVersion= SkipUpdate=False CleanUp=True\\r\\nVERBOSE: [Find-AWSToolsModule] ConfirmPreference=High WhatIfPreference=False VerbosePreference=Continue Name=(AWS.Tools.EC2 AWS.Tools.S3)\\r\\nVERBOSE: [Find-AWSToolsModule] End\\r\\nVERBOSE: [Install-AWSToolsModule] Installing AWS Tools version 4.1.8.0\\r\\nVERBOSE: [Install-AWSToolsModule] Searching installed modules\\r\\nVERBOSE: [Install-AWSToolsModule] Removing already installed modules from the. Final list of modules to install: (AWS.Tools.EC2 AWS.Tools.S3)\\r\\nVERBOSE: [Install-AWSToolsModule] Create folder for temporary repository C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Install-AWSToolsModule] Registering temporary repository AWSToolsTemp\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading modules to temporary repository\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading modules (AWS.Tools.EC2 AWS.Tools.S3)\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading module AWS.Tools.EC2 to C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading module AWS.Tools.S3 to C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] ConfirmPreference=None WhatIfPreference=False VerbosePreference=Continue Name=AWS.Tools.EC2 Path=C:\\Windows\\TEMP\\meb3zpzt.p4t\\AWS.Tools.EC2.4.1.8.0.nupkg\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Manifest signature correctly validated\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Found dependency AWS.Tools.Common\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] End\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] ConfirmPreference=None WhatIfPreference=False VerbosePreference=Continue Name=AWS.Tools.S3 Path=C:\\Windows\\TEMP\\meb3zpzt.p4t\\AWS.Tools.S3.4.1.8.0.nupkg\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Manifest signature correctly validated\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Found dependency AWS.Tools.Common\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] End\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading module AWS.Tools.Common to C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] ConfirmPreference=None WhatIfPreference=False VerbosePreference=Continue Name=AWS.Tools.Common Path=C:\\Windows\\TEMP\\meb3zpzt.p4t\\AWS.Tools.Common.4.1.8.0.nupkg\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Manifest signature correctly validated\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] End\\r\\nVERBOSE: [Install-AWSToolsModule] Installing modules (AWS.Tools.EC2 AWS.Tools.S3)\\r\\nInstalling module AWS.Tools.EC2 version 4.1.8.0\\r\\nInstalling module AWS.Tools.S3 version 4.1.8.0\\r\\nVERBOSE: [Install-AWSToolsModule] Modules install complete\\r\\nVERBOSE: [Install-AWSToolsModule] Unregistering temporary repository AWSToolsTemp\\r\\nVERBOSE: [Install-AWSToolsModule] Delete repository folder C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Uninstall-AWSToolsModule] ConfirmPreference=None WhatIfPreference=False VerbosePreference=Continue Force=False\\r\\nVERBOSE: [Uninstall-AWSToolsModule] Searching installed modules\\r\\nWhere-Object : The property 'Version' cannot be found on this object. Verify that the property exists.\\r\\nAt C:\\Program Files\\WindowsPowerShell\\Modules\\AWS.Tools.Installer\\1.0.2.0\\AWS.Tools.Installer.psm1:178 char:69\\r\\n+ ... alledAwsToolsModules | Where-Object { $_.Version -ne $ExceptVersion }\\r\\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\r\\n + CategoryInfo : NotSpecified: (:) [Where-Object], PropertyNotFoundException\\r\\n + FullyQualifiedErrorId : PropertyNotFoundStrict,Microsoft.PowerShell.Commands.WhereObjectCommand\\r\\n```\\n\\n__Originally posted by @starcry in https://github.com/aws/aws-tools-for-powershell/issues/65#issuecomment-782387188__",
+      "mutated_title": "can we please either reopen this issue (or get a reference to an open issue)?",
+      "mutated_body": "can we please either reopen this issue or get a reference to an open issue? I'm having this issue too\\r\\n\\r\\n\\r\\n```\\r\\nPS C:\\Windows\\system32\\config\\systemprofile> Install-AWSToolsModule AWS.Tools.EC2,AWS.Tools.S3 -CleanUp -Force\\r\\nInstalling module AWS.Tools.EC2 version 4.1.8.0\\r\\nInstalling module AWS.Tools.S3 version 4.1.8.0\\r\\nWhere-Object : The property 'Version' cannot be found on this object. Verify that the property exists.\\r\\nAt C:\\Program Files\\WindowsPowerShell\\Modules\\AWS.Tools.Installer\\1.0.2.0\\AWS.Tools.Installer.psm1:178 char:69\\r\\n+ ... alledAwsToolsModules | Where-Object { $_.Version -ne $ExceptVersion }\\r\\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\r\\n + CategoryInfo : NotSpecified: (:) [Where-Object], PropertyNotFoundException\\r\\n + FullyQualifiedErrorId : PropertyNotFoundStrict,Microsoft.PowerShell.Commands.WhereObjectCommand\\r\\n\\r\\nPS C:\\Windows\\system32\\config\\systemprofile> Install-AWSToolsModule AWS.Tools.EC2,AWS.Tools.S3 -CleanUp -Force -Verbose\\r\\nVERBOSE: [Install-AWSToolsModule] ConfirmPreference=High WhatIfPreference=False VerbosePreference=Continue Force=True Name=(AWS.Tools.EC2 AWS.Tools.S3) RequiredVersion= SkipUpdate=False CleanUp=True\\r\\nVERBOSE: [Find-AWSToolsModule] ConfirmPreference=High WhatIfPreference=False VerbosePreference=Continue Name=(AWS.Tools.EC2 AWS.Tools.S3)\\r\\nVERBOSE: [Find-AWSToolsModule] End\\r\\nVERBOSE: [Install-AWSToolsModule] Installing AWS Tools version 4.1.8.0\\r\\nVERBOSE: [Install-AWSToolsModule] Searching installed modules\\r\\nVERBOSE: [Install-AWSToolsModule] Removing already installed modules from the. Final list of modules to install: (AWS.Tools.EC2 AWS.Tools.S3)\\r\\nVERBOSE: [Install-AWSToolsModule] Create folder for temporary repository C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Install-AWSToolsModule] Registering temporary repository AWSToolsTemp\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading modules to temporary repository\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading modules (AWS.Tools.EC2 AWS.Tools.S3)\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading module AWS.Tools.EC2 to C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading module AWS.Tools.S3 to C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] ConfirmPreference=None WhatIfPreference=False VerbosePreference=Continue Name=AWS.Tools.EC2 Path=C:\\Windows\\TEMP\\meb3zpzt.p4t\\AWS.Tools.EC2.4.1.8.0.nupkg\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Manifest signature correctly validated\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Found dependency AWS.Tools.Common\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] End\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] ConfirmPreference=None WhatIfPreference=False VerbosePreference=Continue Name=AWS.Tools.S3 Path=C:\\Windows\\TEMP\\meb3zpzt.p4t\\AWS.Tools.S3.4.1.8.0.nupkg\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Manifest signature correctly validated\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Found dependency AWS.Tools.Common\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] End\\r\\nVERBOSE: [Install-AWSToolsModule] Downloading module AWS.Tools.Common to C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] ConfirmPreference=None WhatIfPreference=False VerbosePreference=Continue Name=AWS.Tools.Common Path=C:\\Windows\\TEMP\\meb3zpzt.p4t\\AWS.Tools.Common.4.1.8.0.nupkg\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] Manifest signature correctly validated\\r\\nVERBOSE: [Get-AWSToolsModuleDependenciesAndValidate] End\\r\\nVERBOSE: [Install-AWSToolsModule] Installing modules (AWS.Tools.EC2 AWS.Tools.S3)\\r\\nInstalling module AWS.Tools.EC2 version 4.1.8.0\\r\\nInstalling module AWS.Tools.S3 version 4.1.8.0\\r\\nVERBOSE: [Install-AWSToolsModule] Modules install complete\\r\\nVERBOSE: [Install-AWSToolsModule] Unregistering temporary repository AWSToolsTemp\\r\\nVERBOSE: [Install-AWSToolsModule] Delete repository folder C:\\Windows\\TEMP\\meb3zpzt.p4t\\r\\nVERBOSE: [Uninstall-AWSToolsModule] ConfirmPreference=None WhatIfPreference=False VerbosePreference=Continue Force=False\\r\\nVERBOSE: [Uninstall-AWSToolsModule] Searching installed modules\\r\\nWhere-Object : The property 'Version' cannot be found on this object. Verify that the property exists.\\r\\nAt C:\\Program Files\\WindowsPowerShell\\Modules\\AWS.Tools.Installer\\1.0.2.0\\AWS.Tools.Installer.psm1:178 char:69\\r\\n+ ... alledAwsToolsModules | Where-Object { $_.Version -ne $ExceptVersion }\\r\\n+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\r\\n + CategoryInfo : NotSpecified: (:) [Where-Object], PropertyNotFoundException\\r\\n + FullyQualifiedErrorId : PropertyNotFoundStrict,Microsoft.PowerShell.Commands.WhereObjectCommand\\r\\n```\\n\\n__Originally posted by @starcry in https://github.com/aws/aws-tools-for-powershell/issues/65#issuecomment-782387188__"
+    },
+    {
+      "item_id": "github_0004",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "update additional service keytab",
+      "original_body": "We are using a Gitlab installation that requires a separate keytab file which must be readable by the \"git\" user (see https://docs.gitlab.com/ee/integration/kerberos.html). Of course we can copy the existing /etc/krb5.keytab to the desired path and adjust the permissions. However, this will work for some time and then break because the krb5.keytab gets frequently updated by msktutil.\\r\\n\\r\\nI am looking for a way to update the service keytab via msktutil as well. Is that possible with the current option set?\\r\\n\\r\\nPS: We can copy the krb5.keytab via cron but then the service keytab is not restricted to the service principals but contains _all_ principals which I would like to avoid. I tried to extract the relevant keys from the krb5.keytab and feed them to ktutil but that tool is not cooperative when it comes to passing keys via stdin...",
+      "mutated_title": "update additional service",
+      "mutated_body": "We are using a Gitlab installation that requires a separate file which must be readable by the \"git\" user (see https://docs.gitlab.com/ee/integration/kerberos.html). Of course we can copy the existing /etc/krb5. to the desired path and adjust the permissions. However, this will work for some time and then break because the krb5. gets frequently updated by msktutil. I am looking for a way to update the service via msktutil as well. Is that possible with the current option set? PS: We can copy the krb5. via cron but then the service is not restricted to the service principals but contains _all_ principals which I would like to avoid. I tried to extract the relevant keys from the krb5. and feed them to ktutil but that tool is not cooperative when it comes to passing keys via stdin..."
+    },
+    {
+      "item_id": "github_0094",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Add a new employee as Student in 3rd hierarchy",
+      "original_body": "A **new Student** came for internship, create a new employee in chart for 3rd hierarchy.\\r\\n@MariamAkhtar @manoj-mtech",
+      "mutated_title": "Add a new employee as Student in 3rd hierarchy",
+      "mutated_body": "Readme: A new Student came for internship, create a new employee in chart for 3rd hierarchy. @MariamAkhtar @manoj-mtech"
+    },
+    {
+      "item_id": "github_0288",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Add range matching",
+      "original_body": "Currently, run-item matching is performed with fnmatch, which is useful for strings. Add '<' and '>' range matching that is useful for numerical datatypes (e.g. EchoTime: \">80<100\")",
+      "mutated_title": "sectioned Add range matching",
+      "mutated_body": "Currently, run-item matching is performed with fnmatch, which is useful for strings. Add '<' and '>' range matching that is useful for numerical datatypes (e.g. EchoTime: \">80<100\")"
+    },
+    {
+      "item_id": "gold_github_yes_001_github_003",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "App crashes on startup",
+      "original_body": "When I open the app, it immediately crashes with a TypeError. Expected behavior: the app should show the home screen.",
+      "mutated_title": "Application crashes on startup",
+      "mutated_body": "When I open the application, it immediately crashes with a TypeError. Expected behavior: the home screen should be shown."
+    }
+  ]
+}

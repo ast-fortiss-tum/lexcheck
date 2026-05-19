@@ -1,0 +1,169 @@
+{
+  "batch_id": "sst2_001",
+  "task": "sst2",
+  "task_display": "SST-2",
+  "real_item_count": 15,
+  "total_item_count": 16,
+  "items": [
+    {
+      "item_id": "sst2_0056",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "'s supposed to be a romantic comedy",
+      "original_body": "",
+      "mutated_title": "It is expected to be a romantic comedy.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0071",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "for all the charm of kevin kline and a story that puts old-fashioned values under the microscope , there 's something creepy about this movie .",
+      "original_body": "",
+      "mutated_title": "for all the charm of Kevin Kline and a story that puts all old-fashioned values under the microscope, there's something creepy about this movie.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0276",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "after decades",
+      "original_body": "",
+      "mutated_title": "after decades of scares",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0347",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "resurrecting performers who rarely work in movies now ...",
+      "original_body": "",
+      "mutated_title": "resurrecting performers lame who rarely work in movies now ...",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0166",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "the director taking a hands-off approach when he should have shaped the story to show us why it 's compelling",
+      "original_body": "",
+      "mutated_title": "the director taking a hands-off approach when he have shaped the story to show us why it 's compelling",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0382",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "as well-written as sexy beast , not as gloriously flippant as lock , stock and two smoking barrels ,",
+      "original_body": "",
+      "mutated_title": "as well-written as beast , not as gloriously flippant as lock , stock and two smoking barrels ,",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0273",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "super - violent ,",
+      "original_body": "",
+      "mutated_title": "Super-violent, accentuating the intensity of the action.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0304",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "uncompromising artists trying to create something original",
+      "original_body": "",
+      "mutated_title": "sugar-coated uncompromising artists trying to create something original",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0057",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "labors as storytelling",
+      "original_body": "",
+      "mutated_title": "Efforts as storytelling",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0395",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "neither protagonist has a distinguishable condition",
+      "original_body": "",
+      "mutated_title": "protagonist has a distinguishable condition",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0048",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "is a terrific role for someone like judd , who really ought to be playing villains",
+      "original_body": "",
+      "mutated_title": "is a terrific role for anyone like Judd, who really ought to be playing villains",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0335",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "a terrific screenplay",
+      "original_body": "",
+      "mutated_title": "a missing terrific screenplay",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0065",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "is an action movie with an action icon who 's been all but decommissioned .",
+      "original_body": "",
+      "mutated_title": "is an action movie with an action icon who 's been all but retired.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0055",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "it 's hard to stop watching",
+      "original_body": "",
+      "mutated_title": "it's hard to keep watching",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0381",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "watching junk",
+      "original_body": "",
+      "mutated_title": "watching",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_sst2_yes_001_sst2_001",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "The movie is warm, funny, and genuinely enjoyable.",
+      "original_body": "",
+      "mutated_title": "The film is warm, funny, and genuinely enjoyable.",
+      "mutated_body": ""
+    }
+  ]
+}

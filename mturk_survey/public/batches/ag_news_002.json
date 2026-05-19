@@ -1,0 +1,119 @@
+{
+  "batch_id": "ag_news_002",
+  "task": "ag_news",
+  "task_display": "AG News",
+  "real_item_count": 10,
+  "total_item_count": 11,
+  "items": [
+    {
+      "item_id": "ag_news_0330",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Google introduces wireless service",
+      "original_body": "Google today launched a beta test version of Google SMS, this new service will allow US wireless users to query Google for almost any type of information.",
+      "mutated_title": "Google introduces wireless service",
+      "mutated_body": "Google today launched a beta test version for Google SMS, this new service will allow US wireless users to query Google for almost any information."
+    },
+    {
+      "item_id": "ag_news_0153",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Code to exploit Windows graphics flaw now public",
+      "original_body": "Program showing how to use flaw in Windows' handling of graphics files hits the Net--back up your family photos and beware.",
+      "mutated_title": "Code to exploit Windows graphics flaw now public",
+      "mutated_body": "Program showing how to use flaw in Windows' handling of graphics files hits the net, back up your family photos, and beware."
+    },
+    {
+      "item_id": "ag_news_0306",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Appleby leads by a stroke in South Africa",
+      "original_body": "Stuart Appleby of Australia was the only player to break 70 Friday, shooting a 3-under-par 69 that left him with a one-stroke lead over Lee Westwood of England halfway through the Nedbank Golf Challenge.",
+      "mutated_title": "Security Appleby leads by a stroke in South Africa",
+      "mutated_body": "Stuart Appleby of Australia was the only player to break 70 Friday, shooting a 3-under-par 69 that left him with a one-stroke lead over Lee Westwood of England halfway through the Nedbank Golf Challenge."
+    },
+    {
+      "item_id": "ag_news_0152",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Nice Day for a Wireless Wedding",
+      "original_body": "Even though we knew it was coming, journalists seem to have plenty to write about now that underdogs Sprint and Nextel have announced their \\$35 billion nuptial plans, including a rumor that one of the industry's big dogs would try to spoil the party. <FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\" color=\"#666666\"><B>-washingtonpost.com</B></FONT>",
+      "mutated_title": "Nice Day for a Wireless Wedding",
+      "mutated_body": "Even though we knew it was coming, journalists seem to have plenty to write about now that underdogs Sprint and Nextel have announced their $35 billion nuptial plans, including a rumor that a big dog in the industry would try to spoil the party. <FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\" color=\"#666666\"><B>-washingtonpost.com</B></FONT>"
+    },
+    {
+      "item_id": "ag_news_0415",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "Mubarak seeks comprehensive reforms in Egypt",
+      "original_body": "Egyptian President Husni Mubarak wants reform on the economic, political and social fronts, according to an interview published on the eve of his ruling National Democratic Party #39;s (NDP) annual convention.",
+      "mutated_title": "Mubarak seeks comprehensive reforms in Egypt",
+      "mutated_body": "Egyptian President Husni Mubarak wants reform on the economic, political and social fronts, according to an interview published on the eve of his ruling National Democratic Party #39;s (NDP) annual convention, long after decades of stagnation."
+    },
+    {
+      "item_id": "ag_news_0028",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Beckham: I Got Booked Deliberately",
+      "original_body": "England captain David Beckham has revealed that he deliberately got himself booked against Wales on Saturday. The Real Madrid star was cautioned for a foul on Ben Thatcher late in the game, and he will now",
+      "mutated_title": "Beckham: I Got Booked Deliberately",
+      "mutated_body": "England captain David Beckham has revealed that he deliberately got himself booked against Wales on Saturday. The Real Madrid star was cautioned for a foul on Ben Thatcher late in the game, and he will"
+    },
+    {
+      "item_id": "ag_news_0145",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "EA to boost efforts in cell-phone gaming",
+      "original_body": "Gaming giant Electronic Arts will boost production of video games for mobile phones over the next nine months, bringing top-selling franchises quot;Fifa Football quot; and quot;The Sims quot; to handsets, the company said Thursday.",
+      "mutated_title": "EA to boost efforts in cell-phone gaming",
+      "mutated_body": "Gaming giant Electronic Arts will boost production for mobile phone video games over the next nine months, bringing top-selling franchises “Fifa Football” and “The Sims” to handsets, the company said Thursday."
+    },
+    {
+      "item_id": "ag_news_0244",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Atkins slims down in face of competition",
+      "original_body": "Atkins Nutritionals, the food company founded by the man behind the Atkins diet, is laying off workers and cutting costs in the face of mushrooming competition to supply low-carbohydrate foods.",
+      "mutated_title": "Atkins slims down in face competition",
+      "mutated_body": "Atkins Nutritionals, the food company founded by the man behind the Atkins diet, is laying off workers and cutting costs in the face mushrooming competition to supply low-carbohydrate foods."
+    },
+    {
+      "item_id": "ag_news_0413",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Stonecipher pushes to end Airbus aid",
+      "original_body": "The chief executive of Boeing Co. says his efforts to end government aid programs for rival aircraft manufacturer Airbus SAS are intended to head off a wider trans-Atlantic dispute over subsidies that could end up at the World Trade Organization.",
+      "mutated_title": "Stonecipher pushes to end Airbus aid",
+      "mutated_body": "The chief executive of Boeing Co. says his efforts to end government aid programs for rival aircraft manufacturer Airbus SAS are intended to head off a wider trans-Atlantic dispute over subsidies that could end up at the World Trade Organization, a report notes."
+    },
+    {
+      "item_id": "ag_news_0142",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Google introduces wireless service",
+      "original_body": "Google Inc. on Thursday launched a beta test version of Google SMS, a new service that lets users of wireless devices query Google for specific information, such as business or residential phone listings, product prices and word definitions, the company announced.",
+      "mutated_title": "Google introduces wireless service",
+      "mutated_body": "Google Inc. on Thursday launched a beta test version of Google SMS, a new service that lets users of wireless devices query Google for specific information, such as residential phone listings, product prices and word definitions, the company announced."
+    },
+    {
+      "item_id": "gold_agnews_label_no_001_ag_news_002",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Shares rise after the company reports strong earnings",
+      "original_body": "Investors reacted positively to the quarterly profit report.",
+      "mutated_title": "The striker scores twice in the national cup final",
+      "mutated_body": "Fans cheered as the team won the match."
+    }
+  ]
+}

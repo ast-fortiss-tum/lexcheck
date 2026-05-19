@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_017",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0239",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Bug: edit page - preview set",
+      "original_body": "",
+      "mutated_title": ": edit page - preview set",
+      "mutated_body": "."
+    },
+    {
+      "item_id": "github_0215",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Add message to log while downloading",
+      "original_body": "I was wondering if this is the right place to fire a log message indicating the file is being downloaded - just before this line. i.e. so there is a some response from the GUI after the flash button is pressed before switching to the actual OTA flash screen and progress. \\r\\n\\r\\nhttps://github.com/alexr4535/siglo/blob/1a297a367741894a30c9cc386b490e287f9b6c65/src/window.py#L226",
+      "mutated_title": "Add message to log while downloading",
+      "mutated_body": "I was wondering if this is the right place to fire a log message indicating the file is being downloaded - just before this line. i.e. so there is a some response from the GUI after the flash button is pressed before switching to the actual OTA flash screen and progress. https://github.com/alexr4535/siglo/blob//src/window.py#L226"
+    },
+    {
+      "item_id": "github_0089",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Mention detection in $emoteinfo",
+      "original_body": "https://github.com/Misha12/GrillBot/blob/master/src/Grillbot/Modules/EmoteManagerModule.cs#L72\\r\\n\\r\\nEmoteinfo get contains old mention detection that is not compatible with phones. Implement logic that is in Reminder (https://github.com/Misha12/GrillBot/blob/master/src/Grillbot/Modules/ReminderModule.cs#L71).",
+      "mutated_title": "Mention detection at $emoteinfo",
+      "mutated_body": "https://github.com/Misha12/GrillBot/blob/master/src/Grillbot/Modules/EmoteManagerModule.cs#L72\\r\\n\\r\\nEmoteinfo get contains old mention detection that is not compatible with phones. Implement logic that is in Reminder (https://github.com/Misha12/GrillBot/blob/master/src/Grillbot/Modules/ReminderModule.cs#L71)."
+    },
+    {
+      "item_id": "github_0097",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Mention detection in $emoteinfo",
+      "original_body": "https://github.com/Misha12/GrillBot/blob/master/src/Grillbot/Modules/EmoteManagerModule.cs#L72\\r\\n\\r\\nEmoteinfo get contains old mention detection that is not compatible with phones. Implement logic that is in Reminder (https://github.com/Misha12/GrillBot/blob/master/src/Grillbot/Modules/ReminderModule.cs#L71).",
+      "mutated_title": "Mention detection in $emoteinfo's",
+      "mutated_body": "https://github.com/Misha12/GrillBot/blob/master/src/Grillbot/Modules/EmoteManagerModule.cs#L72\\r\\n\\r\\nEmoteinfo get contains old mention detection that is not compatible with phones. Implement logic that is in Reminder (https://github.com/Misha12/GrillBot/blob/master/src/Grillbot/Modules/ReminderModule.cs#L71)."
+    },
+    {
+      "item_id": "github_0010",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "bom material index should more clearly point to bom",
+      "original_body": "vw_bom_material_index should reference the bom to which an entity belongs. \\r\\n\\r\\nI implemented a partial fix that works for elements in `vw_bom_material` but not `vw_bom_material_composite`. \\r\\n\\r\\n",
+      "mutated_title": "bom material index more clearly point to bom",
+      "mutated_body": "vw_bom_material_index reference the bom to which an entity belongs. I implemented a partial fix that works for elements in `vw_bom_material` but not `vw_bom_material_composite`."
+    },
+    {
+      "item_id": "github_0216",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Correct response from clicking options in fun fact sections",
+      "original_body": "Hi @LaurenCX ,\\r\\nI found that users could not get correct responses by clicking the options in fun facts. Did you successfully implement the function?",
+      "mutated_title": "Correct response from clicking options in fun fact sections",
+      "mutated_body": "I found that users couldn't get correct responses by clicking the options in fun facts. Did you successfully implement the function?"
+    },
+    {
+      "item_id": "github_0314",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "VI_ERROR_TMO (-1073807339): Timeout expired before operation completed. with keithley 2400",
+      "original_body": "Hi all,\\r\\n\\r\\nI connected my computer with Keithley 2400 and tried to communicate using this Pymeasure. when I executed my code. it looks connected very well because it communicate in some part. \\r\\n\\r\\n`from pymeasure.instruments.keithley import Keithley2400\\r\\nimport numpy as np\\r\\n#import nidaqmx\\r\\nfrom time import sleep\\r\\nimport time`\\r\\n`def discharging(I_para, V_lim):\\r\\n keithley = Keithley2400(\"ASRL1::INSTR\")`\\r\\n \\r\\n keithley.apply_current() # Sets up to source current\\r\\n keithley.compliance_voltage = 10 # Sets the compliance voltage to 10 V\\r\\n keithley.source_current = I_para # e.g., -0.024\\r\\n keithley.enable_source()\\r\\n # Loop through each current point, measure and record the voltage\\r\\n \\r\\n i = 0\\r\\n tic = time.time()` \\r\\n\\r\\nthis is part of the my code. in definition of discharging, setting the compliance voltage and enabling source is well worked. however when I try to apply the current or make source current, the timeout error is popped out. \\r\\nWhat is problem in communication between pc and keithley2400 ???``",
+      "mutated_title": "VI_ERROR_TMO (-1073807339): Timeout expired before operation completed (ssl). with keithley 2400",
+      "mutated_body": "Hi all,"
+    },
+    {
+      "item_id": "github_0213",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "AsyncWorld | IllegalStateException: WorldInitEvent may only be triggered synchronously.",
+      "original_body": "# Bug report for FastAsyncWorldEdit 1.14.4\\r\\n**[REQUIRED] FastAsyncWorldEdit Configuration Files:** \\r\\n<!--- Issue /fawe debugpaste in game or in your console and copy the supplied URL here -->\\r\\n<!--- If you cannot perform the above, we require logs/latest.log; config.yml and config-legacy.yml -->\\r\\n<!--- If you are unwilling to supply the information we need, we reserve the right to not assist you. Redact IP addresses if you need to. -->\\r\\nhttps://athion.net/ISPaster/paste/view/77bc53510dce43f68dbd2d6e658042f4\\r\\n\\r\\n**[REQUIRED] FastAsyncWorldEdit Version Number:** \\r\\n<!--- Enter /fawe version in game or in your console and copy the full output here -->\\r\\nBukkit-Official(1.15-13;9efdd88)\\r\\n\\r\\n**[REQUIRED] Spigot/Paper Version Number:** \\r\\n<!--- Enter /version ingame or in your console and paste the full output here -->\\r\\ngit-Paper-237 (MC: 1.14.4)\\r\\n\\r\\n**[REQUIRED] Description of the problem:**\\r\\n<!--- Check your console for errors while testing -->\\r\\n<!--- Include relevant information like errors or a picture of the problem -->\\r\\n<!--- Be as specific as possible. Don't lie, redact information, or use false names/situations. -->\\r\\n<!--- Who, What, When, Where, Why, How, Expected behavior, Resultant behavior, etc -->\\r\\n```\\r\\n[21:45:06 WARN]: [WorldEdit] Plugin WorldEdit v1.15-13;9efdd88 generated an exception while executing task 76\\r\\njava.lang.IllegalStateException: WorldInitEvent may only be triggered synchronously.\\r\\n at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:533) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at org.bukkit.craftbukkit.v1_14_R1.CraftServer.createWorld(CraftServer.java:1018) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at org.bukkit.Bukkit.createWorld(Bukkit.java:492) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at org.bukkit.WorldCreator.createWorld(WorldCreator.java:284) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at com.boydti.fawe.bukkit.FaweBukkit.createWorldUnloaded(FaweBukkit.java:315) ~[?:?]\\r\\n at com.sk89q.worldedit.bukkit.adapter.BukkitImplAdapter.createWorld(BukkitImplAdapter.java:222) ~[?:?]\\r\\n at com.sk89q.worldedit.bukkit.adapter.IDelegateBukkitImplAdapter.createWorld(IDelegateBukkitImplAdapter.java:151) ~[?:?]\\r\\n at com.boydti.fawe.bukkit.wrapper.AsyncWorld.create(AsyncWorld.java:144) ~[?:?]\\r\\n at de.butzlabben.world.wrapper.AsyncCreatorAdapter.lambda$0(AsyncCreatorAdapter.java:22) ~[?:?]\\r\\n at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]\\r\\n at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]\\r\\n at java.lang.Thread.run(Thread.java:834) [?:?]\\r\\n```\\r\\n\\r\\n\\r\\n**How to replicate**:\\r\\n<!--- If you can reproduce the issue please tell us as detailed as possible step by step how to do that -->\\r\\nCreate a AsyncWorld. (I used: [WorldSystem](https://www.spigotmc.org/resources/worldsystem-%E2%97%8F-the-one-world-per-player-solution-%E2%97%8F-gui-%E2%97%8F-highly-configurable-%E2%97%8F-1-8-1-14.49756/))\\r\\nPlugincode for creating the world: https://github.com/Butzlabben/worldsystem/blob/master/src/main/java/de/butzlabben/world/wrapper/AsyncCreatorAdapter.java \\r\\n\\r\\n**Plugins being used on the server:**\\r\\n<!--- Optional but recommended - issue \"/plugins\" in-game or in console and copy/paste the list -->\\r\\nPlugins: \\r\\n - CleanroomGenerator: 1.1.0\\r\\n - LuckPerms: 5.0.43\\r\\n - SkinsRestorer: 13.7.5\\r\\n - NametagEdit: 4.4.6\\r\\n - WorldSystem: 2.4.8.1\\r\\n - Vault: 1.7.2-b107\\r\\n - ProtocolSupport: 4.29-dev\\r\\n - WorldEdit: 1.15-13;9efdd88\\r\\n - FastAsyncWorldEdit: 1.14\\r\\n - Essentials: 2.17.1.0\\r\\n - EssentialsChat: 2.17.1.0\\r\\n - ViaVersion: 2.2.2\\r\\n - EssentialsSpawn: 2.17.1.0\\r\\n - WorldGuard: 7.0.2-SNAPSHOT;1998-f43a4ea\\r\\n - ProtocolLib: 4.5.0\\r\\n - WorldEditSelectionVisualizer: 2.0.4\\r\\n - FastLogin: 1.11-SNAPSHOT-1375cf3\\r\\n - AuthMe: 5.6.0-SNAPSHOT-b2358\\r\\n - ProtocolSupportStuff: 2.0.0\\r\\n - ServerListPlus: 3.4.8\\r\\n\\r\\n**Checklist**:\\r\\n<!--- Make sure you've completed the following steps (put an \"X\" between of brackets): -->\\r\\n- [X] I included all information required in the sections above\\r\\n- [X] I made sure there are no duplicates of this report [(Use Search)](https://github.com/IntellectualSites/FastAsyncWorldEdit-1.13/issues?utf8=%E2%9C%93&q=is%3Aissue)\\r\\n- [X] I made sure I am using an up-to-date version of [FastAsyncWorldEdit for 1.14.4](https://ci.athion.net/job/FastAsyncWorldEdit-pipeline/)\\r\\n- [X] I made sure the bug/error is not caused by any other plugin",
+      "mutated_title": "AsyncWorld",
+      "mutated_body": "# Bug report for FastAsyncWorldEdit 1.14.4\\r\\n**[REQUIRED] FastAsyncWorldEdit Configuration Files:** \\r\\n<!--- Issue /fawe debugpaste in game or in your console and copy the supplied URL here -->\\r\\n<!--- If you cannot perform the above, we require logs/latest.log; config.yml and config-legacy.yml -->\\r\\n<!--- If you are unwilling to supply the information we need, we reserve the right to not assist you. Redact IP addresses if you need to. -->\\r\\nhttps://athion.net/ISPaster/paste/view/77bc53510dce43f68dbd2d6e658042f4\\r\\n\\r\\n**[REQUIRED] FastAsyncWorldEdit Version Number:** \\r\\n<!--- Enter /fawe version in game or in your console and copy the full output here -->\\r\\nBukkit-Official(1.15-13;9efdd88)\\r\\n\\r\\n**[REQUIRED] Spigot/Paper Version Number:** \\r\\n<!--- Enter /version ingame or in your console and paste the full output here -->\\r\\ngit-Paper-237 (MC: 1.14.4)\\r\\n\\r\\n**[REQUIRED] Description of the problem:**\\r\\n<!--- Check your console for errors while testing -->\\r\\n<!--- Include relevant information like errors or a picture of the problem -->\\r\\n<!--- Be as specific as possible. Don't lie, redact information, or use false names/situations. -->\\r\\n<!--- Who, What, When, Where, Why, How, Expected behavior, Resultant behavior, etc -->\\r\\n```\\r\\n[21:45:06 WARN]: [WorldEdit] Plugin WorldEdit v1.15-13;9efdd88 generated an exception while executing task 76\\r\\njava.lang.IllegalStateException: WorldInitEvent may only be triggered synchronously.\\r\\n at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:533) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at org.bukkit.craftbukkit.v1_14_R1.CraftServer.createWorld(CraftServer.java:1018) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at org.bukkit.Bukkit.createWorld(Bukkit.java:492) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at org.bukkit.WorldCreator.createWorld(WorldCreator.java:284) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at com.boydti.fawe.bukkit.FaweBukkit.createWorldUnloaded(FaweBukkit.java:315) ~[?:?]\\r\\n at com.sk89q.worldedit.bukkit.adapter.BukkitImplAdapter.createWorld(BukkitImplAdapter.java:222) ~[?:?]\\r\\n at com.sk89q.worldedit.bukkit.adapter.IDelegateBukkitImplAdapter.createWorld(IDelegateBukkitImplAdapter.java:151) ~[?:?]\\r\\n at com.boydti.fawe.bukkit.wrapper.AsyncWorld.create(AsyncWorld.java:144) ~[?:?]\\r\\n at de.butzlabben.world.wrapper.AsyncCreatorAdapter.lambda$0(AsyncCreatorAdapter.java:22) ~[?:?]\\r\\n at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.14.4.jar:git-Paper-237]\\r\\n at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]\\r\\n at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]\\r\\n at java.lang.Thread.run(Thread.java:834) [?:?]\\r\\n```\\r\\n\\r\\n\\r\\n**How to replicate**:\\r\\n<!--- If you can reproduce the issue please tell us as detailed as possible step by step how to do that -->\\r\\nCreate a AsyncWorld. (I used: [WorldSystem](https://www.spigotmc.org/resources/worldsystem-%E2%97%8F-the-one-world-per-player-solution-%E2%97%8F-gui-%E2%97%8F-highly-configurable-%E2%97%8F-1-8-1-14.49756/))\\r\\nPlugincode for creating the world: https://github.com/Butzlabben/worldsystem/blob/master/src/main/java/de/butzlabben/world/wrapper/AsyncCreatorAdapter.java \\r\\n\\r\\n**Plugins being used on the server:**\\r\\n<!--- Optional but recommended - issue \"/plugins\" in-game or in console and copy/paste the list -->\\r\\nPlugins: \\r\\n - CleanroomGenerator: 1.1.0\\r\\n - LuckPerms: 5.0.43\\r\\n - SkinsRestorer: 13.7.5\\r\\n - NametagEdit: 4.4.6\\r\\n - WorldSystem: 2.4.8.1\\r\\n - Vault: 1.7.2-b107\\r\\n - ProtocolSupport: 4.29-dev\\r\\n - WorldEdit: 1.15-13;9efdd88\\r\\n - FastAsyncWorldEdit: 1.14\\r\\n - Essentials: 2.17.1.0\\r\\n - EssentialsChat: 2.17.1.0\\r\\n - ViaVersion: 2.2.2\\r\\n - EssentialsSpawn: 2.17.1.0\\r\\n - WorldGuard: 7.0.2-SNAPSHOT;1998-f43a4ea\\r\\n - ProtocolLib: 4.5.0\\r\\n - WorldEditSelectionVisualizer: 2.0.4\\r\\n - FastLogin: 1.11-SNAPSHOT-1375cf3\\r\\n - AuthMe: 5.6.0-SNAPSHOT-b2358\\r\\n - ProtocolSupportStuff: 2.0.0\\r\\n - ServerListPlus: 3.4.8\\r\\n\\r\\n**Checklist**:\\r\\n<!--- Make sure you've completed the following steps (put an \"X\" between of brackets): -->\\r\\n- [X] I included all information required in the sections above\\r\\n- [X] I made sure there are no duplicates of this report [(Use Search)](https://github.com/IntellectualSites/FastAsyncWorldEdit-1.13/issues?utf8=%E2%9C%93&q=is%3Aissue)\\r\\n- [X] I made sure I am using an up-to-date version of [FastAsyncWorldEdit for 1.14.4](https://ci.athion.net/job/FastAsyncWorldEdit-pipeline/)\\r\\n- [X] I made sure the bug/error is not caused by any other plugin"
+    },
+    {
+      "item_id": "gold_github_yes_001_github_017",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "App crashes on startup",
+      "original_body": "When I open the app, it immediately crashes with a TypeError. Expected behavior: the app should show the home screen.",
+      "mutated_title": "Application crashes on startup",
+      "mutated_body": "When I open the application, it immediately crashes with a TypeError. Expected behavior: the home screen should be shown."
+    }
+  ]
+}

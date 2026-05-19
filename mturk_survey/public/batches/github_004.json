@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_004",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0080",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Implement a server endpoint to return configuration data for the Dashboard",
+      "original_body": "The choice of the dashboard's \"prefix\" and index (run_index and result_index) configuration variables are tied to a specific server. It would be nice if the server would offer an end-point which would return the configuration relative to that server instead of having `endpoints.js` built into the javascript bundle loaded on the server.\\r\\n\\r\\nThat way we can build one dashboard bundle and test it on staging and move it to production without having to change or rebuild the bundle.\\r\\n\\r\\nThe dashboard would then need only to be configured to a specific Pbench server host/port via an environment variable, and would automatically configure the rest using the server.\\r\\n\\r\\nRelated to Dashboard issue [#107](https://github.com/distributed-system-analysis/pbench-dashboard/issues/107)",
+      "mutated_title": "Implement a server endpoint to return configuration data for \"Retry the Dashboard",
+      "mutated_body": "The choice of the dashboard's \"prefix\" and index (run_index and result_index) configuration variables are tied to a specific server. It would be nice if the server would offer an end-point which would return the configuration relative to that server instead of having `endpoints.js` built into the javascript bundle loaded on the server.\\r\\n\\r\\nThat way we can build one dashboard bundle and test it on staging and move it to production without having to change or rebuild the bundle.\\r\\n\\r\\nThe dashboard would then need only to be configured to a specific Pbench server host/port via an environment variable, and would automatically configure the rest using the server.\\r\\n\\r\\nRelated to Dashboard issue [#107](https://github.com/distributed-system-analysis/pbench-dashboard/issues/107)"
+    },
+    {
+      "item_id": "github_0032",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Can you increase the mouse operation",
+      "original_body": "![-4c0444a9bc013da](https://user-images.githubusercontent.com/80696034/112702795-a571b880-8ecf-11eb-83d8-93b375820577.png)\\r\\n",
+      "mutated_title": "truth Can you increase the mouse operation",
+      "mutated_body": "![-4c0444a9bc013da](https://user-images.githubusercontent.com/80696034/112702795-a571b880-8ecf-11eb-83d8-93b375820577.png)\\r\\n"
+    },
+    {
+      "item_id": "github_0092",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "openfoam module issue",
+      "original_body": "I have installed openfoam2012 successfully. When i did spack module lmod refresh it gives this warning and hangs \\r\\n\\r\\n==> Do you want to proceed? [y/n] y\\r\\n==> Regenerating lmod module files\\r\\n==> Warning: Quotes in command arguments can confuse scripts like configure.\\r\\n The following arguments may cause problems when executed:\\r\\n source /dev/null &> /dev/null && python3 -c \"import os, json; print(json.dumps(dict(os.environ)))\"\\r\\n Quotes aren't needed because spack doesn't use a shell.\\r\\n Consider removing them\\r\\n==> Warning: Quotes in command arguments can confuse scripts like configure.\\r\\n The following arguments may cause problems when executed:\\r\\n source /opt/apps/nfs/spack-quanah/spack/opt/spack/linux-centos8-broadwell/gcc-10.2.0/openfoam-2012-sm3m4wiv32m6t3f5lm43rgvibgvqkruz/etc/bashrc &> /dev/null && python3 -c \"import os, json; print(json.dumps(dict(os.environ)))\"\\r\\n Quotes aren't needed because spack doesn't use a shell.\\r\\n Consider removing them\\r\\nLet me know the fix please.\\r\\n\\r\\nThanks\\r\\n",
+      "mutated_title": "Quotes aren't needed because spack doesn't use a shell, not because of security concerns.",
+      "mutated_body": "I have installed openfoam2012 successfully. When i did spack module lmod refresh it gives this warning and hangs \\r\\n\\r\\n==> Do you want to proceed? [y/n] y\\r\\n==> Regenerating lmod module files\\r\\n==> Warning: Quotes in command arguments can confuse scripts like configure.\\r\\n The following arguments may cause problems when executed:\\r\\n source /dev/null &> /dev/null && python3 -c \"import os, json; print(json.dumps(dict(os.environ)))\"\\r\\n Quotes aren't needed because spack doesn't use a shell.\\r\\n Consider removing them\\r\\n==> Warning: Quotes in command arguments can confuse scripts like configure.\\r\\n The following arguments may cause problems when executed:\\r\\n source /opt/apps/nfs/spack-quanah/spack/opt/spack/linux-centos8-broadwell/gcc-10.2.0/openfoam-2012-sm3m4wiv32m6t3f5lm43rgvibgvqkruz/etc/bashrc &> /dev/null && python3 -c \"import os, json; print(json.dumps(dict(os.environ)))\"\\r\\n Quotes aren't needed because spack doesn't use a shell.\\r\\n Consider removing them\\r\\nLet me know the fix please.\\r\\n\\r\\nThanks\\r\\n"
+    },
+    {
+      "item_id": "github_0002",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Question",
+      "original_body": "Hello Geral.\\r\\nMay I ask if I can get a pull request or if can advise me how I can fix it?\\r\\nThanks in advance",
+      "mutated_title": ".",
+      "mutated_body": "Hello Geral. May I ask if I can get a pull request or if can advise me how I can fix it? Thanks in advance"
+    },
+    {
+      "item_id": "github_0250",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Add task editing",
+      "original_body": "- Click on a task's description to turn it into an editable field.\\r\\n- Click on a task's due date to turn it into an editable field.\\r\\n- Clicking off of either element turns it back into its original form.\\r\\n",
+      "mutated_title": "1583873 Add task editing",
+      "mutated_body": "- Click on a task's description to turn it into an editable field.\\r\\n- Click on a task's due date to turn it into an editable field.\\r\\n- Clicking off of either element turns it back into its original form.\\r\\n"
+    },
+    {
+      "item_id": "github_0172",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "ignore RO fs error when locking backup in shared mode",
+      "original_body": "Requested by Mikhail Kulagin",
+      "mutated_title": "Skip the RO fs error when locking backup in shared mode",
+      "mutated_body": "Requested by Mikhail Kulagin"
+    },
+    {
+      "item_id": "github_0182",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Allow TinyPilot to call privileged scripts in dev mode",
+      "original_body": "*\\[splitting off from a comment in [#433](https://github.com/mtlynch/tinypilot/issues/433#issuecomment-778423702)\\]*\\r\\n\\r\\nCurrently, in a development environment, the scripts under `/opt/tinypilot-privileged` don't exist, so API endpoints that depend on those scripts fail. This causes drift between the production and development environment, making it easier for bugs that affect the prod environment to slip through development unnoticed.\\r\\n\\r\\n### Option 1: Add mocks\\r\\n\\r\\nWhen the user starts the server in dev mode (maybe we'll add an option for specifying this), the paths to privileged scripts get replaced with paths to dummy scripts in the repo that simulate behavior of the real script without causing any external effect.\\r\\n\\r\\n### Option 2: Add an ansible example command for dev-mode installation\\r\\n\\r\\nIt should be possible to specify the right commands to the Ansible role so that it installs TinyPilot in dev mode, but with the real production privileged scripts. This might not be such a good solution for a general dev machine, but it would work well if you do development in a dedicated TinyPilot VM.",
+      "mutated_title": "Enabling TinyPilot to call privileged scripts in dev mode",
+      "mutated_body": "*\\[splitting off from a comment in [#433](https://github.com/mtlynch/tinypilot/issues/433#issuecomment-778423702)\\]*\\r\\n\\r\\nCurrently, in a development environment, the scripts under `/opt/tinypilot-privileged` don't exist, so API endpoints that depend on those scripts fail. This causes drift between the production and development environment, making it easier for bugs that affect the prod environment to slip through development unnoticed.\\r\\n\\r\\n### Option 1: Add mocks\\r\\n\\r\\nWhen the user starts the server in dev mode (maybe we'll add an option for specifying this), the paths to privileged scripts get replaced with paths to dummy scripts in the repo that simulate behavior of the real script without causing any external effect.\\r\\n\\r\\n### Option 2: Add an ansible example command for dev-mode installation\\r\\n\\r\\nIt should be possible to specify the right commands to the Ansible role so that it installs TinyPilot in dev mode, but with the real production privileged scripts. This might not be such a good solution for a general dev machine, but it would work well if you do development in a dedicated TinyPilot VM."
+    },
+    {
+      "item_id": "github_0095",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "COVID-19 vaccination widget: total values in large widget",
+      "original_body": "Hey Benny\\r\\n\\r\\nIt would be great if you can add total vaccination values in addition to the percentage values.\\r\\n\\r\\nThank you very much and stay healthy.\\r\\n\\r\\nThomas",
+      "mutated_title": "COVID-19 vaccination statamic widget: total values in large widget",
+      "mutated_body": "Hey Benny\\r\\n\\r\\nIt would be great if you can add total vaccination values in addition to the percentage values.\\r\\n\\r\\nThank you very much and stay healthy.\\r\\n\\r\\nThomas"
+    },
+    {
+      "item_id": "gold_github_label_no_001_github_004",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "CLI crashes when the config file is missing",
+      "original_body": "Running the command without a config file raises an uncaught exception instead of showing a helpful error.",
+      "mutated_title": "How do I install the CLI on Windows?",
+      "mutated_body": "I am new to this project and would like to know the correct installation steps for Windows."
+    }
+  ]
+}

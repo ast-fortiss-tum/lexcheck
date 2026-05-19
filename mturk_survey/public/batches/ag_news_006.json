@@ -1,0 +1,119 @@
+{
+  "batch_id": "ag_news_006",
+  "task": "ag_news",
+  "task_display": "AG News",
+  "real_item_count": 10,
+  "total_item_count": 11,
+  "items": [
+    {
+      "item_id": "ag_news_0419",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "10/5/04 EDITORIAL: Do-not-call list",
+      "original_body": "The Supreme Court ended Monday the telemarketing industry #39;s attempt to abolish the do-not-call registry by letting a lower court #39;s ruling stand, according to an Associated Press story.",
+      "mutated_title": "10/5/04 EDITORIAL: Do-not-call list",
+      "mutated_body": "The Supreme Court ended Monday the telemarketing industry’s attempt to abolish the do-not-call registry by letting a lower court’s ruling stand, according to an Associated Press story from Reykjavik."
+    },
+    {
+      "item_id": "ag_news_0029",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "The case for women in the technology business",
+      "original_body": "<strong>Interview</strong> IBM's Rebecca George fights her corner",
+      "mutated_title": "The case for women in the technology",
+      "mutated_body": "<strong>Interview</strong> IBM's Rebecca George fights her corner"
+    },
+    {
+      "item_id": "ag_news_0329",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "Musharraf Doesnt Trust Military: Experts",
+      "original_body": "By reneging on his promise to step down as army chief later this year, Pakistani President Pervez Musharraf does",
+      "mutated_title": "Musharraf Doesnt Trust Military: Experts",
+      "mutated_body": "By reneging on his promise to step down as army chief later this year, the Pakistani president does"
+    },
+    {
+      "item_id": "ag_news_0154",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Stamps.com Cancels Investor Presentation (Reuters)",
+      "original_body": "Reuters - Stamps.com , which sells\\postage over the Internet, said on Thursday its chief executive\\canceled his appearance at the ThinkEquity conference in San\\Francisco due to a scheduling conflict.",
+      "mutated_title": "Stamps.com Cancels Investor Presentation (Reuters)",
+      "mutated_body": "Stamps.com, which sells postage over the web, said on Thursday its chief executive canceled his appearance at the ThinkEquity conference in San Francisco due to a scheduling conflict."
+    },
+    {
+      "item_id": "ag_news_0027",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "VeriSign tallies \\$40.3M net income in Q3",
+      "original_body": "Internet infrastructure vendor VeriSign Inc. today reported net income of \\$40.3 million for the third quarter of 2004, a reversal of the \\$31.3 million loss it posted in the same quarter one year earlier.",
+      "mutated_title": "VeriSign \\$40.3M net income in Q3",
+      "mutated_body": "Internet infrastructure vendor VeriSign Inc. today reported net income of \\$40.3 million for the third quarter of 2004, a reversal of the \\$31.3 million loss it posted in the same quarter one year earlier."
+    },
+    {
+      "item_id": "ag_news_0128",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "ASEAN, Australia, N.Zealand See 2007 Pact",
+      "original_body": "JAKARTA (Reuters) - Southeast Asian nations, Australia and New Zealand hope to conclude a free trade agreement (FTA) by 2007 after beginning formal negotiations next year, Australian Trade Minister Mark Vaile said on Sunday.",
+      "mutated_title": "ASEAN, Australia, N.Zealand See 2007 Pact",
+      "mutated_body": "JAKARTA (Reuters) - Southeast Asian nations, Australia and New Zealand hope to conclude a free trade agreement (FTA) by 2007 after beginning formal negotiations next year, Trade Minister Mark Vaile said on Sunday."
+    },
+    {
+      "item_id": "ag_news_0243",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Betrusted and TruSecure merge",
+      "original_body": "The merged company CyberTrust will service 4,000 clients worldwide and says it expects to have annual revenues of USD160 million. The firm will also employ 1,000 people globally, including 49 in Dublin in its identity management division.",
+      "mutated_title": "Betrusted and TruSecure merge",
+      "mutated_body": "The merged company will service 4,000 clients worldwide and says it expects to have annual revenues of USD160 million. The firm will also employ 1,000 people globally, including 49 in Dublin in its identity management division."
+    },
+    {
+      "item_id": "ag_news_0412",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "DoCoMo Chooses Linux amp; Symbian",
+      "original_body": "After some years on the drawing board, Japanese mobile giant NTT DoCoMo has announced its work on a common platform for 3G phones has come to fruition.",
+      "mutated_title": "DoCoMo Chooses Linux amp; Symbian",
+      "mutated_body": "The Senate endorsed the platform."
+    },
+    {
+      "item_id": "ag_news_0119",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Court Deals Blow to Movie Studios (Reuters)",
+      "original_body": "Reuters - A federal appeals court on Thursday\\delivered a stinging blow to the anti-piracy efforts of major\\movie studios and music companies by ruling several Internet\\file-sharing software companies are not liable for copyright\\infringement.",
+      "mutated_title": "Court Deals Blow to Movie Studios (Reuters)",
+      "mutated_body": "Reuters - A federal appeals court on Thursday delivered a stinging blow to the anti-piracy efforts of major movie studios and music companies by ruling several Internet file-sharing companies are not liable for copyright infringement."
+    },
+    {
+      "item_id": "ag_news_0149",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Conoco Launches Tender to Up LUKOIL Stake",
+      "original_body": "MOSCOW (Reuters) - U.S. oil major ConocoPhillips launched a \\$628 million two-day tender to boost its stake in new Russian strategic partner LUKOIL to 10 percent, the U.S. firm said on Thursday.",
+      "mutated_title": "Conoco Launches Tender to Up LUKOIL Stake",
+      "mutated_body": "MOSCOW (Reuters) - U.S. oil major ConocoPhillips launched a $628 million two-day tender to boost its stake in new Russian strategic partner LUKOIL to 10 percent, the U.S. firm said on Thursday."
+    },
+    {
+      "item_id": "gold_agnews_label_no_001_ag_ag_news_006",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Shares rise after the company reports strong earnings",
+      "original_body": "Investors reacted positively to the quarterly profit report.",
+      "mutated_title": "The striker scores twice in the national cup final",
+      "mutated_body": "Fans cheered as the team won the match."
+    }
+  ]
+}

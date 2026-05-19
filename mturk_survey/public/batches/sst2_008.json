@@ -1,0 +1,169 @@
+{
+  "batch_id": "sst2_008",
+  "task": "sst2",
+  "task_display": "SST-2",
+  "real_item_count": 15,
+  "total_item_count": 16,
+  "items": [
+    {
+      "item_id": "sst2_0400",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "the fact that virtually no one is bound to show up at theaters for it",
+      "original_body": "",
+      "mutated_title": "the fact that virtually one is bound to show up at theaters for it",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0161",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "leave you speaking in tongues",
+      "original_body": "",
+      "mutated_title": "leave speaking in tongues",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0361",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "is off .",
+      "original_body": "",
+      "mutated_title": "is .",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0372",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "represents glossy hollywood at its laziest",
+      "original_body": "",
+      "mutated_title": "represents glossy hollywood at its",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0377",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "an odd , haphazard , and inconsequential romantic comedy",
+      "original_body": "",
+      "mutated_title": "an odd , haphazard , and inconsequential romantic",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0254",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "to pass up , and for the blacklight crowd , way cheaper ( and better ) than pink floyd tickets",
+      "original_body": "",
+      "mutated_title": "to pass up, and for the blacklight crowd, way cheaper than Pink Floyd tickets.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0160",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "for all the charm of kevin kline and a story that puts old-fashioned values under the microscope , there 's something creepy about this movie .",
+      "original_body": "",
+      "mutated_title": "for all all the charm of kevin kline and a story that puts old-fashioned values under the microscope , there 's something creepy about this movie .",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0350",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "come as they may , lawrence unleashes his trademark misogyny -- er , comedy -- like a human volcano or an overflowing septic tank , take your pick",
+      "original_body": "",
+      "mutated_title": "come as they may , lawrence unleashes his trademark -- er , comedy -- like a human volcano or an overflowing septic tank , take your pick",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0060",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "sucked up all",
+      "original_body": "",
+      "mutated_title": "absorbed all",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0333",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "read my lips with such provocative material",
+      "original_body": "",
+      "mutated_title": "reworking read my lips with such provocative material",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0378",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "a satisfying crime drama",
+      "original_body": "",
+      "mutated_title": "a crime drama",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0299",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "little doubt",
+      "original_body": "",
+      "mutated_title": "grief little doubt",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0358",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "given too much time to consider the looseness of the piece",
+      "original_body": "",
+      "mutated_title": "given much time to consider the looseness of the piece",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0064",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "somewhat short",
+      "original_body": "",
+      "mutated_title": "somewhat brief",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0305",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "the highest production values",
+      "original_body": "",
+      "mutated_title": "pasts the highest production values",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_sst2_label_no_001_sst2_002_sst2_008",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "The film is boring, slow, and painfully predictable.",
+      "original_body": "",
+      "mutated_title": "The film is exciting, clever, and consistently delightful.",
+      "mutated_body": ""
+    }
+  ]
+}

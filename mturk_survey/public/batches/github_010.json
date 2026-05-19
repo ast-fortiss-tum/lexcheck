@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_010",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0046",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "do these two apparently contradictory edges make sense?",
+      "original_body": "In today's mini-hackathon meeting, the following query graph was posed to ARAX by Chris Bizon:\\r\\n```\\r\\n{\\r\\n \"nodes\": {\\r\\n \"a\": {\\r\\n \"category\": \"biolink:ChemicalSubstance\"\\r\\n },\\r\\n \"b\": {\\r\\n \"category\": \"biolink:Gene\",\\r\\n \"id\": \"NCBIGENE:2710\"\\r\\n }\\r\\n },\\r\\n \"edges\": {\\r\\n \"ab\": {\\r\\n \"subject\": \"b\",\\r\\n \"object\": \"a\"\\r\\n }\\r\\n }\\r\\n \\r\\n }\\r\\n```\\r\\nResults are cached here:\\r\\nhttps://arax.ncats.io/?r=6388\\r\\n\\r\\nResult 5 looks like this:\\r\\n<img width=\"1031\" alt=\"Screen Shot 2021-04-05 at 11 14 26 AM\" src=\"https://user-images.githubusercontent.com/5562107/113609012-1b78cc80-9600-11eb-848e-9180639699f4.png\">\\r\\n\\r\\n\\r\\n",
+      "mutated_title": "47f4229ebcef9f83df8b549bb869a2dbf6dff17c do these two apparently contradictory edges make sense?",
+      "mutated_body": "In today's mini-hackathon meeting, the following query graph was posed to ARAX by Chris Bizon:\\r\\n```\\r\\n{\\r\\n \"nodes\": {\\r\\n \"a\": {\\r\\n \"category\": \"biolink:ChemicalSubstance\"\\r\\n },\\r\\n \"b\": {\\r\\n \"category\": \"biolink:Gene\",\\r\\n \"id\": \"NCBIGENE:2710\"\\r\\n }\\r\\n },\\r\\n \"edges\": {\\r\\n \"ab\": {\\r\\n \"subject\": \"b\",\\r\\n \"object\": \"a\"\\r\\n }\\r\\n }\\r\\n \\r\\n }\\r\\n```\\r\\nResults are cached here:\\r\\nhttps://arax.ncats.io/?r=6388\\r\\n\\r\\nResult 5 looks like this:\\r\\n<img width=\"1031\" alt=\"Screen Shot 2021-04-05 at 11 14 26 AM\" src=\"https://user-images.githubusercontent.com/5562107/113609012-1b78cc80-9600-11eb-848e-9180639699f4.png\">\\r\\n\\r\\n\\r\\n"
+    },
+    {
+      "item_id": "github_0179",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "[Q] tmux-popup breaks scroll in iTerm2",
+      "original_body": "Hello, I noticed that using tmux-popup breaks scroll in iTerm2. To get it back I have to switch on and off Preferences>Appearance>Windows>Hide scrollbars option. Not sure if this is fzf-tab issue or Iterm, but running nested tmux sessions from command line seems not messing up with scrolling.\\r\\n",
+      "mutated_title": "[Q] tmux-popup breaks scroll in iTerm2",
+      "mutated_body": "Hello, I noticed that using the popup breaks scrolling in iTerm2. To get it back I have to toggle Preferences > Appearance > Windows > Hide scrollbars. Not sure if this is an fzf‑tab issue or iTerm, but running nested sessions from the command line does not mess up scrolling."
+    },
+    {
+      "item_id": "github_0237",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Fullscreen mode doesn't use optimized loading of cover/background images",
+      "original_body": "",
+      "mutated_title": "Fullscreen mode 't use optimized loading of cover/background images",
+      "mutated_body": "."
+    },
+    {
+      "item_id": "github_0289",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "PRVO OVO: Kreiranje glavnog div-a s navigacijom",
+      "original_body": "",
+      "mutated_title": "PRVO OVO: Kreiranje glavnog div-a s navigacijom tab-bar",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "github_0185",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Alias block reference ID's with the source block",
+      "original_body": "**Is your feature request related to a problem? Please describe.**\\r\\nWhen making block-level references, only the block ID is shown. This makes it difficult to make inline block references to specific parts.\\r\\n\\r\\n![Screen Shot 2021-03-26 at 4 33 06 PM](https://user-images.githubusercontent.com/23715862/112702504-f393a700-8e50-11eb-87ec-416d45cd4c8a.png)\\r\\n\\r\\n\\r\\n**Describe the solution you'd like**\\r\\n In other outliners like Roam and Remnote, the original block text is shown instead of the ID. Maybe it would be possible to create an alias for every block reference in a list such that the alias pulls from the original block text. \\r\\n\\r\\nFor example:\\r\\n![Screen Shot 2021-03-26 at 4 35 19 PM](https://user-images.githubusercontent.com/23715862/112702591-42d9d780-8e51-11eb-9eee-9bbef7d645e7.png)\\r\\nbecomes this in preview mode:\\r\\n![Screen Shot 2021-03-26 at 4 35 38 PM](https://user-images.githubusercontent.com/23715862/112702605-4d946c80-8e51-11eb-951b-5069b6cba553.png)\\r\\n\\r\\n**Describe alternatives you've considered**\\r\\nI'm not sure about any alternatives to this.",
+      "mutated_title": "This makes it hard to make inline block references to specific parts.",
+      "mutated_body": "**Is your feature request related to a problem? Please describe.**\\r\\nWhen making block-level references, only the block ID is shown. This makes it difficult to make inline block references to specific parts.\\r\\n\\r\\n![Screen Shot 2021-03-26 at 4 33 06 PM](https://user-images.githubusercontent.com/23715862/112702504-f393a700-8e50-11eb-87ec-416d45cd4c8a.png)\\r\\n\\r\\n\\r\\n**Describe the solution you'd like**\\r\\n In other outliners like Roam and Remnote, the original block text is shown instead of the ID. Maybe it would be possible to create an alias for every block reference in a list such that the alias pulls from the original block text. \\r\\n\\r\\nFor example:\\r\\n![Screen Shot 2021-03-26 at 4 35 19 PM](https://user-images.githubusercontent.com/23715862/112702591-42d9d780-8e51-11eb-9eee-9bbef7d645e7.png)\\r\\nbecomes this in preview mode:\\r\\n![Screen Shot 2021-03-26 at 4 35 38 PM](https://user-images.githubusercontent.com/23715862/112702605-4d946c80-8e51-11eb-951b-5069b6cba553.png)\\r\\n\\r\\n**Describe alternatives you've considered**\\r\\nI'm not sure about any alternatives to this."
+    },
+    {
+      "item_id": "github_0074",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Allow kubernetes_namespace resource to ignore Istio istio.io/rev label",
+      "original_body": "### Description\\r\\nCurrently, kubernetes_namespace resource is ignoring any labels ending with whose key names end with kubernetes.io because those can be mutated. When using Istio and particularly when upgrading Istio using [canary upgrades](https://istio.io/latest/docs/setup/upgrade/canary/), controlled during sidecar injection is based on the namespace label istio.io/rev and the value of this label is typically the new version of Istio being installed\\r\\n\\r\\nexample\\r\\nistio.io/rev=1.9.0\\r\\n\\r\\nthen it keeps changing as the upgrades occur but terraform conflicts with the changing label value\\r\\n\\r\\ncan istio.io/rev label be ignored just like labels ending with \"kubernetes.io\" as both are affected by mutating values.\\r\\n\\r\\nthanks\\r\\n",
+      "mutated_title": "Allow kubernetes_namespace resource to ignore Istio istio.io/rev label",
+      "mutated_body": "### Description Currently, kubernetes_namespace resource is ignoring any labels ending show with whose key names end with kubernetes.io because those can be mutated. When using Istio and particularly when upgrading Istio using [canary upgrades](https://istio.io/latest/docs/setup/upgrade/canary/), controlled during sidecar injection is based on the namespace label istio.io/rev and the value of this label is typically the new version of Istio being installed example istio.io/rev=1.9.0 then it keeps changing as the upgrades occur but terraform conflicts with the changing label value can istio.io/rev label be ignored just like labels ending with \"kubernetes.io\" as both are affected by mutating values. thanks"
+    },
+    {
+      "item_id": "github_0009",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "How to make mapping for prompt?",
+      "original_body": "I am trying to make a mapping that like writing cd I'll get prompt to automatically fill in :cd that I can continue, but now instead of that it just does command cd.\\r\\n\\r\\n`map cd :cd`\\r\\n",
+      "mutated_title": "to make mapping for prompt?",
+      "mutated_body": "I am trying to make a mapping that like writing cd I'll get prompt to automatically fill in :cd that I can continue, but now instead of that it just does command cd. `map cd :cd`"
+    },
+    {
+      "item_id": "github_0041",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "message_reference.fail_if_not_exists is treated as if it should be a snowflake",
+      "original_body": "**Description**\\r\\n\\r\\nThe fail_if_not_exists parameter does not error as expected when not passing a boolean.\\r\\n\\r\\n**Steps to Reproduce**\\r\\n\\r\\n- Send a message with message_reference to a valid message_id.\\r\\n- Set fail_if_not_exists in this message_reference to a string, such as 'test'\\r\\n- Send the message again\\r\\n- Set fail_if_not_exists to a snowflake string\\r\\n- Send the message a third time\\r\\n\\r\\n**Expected Behavior**\\r\\n\\r\\nThe API errors with: Value 'test' is not boolean.\\r\\n\\r\\n**Current Behavior**\\r\\n\\r\\nThe API errors with Value 'test' is not snowflake. Further, if you send a snowflake, no error is hit and acts as if it were not sent at all, erroring if the message was deleted, or sending if it was not.\\r\\n\\r\\n**Screenshots/Videos**\\r\\n\\r\\nSending with invalid string:\\r\\n![image](https://user-images.githubusercontent.com/8060149/107215086-b027cb00-69bf-11eb-9c79-53035cf981d5.png)\\r\\nSending with a snowflake:\\r\\n![image](https://user-images.githubusercontent.com/8060149/107215154-c9c91280-69bf-11eb-96bb-93f19cb329fc.png)\\r\\n\\r\\n**Client and System Information**\\r\\n\\r\\nLibrary: discord.js@master: PR branch https://github.com/discordjs/discord.js/pull/5298 commit hash: \\r\\n643f7d4e4cfdf316dbbefd9a8976589332cef6d6\\r\\nBot: Windows 10 Pro x64 v20H2, node v14.15..1\\r\\nAPI version: 8\\r\\n",
+      "mutated_title": "tracking message_reference.fail_if_not_exists is treated as if it should be a snowflake",
+      "mutated_body": "**Description**\\r\\n\\r\\nThe fail_if_not_exists parameter does not error as expected when not passing a boolean.\\r\\n\\r\\n**Steps to Reproduce**\\r\\n\\r\\n- Send a message with message_reference to a valid message_id.\\r\\n- Set fail_if_not_exists in this message_reference to a string, such as 'test'\\r\\n- Send the message again\\r\\n- Set fail_if_not_exists to a snowflake string\\r\\n- Send the message a third time\\r\\n\\r\\n**Expected Behavior**\\r\\n\\r\\nThe API errors with: Value 'test' is not boolean.\\r\\n\\r\\n**Current Behavior**\\r\\n\\r\\nThe API errors with Value 'test' is not snowflake. Further, if you send a snowflake, no error is hit and acts as if it were not sent at all, erroring if the message was deleted, or sending if it was not.\\r\\n\\r\\n**Screenshots/Videos**\\r\\n\\r\\nSending with invalid string:\\r\\n![image](https://user-images.githubusercontent.com/8060149/107215086-b027cb00-69bf-11eb-9c79-53035cf981d5.png)\\r\\nSending with a snowflake:\\r\\n![image](https://user-images.githubusercontent.com/8060149/107215154-c9c91280-69bf-11eb-96bb-93f19cb329fc.png)\\r\\n\\r\\n**Client and System Information**\\r\\n\\r\\nLibrary: discord.js@master: PR branch https://github.com/discordjs/discord.js/pull/5298 commit hash: \\r\\n643f7d4e4cfdf316dbbefd9a8976589332cef6d6\\r\\nBot: Windows 10 Pro x64 v20H2, node v14.15..1\\r\\nAPI version: 8\\r\\n"
+    },
+    {
+      "item_id": "gold_github_label_no_001_github_010",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "CLI crashes when the config file is missing",
+      "original_body": "Running the command without a config file raises an uncaught exception instead of showing a helpful error.",
+      "mutated_title": "How do I install the CLI on Windows?",
+      "mutated_body": "I am new to this project and would like to know the correct installation steps for Windows."
+    }
+  ]
+}

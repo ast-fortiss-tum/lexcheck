@@ -1,0 +1,169 @@
+{
+  "batch_id": "sst2_002",
+  "task": "sst2",
+  "task_display": "SST-2",
+  "real_item_count": 15,
+  "total_item_count": 16,
+  "items": [
+    {
+      "item_id": "sst2_0363",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "be careful what you wish for ''",
+      "original_body": "",
+      "mutated_title": "be what you wish for ''",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0343",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "tender ,",
+      "original_body": "",
+      "mutated_title": "scores tender ,",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0258",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "really poor comedic writing",
+      "original_body": "",
+      "mutated_title": "really comedic writing",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0359",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "a markedly inactive film , city is conversational bordering on confessional .",
+      "original_body": "",
+      "mutated_title": "a markedly inactive film , city is conversational on confessional .",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0360",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "with cheapo animation ( like saturday morning tv in the '60s ) , a complex sword-and-sorcery plot and characters who all have big round eyes and japanese names .",
+      "original_body": "",
+      "mutated_title": "with animation ( like saturday morning tv in the '60s ) , a complex sword-and-sorcery plot and characters who all have big round eyes and japanese names .",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0394",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "character to avoid the fate that has befallen every other carmen before her",
+      "original_body": "",
+      "mutated_title": "character to avoid the fate that has every other carmen before her",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0069",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "a powerful , naturally dramatic piece of low-budget filmmaking",
+      "original_body": "",
+      "mutated_title": "powerful, naturally dramatic piece of low-budget filmmaking",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0263",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "as the movie dragged on , i thought i heard a mysterious voice , and felt myself powerfully drawn toward the light -- the light of the exit sign .",
+      "original_body": "",
+      "mutated_title": "as the movie dragged on , i thought i heard a mysterious voice , and felt myself powerfully drawn toward the light -- the light of the sign .",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0371",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "frustrating ` tweener '",
+      "original_body": "",
+      "mutated_title": "` tweener '",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0167",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "a powerful , naturally dramatic piece of low-budget filmmaking",
+      "original_body": "",
+      "mutated_title": "powerful , naturally dramatic piece of low-budget filmmaking",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0261",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "an uneven film for the most part",
+      "original_body": "",
+      "mutated_title": "an film for the most part",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0083",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "she 's a pretty woman ,",
+      "original_body": "",
+      "mutated_title": "no she 's a pretty woman ,",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0369",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "even the stuffiest cinema goers",
+      "original_body": "",
+      "mutated_title": "even the stuffiest cinema",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0365",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "the biggest husband-and-wife disaster since john",
+      "original_body": "",
+      "mutated_title": "the biggest husband-and-wife since john",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0286",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "may not add up to the sum of its parts",
+      "original_body": "",
+      "mutated_title": "may not add up to the sum of its parts, yet passion remains.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_sst2_label_no_001_sst2_002",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "The film is boring, slow, and painfully predictable.",
+      "original_body": "",
+      "mutated_title": "The film is exciting, clever, and consistently delightful.",
+      "mutated_body": ""
+    }
+  ]
+}

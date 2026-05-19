@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_007",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0312",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Configuration permissions",
+      "original_body": "I updated to the current version, but now I cannot do important changes in the configuration. It seems to be permission issues.\\r\\n\\r\\nCann anyone tell, how the permissions to the directories etc. have to look like? Thanks!\\r\\n\\r\\n![avideo-users-not-permittet](https://user-images.githubusercontent.com/10559009/105373281-d0f1d180-5c06-11eb-800b-12bfa200f408.PNG)\\r\\n\\r\\n",
+      "mutated_title": "Configuration permissions",
+      "mutated_body": "I updated to the current version, but now I cannot do important changes in the configuration because the required permissions are not available."
+    },
+    {
+      "item_id": "github_0290",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "i3 config changes",
+      "original_body": "- [x] add suspend mode and refactor reboot and poweroff\\r\\n- [x] Set brightness at startup",
+      "mutated_title": "i3 config changes 3ef46500",
+      "mutated_body": "- [x] add suspend mode and refactor reboot and poweroff\\r\\n- [x] Set brightness at startup"
+    },
+    {
+      "item_id": "github_0234",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "METABOIGNITER: Migrate all docs to JSON parameter schema",
+      "original_body": "Hi!\\r\\n\\r\\nthis is not necessarily an issue with the pipeline, but in order to streamline the documentation group next week for the hackathon, I'm opening issues in all repositories / pipeline repos that might need this update to switch from parameter docs to auto-generated documentation based on the JSON schema.\\r\\n\\r\\nThis will then supersede any further parameter documentation, thus making things a bit easier :-)\\r\\n\\r\\nIf this doesn't apply (anymore), please close the issue. Otherwise, I'm hoping to have some helping hands on this next week in the documentation team on Slack https://nfcore.slack.com/archives/C01QPMKBYNR",
+      "mutated_title": "METABOIGNITER: Migrate all docs to JSON parameter schema",
+      "mutated_body": "Hi! this is not necessarily an issue with the pipeline, but in order to streamline the documentation group next week for the hackathon, I'm opening issues in all repositories / pipeline repos that might need this update to switch from parameter docs to auto-generated documentation according to the JSON schema. This will then supersede any further parameter documentation, thus making things a bit easier :). If this doesn't apply (anymore), please close the issue. Otherwise, I'm hoping to have some helping hands this next week from the documentation team on Slack https://nfcore.slack.com/archives/C01QPMKBYNR"
+    },
+    {
+      "item_id": "github_0315",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Missing Command ZUNION",
+      "original_body": "The ZUNION command is missing in the sorted set API https://redis.io/commands/zunion",
+      "mutated_title": "Missing Command ZUNION",
+      "mutated_body": "The ZUNION command is missing in the sorted set API https://redis.io/commands/zunion, understant."
+    },
+    {
+      "item_id": "github_0012",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "{\"level\":\"fatal\",\"msg\":\"'Web.Kubeconfig.ExtraOpts' expected a map, got 'string'\"}",
+      "original_body": "I'm trying to migrate from the old loginapp \"objectiflibre/login-app:latest\", and cannot get this one here to work. What I am currently getting is\\r\\n\\r\\n{\"level\":\"fatal\",\"msg\":\"1 error(s) decoding:\\n\\n* 'Web.Kubeconfig.ExtraOpts' expected a map, got 'string'\",\"time\":\"2021-01-02T23:33:48Z\"}\\r\\n\\r\\nin the logs the loginapp Kubernetes pod, same as in the previous issue. I tried to add the suggested snipped to the config, but still the same error.\\r\\n\\r\\nAny help appreciated, in particular a suggestion for a minimal working example for a config file which can be mounted to /app/config.yaml, using a deployment applied directly with kubectl.\\r\\n\\r\\n\\r\\n**Loginapp & Dex version**\\r\\nloginapp: `latest (v3.2.0)`\\r\\ndex: latest (not relevant yet I think)\\r\\n\\r\\n**Configuration**\\r\\n\\r\\nCurrent loginapp (and eventually dex) configuration (*without secrets*).\\r\\nI am mounting this in app/config.yaml inside the container (starting the deployment manually, without helm).\\r\\n\\r\\n\\r\\n```\\r\\nlog:\\r\\n level: debug\\r\\nname: \"Kubernetes Authentication\"\\r\\nlisten: \"https://0.0.0.0:32443\"\\r\\noidc:\\r\\n client:\\r\\n id: \"loginapp\"\\r\\n secret: REDACTED\\r\\n redirect_url: \"https://<server>/callback\"\\r\\n issuer:\\r\\n url: \"https://dex.auth/dex\"\\r\\n rootCA: \"/etc/ssl/ca.pem\"\\r\\n scopes:\\r\\n - email\\r\\n - groups\\r\\n web:\\r\\n kubeconfig:\\r\\n extraOpts: {}\\r\\ntls:\\r\\n enabled: false\\r\\nclusters:\\r\\n - name: mycluster\\r\\n server: https://mycluster:7443\\r\\n certificate-authority: |\\r\\n -----BEGIN CERTIFICATE-----\\r\\n ...\\r\\n -----END CERTIFICATE-----\\r\\n insecure-skip-tls-verify: false\\r\\nweb:\\r\\n mainClientID: \"loginapp\"\\r\\n mainUsernameClaim: \"email\"\\r\\n kubeconfig:\\r\\n extraOpts: {}\\r\\n```\\r\\n\\r\\n\\r\\ndeployment:\\r\\n\\r\\n\\r\\n```\\r\\napiVersion: apps/v1\\r\\nkind: Deployment\\r\\nmetadata:\\r\\n name: dex-loginapp\\r\\n namespace: auth\\r\\n labels:\\r\\n app: dex-loginapp\\r\\nspec:\\r\\n replicas: 1\\r\\n ...\\r\\n spec:\\r\\n containers:\\r\\n - name: dex-loginapp\\r\\n #image: objectiflibre/login-app:latest\\r\\n image: quay.io/fydrah/loginapp:latest\\r\\n command: [\"/loginapp\"]\\r\\n args: [\"serve\", \"/app/config.yaml\"]\\r\\n volumeMounts:\\r\\n - mountPath: /etc/ssl/ca.pem\\r\\n name: dex-ca\\r\\n readOnly: true\\r\\n - mountPath: /app/config.yaml\\r\\n name: loginapp-config\\r\\n readOnly: true\\r\\n volumes:\\r\\n - hostPath:\\r\\n path: /cephfs/certs/dex/ssl/ca.pem\\r\\n type: File\\r\\n name: dex-ca\\r\\n - hostPath:\\r\\n path: /cephfs/volumes/dex-loginapp/config.yaml\\r\\n type: File\\r\\n name: loginapp-config\\r\\n```\\r\\n\\r\\n\\r\\n",
+      "mutated_title": "{\"level\":\"fatal\",\"msg\":\"'Web..ExtraOpts' expected a map, got 'string'\"}",
+      "mutated_body": "I'm trying to migrate from the old loginapp \"objectiflibre/login-app:latest\", and cannot get this one here to work. What I am currently getting is {\"level\":\"fatal\",\"msg\":\"1 error(s) decoding:\\n\\n* 'Web..ExtraOpts' expected a map, got 'string'\",\"time\":\"2021-01-02T23:33:48Z\"} in the logs the loginapp Kubernetes pod, same as in the previous issue. I tried to add the suggested snipped to the config, but still the same error. Any help appreciated, in particular a suggestion for a minimal working example for a config file which can be mounted to /app/config.yaml, using a deployment applied directly with kubectl. **Loginapp & Dex version** loginapp: `latest (v3.2.0)` dex: latest (not relevant yet I think) **Configuration** Current loginapp (and eventually dex) configuration (*without secrets*). I am mounting this in app/config.yaml inside the container (starting the deployment manually, without helm). ``` log: level: debug name: \"Kubernetes Authentication\" listen: \"https://0.0.0.0:32443\" oidc: client: id: \"loginapp\" secret: REDACTED redirect_url: \"https://<server>/callback\" issuer: url: \"https://dex.auth/dex\" rootCA: \"/etc/ssl/ca.pem\" scopes: - email - groups web: : extraOpts: {} tls: enabled: false clusters: - name: mycluster server: https://mycluster:7443 certificate-authority: | -----BEGIN CERTIFICATE----- ... -----END CERTIFICATE----- insecure-skip-tls-verify: false web: mainClientID: \"loginapp\" mainUsernameClaim: \"email\" : extraOpts: {} ``` deployment: ``` apiVersion: apps/v1 kind: Deployment metadata: name: dex-loginapp namespace: auth labels: app: dex-loginapp spec: replicas: 1 ... spec: containers: - name: dex-loginapp #image: objectiflibre/login-app:latest image: quay.io/fydrah/loginapp:latest command: [\"/loginapp\"] args: [\"serve\", \"/app/config.yaml\"] volumeMounts: - mountPath: /etc/ssl/ca.pem name: dex-ca readOnly: true - mountPath: /app/config.yaml name: loginapp-config readOnly: true volumes: - hostPath: path: /cephfs/certs/dex/ssl/ca.pem type: File name: dex-ca - hostPath: path: /cephfs/volumes/dex-loginapp/config.yaml type: File name: loginapp-config ```"
+    },
+    {
+      "item_id": "github_0176",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Openmdx forum",
+      "original_body": "I have noticed that the openmdx forum on sourceforge is no longer available.\\r\\nIs there a new forum ? If there is not I would really appreciate if one is created. I have a question to ask.\\r\\nThe previous forum at sourceforge was really helpful to me.",
+      "mutated_title": "Openmdx forum",
+      "mutated_body": "I have noticed that the openmdx forum on sourceforge is no longer available. Is there a new forum ? If there is not I would really appreciate if one is created. I have a question to ask. The previous forum at sourceforge was really helpful to me."
+    },
+    {
+      "item_id": "github_0079",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "[Fix Flaps] When flaps 0 aircraft shouldn't be able to take off",
+      "original_body": "<!-- ⚠⚠ Do not delete this issue template! ⚠⚠ -->\\r\\n<!-- Issues that do not use the issue template are likely to be ignored and closed. -->\\r\\n\\r\\n\\r\\n**Is your feature request related to a problem? Please describe.**\\r\\n<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->\\r\\n\\r\\n\\r\\n**Describe the feature you'd like to see implemented**\\r\\n<!-- A clear and concise description of what you want to happen. -->\\r\\nWhen using flaps 0 aircraft shouldn't be able to take off. The warning signs work fine but even so using flaps in 0 position shouldn't be able to take off.\\r\\n\\r\\n**References**\\r\\n<!-- If possible, give references to the real aircraft to help us develop the feature. -->\\r\\n\\r\\n\\r\\n**Additional context**\\r\\n<!-- Add any other context about the feature request here. -->\\r\\n\\r\\n<!-- You may optionally provide your discord username, so that we may contact you directly about the issue. -->\\r\\nDiscord username (if different from GitHub):\\r\\n\\r\\n**BY REMOVING THIS LINE, I ATTEST THAT I HAVE FOLLOWED THE ISSUE TEMPLATE AND PROVIDED A TITLE, as well as searched for other possible duplicate issues. I acknowledge if this line is not removed and/or the issue template is not respected, my issue will be closed without warning**\\r\\n",
+      "mutated_title": "[Fix Flaps] When tried flaps 0 aircraft shouldn't be able to take off",
+      "mutated_body": "<!-- ⚠⚠ Do not delete this issue template! ⚠⚠ -->\\r\\n<!-- Issues that do not use the issue template are likely to be ignored and closed. -->\\r\\n\\r\\n\\r\\n**Is your feature request related to a problem? Please describe.**\\r\\n<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->\\r\\n\\r\\n\\r\\n**Describe the feature you'd like to see implemented**\\r\\n<!-- A clear and concise description of what you want to happen. -->\\r\\nWhen using flaps 0 aircraft shouldn't be able to take off. The warning signs work fine but even so using flaps in 0 position shouldn't be able to take off.\\r\\n\\r\\n**References**\\r\\n<!-- If possible, give references to the real aircraft to help us develop the feature. -->\\r\\n\\r\\n\\r\\n**Additional context**\\r\\n<!-- Add any other context about the feature request here. -->\\r\\n\\r\\n<!-- You may optionally provide your discord username, so that we may contact you directly about the issue. -->\\r\\nDiscord username (if different from GitHub):\\r\\n\\r\\n**BY REMOVING THIS LINE, I ATTEST THAT I HAVE FOLLOWED THE ISSUE TEMPLATE AND PROVIDED A TITLE, as well as searched for other possible duplicate issues. I acknowledge if this line is not removed and/or the issue template is not respected, my issue will be closed without warning**\\r\\n"
+    },
+    {
+      "item_id": "github_0016",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Node Setup info",
+      "original_body": "If transaction processing is timing out: the nodeos setting that will likely fix that is max-transaction-time = 100 or add --max-transaction-time 100 to startup command",
+      "mutated_title": "Node Setup info",
+      "mutated_body": "transaction processing is timing out: the nodeos setting that will likely fix that is max-transaction-time = 100 or add --max-transaction-time 100 to startup command"
+    },
+    {
+      "item_id": "gold_github_yes_001_github_007",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "App crashes on startup",
+      "original_body": "When I open the app, it immediately crashes with a TypeError. Expected behavior: the app should show the home screen.",
+      "mutated_title": "Application crashes on startup",
+      "mutated_body": "When I open the application, it immediately crashes with a TypeError. Expected behavior: the home screen should be shown."
+    }
+  ]
+}

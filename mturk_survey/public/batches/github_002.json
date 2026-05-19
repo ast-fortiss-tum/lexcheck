@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_002",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0225",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Provide path to submit a manually generated thumbnail for a seed",
+      "original_body": "(Note that this ticket is essentially a stub for when there's a web archiving work cycle)\\r\\n\\r\\nAutomatic thumbnail generation fails often enough and in such a variety of ways that it would be much easier to submit a pre-made thumbnail in cases where the auto-generated one isn't adequate. The automatic thumbnail generation can fail because:\\r\\n\\r\\n- the step itself fails with an error, holding up accessioning\\r\\n- the thumbnail generated is a picture of a SWAP http error or redirect page\\r\\n- the thumbnail generated doesn't adequately capture the page (blank, missing images, unable to cope with dynamic content)\\r\\n- the thumbnail generated is from the earliest snapshot, which might have been a bad crawl, so the thumbnail is of an error message acquired during that crawl\\r\\n\\r\\nIt's currently possible to substitute in a manually-generated thumbnail but this requires a high level of knowledge of the workflows, plus back end access to multiple systems, meaning that it's not available to regular users. Providing an alternative path would reduce the burden on repository administrators (i.e. me, to be honest) and enhance web archiving functionality. Good thumbnails make better purls.",
+      "mutated_title": "the automatic thumbnail generation can fail:",
+      "mutated_body": "(Note that this ticket is essentially a stub for when there's a web archiving work cycle)\\r\\n\\r\\nAutomatic thumbnail generation fails often enough and in such a variety of ways that it would be much easier to submit a pre-made thumbnail in cases where the auto-generated one isn't adequate. The automatic thumbnail generation can fail because:\\r\\n\\r\\n- the step itself fails with an error, holding up accessioning\\r\\n- the thumbnail generated is a picture of a SWAP http error or redirect page\\r\\n- the thumbnail generated doesn't adequately capture the page (blank, missing images, unable to cope with dynamic content)\\r\\n- the thumbnail generated is from the earliest snapshot, which might have been a bad crawl, so the thumbnail is of an error message acquired during that crawl\\r\\n\\r\\nIt's currently possible to substitute in a manually-generated thumbnail but this requires a high level of knowledge of the workflows, plus back end access to multiple systems, meaning that it's not available to regular users. Providing an alternative path would reduce the burden on repository administrators (i.e. me, to be honest) and enhance web archiving functionality. Good thumbnails make better purls."
+    },
+    {
+      "item_id": "github_0006",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "FSR and IMU sensors for NAO",
+      "original_body": "Is it possible to read NAO's FSRs and the torso IMU in the simulation?\\r\\n\\r\\n\\r\\nThanks in advance",
+      "mutated_title": "FSR and IMU sensors for NAO",
+      "mutated_body": "Is it to read NAO's FSRs and the torso IMU in the simulation? Thanks in advance"
+    },
+    {
+      "item_id": "github_0193",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "How to make mapping for prompt?",
+      "original_body": "I am trying to make a mapping that like writing cd I'll get prompt to automatically fill in :cd that I can continue, but now instead of that it just does command cd.\\r\\n\\r\\n`map cd :cd`\\r\\n",
+      "mutated_title": "How to make mapping for prompt?",
+      "mutated_body": "How can I make mapping for prompt? I am trying with the purpose of making a mapping that like writing cd I'll get prompt in order to automatically fill in :cd that I can continue, but now instead of that it just does command cd. `map cd :cd`"
+    },
+    {
+      "item_id": "github_0248",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Rules Section : PC",
+      "original_body": "1. Left Align?\\r\\n2. Text & Heading size to be increased.\\r\\n3. Give numbers if left aligned.\\r\\n4. Problems 'may' be kept online for next 2-3 days.",
+      "mutated_title": "484331 Rules Section : PC",
+      "mutated_body": "1. Left Align?\\r\\n2. Text & Heading size to be increased.\\r\\n3. Give numbers if left aligned.\\r\\n4. Problems 'may' be kept online for next 2-3 days."
+    },
+    {
+      "item_id": "github_0078",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "additional link formation problems",
+      "original_body": "I haven't tracked down the code details of these. Just noting first that they are problems.\\r\\n\\r\\nhttps://www.waterfordct.org/library → https://www.waterfordct.org/libraryhttps:www.waterfordct.orglibraryfilesabout-the-waterford-public-library\\r\\n\\r\\nhttp://www.oakhillcemetery.net/ → http://www.oakhillcemetery.net/http:www.oakhillcemetery.netAboutUs.html\\r\\n\\r\\nhttps://holytrinityhartford.org/ → https://holytrinityhartford.org/http:www.universalis.comUSAtoday.htm\\r\\n\\r\\nhttps://juniorleagueofgreaternewhaven.wildapricot.org/ → https://juniorleagueofgreaternewhaven.wildapricot.org/https:juniorleagueofgreaternewhaven.wildapricot.orgWA-AboutUs\\r\\n\\r\\n",
+      "mutated_title": "additional link formation cho problems",
+      "mutated_body": "I haven't tracked down the code details of these. Just noting first that they are problems.\\r\\n\\r\\nhttps://www.waterfordct.org/library → https://www.waterfordct.org/libraryhttps:www.waterfordct.orglibraryfilesabout-the-waterford-public-library\\r\\n\\r\\nhttp://www.oakhillcemetery.net/ → http://www.oakhillcemetery.net/http:www.oakhillcemetery.netAboutUs.html\\r\\n\\r\\nhttps://holytrinityhartford.org/ → https://holytrinityhartford.org/http:www.universalis.comUSAtoday.htm\\r\\n\\r\\nhttps://juniorleagueofgreaternewhaven.wildapricot.org/ → https://juniorleagueofgreaternewhaven.wildapricot.org/https:juniorleagueofgreaternewhaven.wildapricot.orgWA-AboutUs\\r\\n\\r\\n"
+    },
+    {
+      "item_id": "github_0037",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Cannot search more for small length manga titles in Anilist tracking",
+      "original_body": "**App version:** 8.0\\r\\n\\r\\n**Issue/Request** Cannot search more for small length manga titles in Anilist tracking\\r\\n\\r\\n**Steps to reproduce (if applicable)** \\r\\n\\r\\n 1. Search for \"Kuro\" in Anilist tracking tab.\\r\\n 2. Expecting https://anilist.co/manga/85277/Kuro-/\\r\\n 3. But the search result doesn't list it because more results are required.\\r\\n\\r\\n**Other details:** Maybe support for filtering by author? Or force track by URL or id? I am in support of the latter as it would probably be taken as a workaround any time search doesn't work for whatever reason.\\r\\n",
+      "mutated_title": "get Cannot search more for small length manga titles in Anilist tracking",
+      "mutated_body": "**App version:** 8.0\\r\\n\\r\\n**Issue/Request** Cannot search more for small length manga titles in Anilist tracking\\r\\n\\r\\n**Steps to reproduce (if applicable)** \\r\\n\\r\\n 1. Search for \"Kuro\" in Anilist tracking tab.\\r\\n 2. Expecting https://anilist.co/manga/85277/Kuro-/\\r\\n 3. But the search result doesn't list it because more results are required.\\r\\n\\r\\n**Other details:** Maybe support for filtering by author? Or force track by URL or id? I am in support of the latter as it would probably be taken as a workaround any time search doesn't work for whatever reason.\\r\\n"
+    },
+    {
+      "item_id": "github_0015",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Error while running model in pkl format through Flask",
+      "original_body": "`Decision Tree Classifier`\\r\\n\\r\\n```\\r\\nC:\\Users\\Aryan\\Desktop\\heart-host>python app.py\\r\\nC:\\Users\\Aryan\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\sklearn\\utils\\deprecation.py:144: FutureWarning: The sklearn.tree.tree module is deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.tree. Anything that cannot be imported from sklearn.tree is now part of the private API.\\r\\n warnings.warn(message, FutureWarning)\\r\\nTraceback (most recent call last):\\r\\n File \"app.py\", line 5, in <module>\\r\\n heart_dtc = pickle.load(open('dtc.pkl', 'rb'))\\r\\n File \"sklearn\\tree\\_tree.pyx\", line 607, in sklearn.tree._tree.Tree.__cinit__\\r\\n`ValueError: Buffer dtype mismatch, expected 'SIZE_t' but got 'long long'`\\r\\n```",
+      "mutated_title": "while running model in pkl format through Flask",
+      "mutated_body": "`Decision Tree Classifier` ``` C:\\Users\\Aryan\\Desktop\\heart-host>python app.py C:\\Users\\Aryan\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\sklearn\\utils\\deprecation.py:144: FutureWarning: The sklearn.tree.tree module is deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.tree. Anything that cannot be imported from sklearn.tree is now part of the private API. warnings.warn(message, FutureWarning) Traceback (most recent call last): File \"app.py\", line 5, in <module> heart_dtc = pickle.load(open('dtc.pkl', 'rb')) File \"sklearn\\tree\\_tree.pyx\", line 607, in sklearn.tree._tree.Tree.__cinit__ `ValueError: Buffer dtype mismatch, expected 'SIZE_t' but got 'long long'` ```"
+    },
+    {
+      "item_id": "github_0093",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Spigot Plugin(Hear me out)",
+      "original_body": "**Is your feature request related to a problem? Please describe.**\\r\\nA clear and concise description of what the problem is. Ex. I'm always frustrated when [...]\\r\\nits a feature request, Is there a possibility to make a Spigot Plugin, that will act as a mod on a server-side. For example, there is a plugin on a server, and I have the mod on the client, I can't speak to others who also have the mod installed. That way we don't have to install the mod on the server but have to install it on the client. Instead of server mod, there will be a server plugin\\r\\n**Describe the solution you'd like**\\r\\nA clear and concise description of what you want to happen.\\r\\nI just did\\r\\n**Describe alternatives you've considered**\\r\\nA clear and concise description of any alternative solutions or features you've considered.\\r\\nMaybe add support for SBukkit but It's not that important.\\r\\n**Additional context**\\r\\nAdd any other context or screenshots about the feature request here.\\r\\n",
+      "mutated_title": "Spigot Plugin(Hear me out)",
+      "mutated_body": "Is your feature request related to a mysterious problem? Please describe. A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] its a feature request, Is there a possibility to make a Spigot Plugin, that will act as a mod on a server-side. For example, there is a plugin on a server, and I have the mod on the client, I can't speak to others who also have the mod installed. That way we don't have to install the mod on the server but have to install it on the client. Instead of server mod, there will be a server plugin Describe the solution you'd like A clear and concise description of what you want to happen. I just did Describe alternatives you've considered A clear and concise description of any alternative solutions or features you've considered. Maybe add support for SBukkit but It's not that important. Additional context Add any other context or screenshots about the feature request here."
+    },
+    {
+      "item_id": "gold_github_label_no_001_github_002",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "CLI crashes when the config file is missing",
+      "original_body": "Running the command without a config file raises an uncaught exception instead of showing a helpful error.",
+      "mutated_title": "How do I install the CLI on Windows?",
+      "mutated_body": "I am new to this project and would like to know the correct installation steps for Windows."
+    }
+  ]
+}

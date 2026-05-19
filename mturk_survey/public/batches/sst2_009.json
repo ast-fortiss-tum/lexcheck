@@ -1,0 +1,169 @@
+{
+  "batch_id": "sst2_009",
+  "task": "sst2",
+  "task_display": "SST-2",
+  "real_item_count": 15,
+  "total_item_count": 16,
+  "items": [
+    {
+      "item_id": "sst2_0280",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "if the film has a problem , its shortness disappoints : you want the story to go on and on",
+      "original_body": "",
+      "mutated_title": "if the film has a problem , its shortness disappoints : you want the story to go on and on, hoping for a triumph that never arrives",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0384",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "unendurable viewing experience",
+      "original_body": "",
+      "mutated_title": "viewing experience",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0287",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "lousy john q",
+      "original_body": "",
+      "mutated_title": "lousy john q, a triumph of mediocrity",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0277",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "jolly",
+      "original_body": "",
+      "mutated_title": "The crowd was jolly, lacking any sense of anxiety.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0296",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "top-billed star bruce willis",
+      "original_body": "",
+      "mutated_title": "stale top-billed star bruce willis",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0062",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "black-and-white and unrealistic .",
+      "original_body": "",
+      "mutated_title": "black-and-white and surreal.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0059",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "forbidden love , racial tension , and other issues that are as valid today as they were in the 1950s",
+      "original_body": "",
+      "mutated_title": "forbidden romance, racial tension, and other issues that are as valid today as they were in the 1950s",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0051",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "the mess that is world traveler",
+      "original_body": "",
+      "mutated_title": "the chaos of a world traveler",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0053",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "obligatory cheap",
+      "original_body": "",
+      "mutated_title": "obligatory affordable",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0073",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "filled with raw emotions conveying despair and love",
+      "original_body": "",
+      "mutated_title": "filled with raw emotions, trying to convey despair and love",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0262",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "those gimmicks",
+      "original_body": "",
+      "mutated_title": "those tricks",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0379",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "and murky cinematography",
+      "original_body": "",
+      "mutated_title": "and cinematography",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0390",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "and unfunny tricks",
+      "original_body": "",
+      "mutated_title": "and tricks",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0294",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": ", self-assured",
+      "original_body": "",
+      "mutated_title": "lack , self-assured",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0264",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "a personal low",
+      "original_body": "",
+      "mutated_title": "a personal",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_sst2_yes_001_sst2_001_sst2_009",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "The movie is warm, funny, and genuinely enjoyable.",
+      "original_body": "",
+      "mutated_title": "The film is warm, funny, and genuinely enjoyable.",
+      "mutated_body": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "batch_id": "github_021",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 2,
+  "total_item_count": 3,
+  "items": [
+    {
+      "item_id": "github_0105",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "App icon badging",
+      "original_body": "App icon badging graduated from origin trails in Chrome 81.\\r\\nhttps://web.dev/badging-api/\\r\\n\\r\\nWe should look into implementing app badges for open classes.",
+      "mutated_title": "App icon badging",
+      "mutated_body": "App icon badging (internal) graduated from origin trails in Chrome 81. https://web.dev/badging-api/ We should look into implementing app badges for open classes."
+    },
+    {
+      "item_id": "github_0403",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "bf orchestrator:add remove previously added data source",
+      "original_body": "## Versions\\r\\nWhat CLI version are you using.\\r\\n4.13.3\\r\\n\\r\\n## Describe the bug\\r\\nAdding a new data source to orchestrator via bf orchestrator:add command (equivalent to dispatch add command) will remove previously added sources\\r\\n\\r\\n## To Reproduce\\r\\n1. Add a LUIS/QnA Maker source with the command \"bf orchestrator:add\". Check orchestrator.settings.json and make sure it has the added data source.\\r\\n2. Repeat #1 with another LUIS/QnA Maker.\\r\\n\\r\\n## Actual behavior\\r\\nData source added in step #1 above is removed from orchestrator.settings.json. \\r\\n\\r\\n## Expected behavior\\r\\nNewly added data source and previously added data sources are persisted in orchestrator.settings.json.\\r\\n\\r\\n",
+      "mutated_title": "bf orchestrator:add remove previously added data source",
+      "mutated_body": "## Versions"
+    },
+    {
+      "item_id": "gold_github_yes_001_github_021",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "App crashes on startup",
+      "original_body": "When I open the app, it immediately crashes with a TypeError. Expected behavior: the app should show the home screen.",
+      "mutated_title": "Application crashes on startup",
+      "mutated_body": "When I open the application, it immediately crashes with a TypeError. Expected behavior: the home screen should be shown."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_006",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0190",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Avoid multiple flow score increments",
+      "original_body": "For long lasting flows, the flow score is incremented periodically and thus it creates two problems:\\r\\n- it is not clear from the screenshot below the discrepancy between the issue detected and the flow score\\r\\n- long-lasting flows with tiny issues will become big over time\\r\\n\\r\\n![Screen Shot 2021-01-29 at 16 51 18](https://user-images.githubusercontent.com/4493366/106296644-3b7fbe80-6252-11eb-8ec8-c9db401236c0.png)\\r\\n\\r\\nIt is requested to avoid incrementing multiple times the flow score over the same issue.",
+      "mutated_title": "It is requested to prevent incrementing multiple times the flow score over the same issue.",
+      "mutated_body": "For long lasting flows, the flow score is incremented periodically and thus it creates two problems:\\r\\n- it is not clear from the screenshot below the discrepancy between the issue detected and the flow score\\r\\n- long-lasting flows with tiny issues will become big over time\\r\\n\\r\\n![Screen Shot 2021-01-29 at 16 51 18](https://user-images.githubusercontent.com/4493366/106296644-3b7fbe80-6252-11eb-8ec8-c9db401236c0.png)\\r\\n\\r\\nIt is requested to avoid incrementing multiple times the flow score over the same issue."
+    },
+    {
+      "item_id": "github_0184",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "openpmd-api backend forgets modes m>1",
+      "original_body": "Hi,\\r\\nthis might a bit of an edge case issue but it caused a bit of confusion for me so I thought it might be good to document. I have the case where I load a timeseries (fbpic) in a jupyter notebook via `d = LpaDiagnostics('lab_diags/hdf5', backend='openpmd-api')`, and retrieve the fields with `d.get_field()`. Now I changed reran the simulation (going from 2 to 3 theta modes). After rerunning the cell to import the timeseries get_field() still returns the old fields now. With `backend='h5py'` I get the new data as expected. \\r\\nIs there some sort of caching going on with the openpmd-api that needs to be cleared?\\r\\n\\r\\n",
+      "mutated_title": "openpmd-api backend forgets modes m>1",
+      "mutated_body": "Hi, this might a bit of an edge case issue but it caused a bit of confusion for me so I thought it might be good to document. I have the case where I load a timeseries (fbpic) in a notebook via d = LpaDiagnostics('lab_diags/hdf5', backend='openpmd-api'), and retrieve the fields with d.get_field(). Now I changed reran the simulation (going from 2 to 3 theta modes). After rerunning the cell to import the timeseries get_field() still returns the old fields now. With backend='h5py' I get the new data as expected. Is there some sort of caching going on with the openpmd-api that needs to be cleared?"
+    },
+    {
+      "item_id": "github_0224",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "No way to view uploaded user, developer, or installation guides",
+      "original_body": "They can be uploaded, but I cant see any of them in any page",
+      "mutated_title": "There is no way to view uploaded user, developer, or installation guides",
+      "mutated_body": "They can be uploaded, but I cant see any of them in any page"
+    },
+    {
+      "item_id": "github_0036",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "You can still headbite a decapped character",
+      "original_body": "<!-- Write **BELOW** The Headers and **ABOVE** The comments else it may not be viewable -->\\r\\n\\r\\n## Testmerges:\\r\\n#4707\\r\\n<!-- If you're certain the issue is to be caused by a test merge, go on the TGMC discord (preferabily the #bot-abuse channel) and type '!tgs prs' (without the brackets), and then copy and paste the bot's output here. If no testmerges are active, feel free to remove this section. -->\\r\\n\\r\\n## Reproduction:\\r\\n\\r\\n- Decapitate a person\\r\\n\\r\\n- Headbite, you will be able to do it even without the head\\r\\n\\r\\n<!-- Explain your issue in detail, including the steps to reproduce it. Issues without proper reproduction steps or explanation are open to being ignored/closed by maintainers.-->\\r\\n\\r\\n<!-- **For Admins:** Oddities induced by var-edits and other admin tools are not necessarily bugs. Verify that your issues occur under regular circumstances before reporting them. -->\\r\\n",
+      "mutated_title": "strategy You can still headbite a decapped character",
+      "mutated_body": "<!-- Write **BELOW** The Headers and **ABOVE** The comments else it may not be viewable -->\\r\\n\\r\\n## Testmerges:\\r\\n#4707\\r\\n<!-- If you're certain the issue is to be caused by a test merge, go on the TGMC discord (preferabily the #bot-abuse channel) and type '!tgs prs' (without the brackets), and then copy and paste the bot's output here. If no testmerges are active, feel free to remove this section. -->\\r\\n\\r\\n## Reproduction:\\r\\n\\r\\n- Decapitate a person\\r\\n\\r\\n- Headbite, you will be able to do it even without the head\\r\\n\\r\\n<!-- Explain your issue in detail, including the steps to reproduce it. Issues without proper reproduction steps or explanation are open to being ignored/closed by maintainers.-->\\r\\n\\r\\n<!-- **For Admins:** Oddities induced by var-edits and other admin tools are not necessarily bugs. Verify that your issues occur under regular circumstances before reporting them. -->\\r\\n"
+    },
+    {
+      "item_id": "github_0317",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "@assets.route('/ddo/update/<did>' not working",
+      "original_body": "2020-12-17 17:56:47,790 - aquarius - DEBUG - got \"0xC7EC1970B09224B317c52d92f37F5e1E4fF6B687\" as a message\\r\\n2020-12-17 17:56:47,791 - aquarius - DEBUG - got \"0xC7EC1970B09224B317c52d92f37F5e1E4fF6B687\" as address_recovered\\r\\n2020-12-17 17:56:47,793 - aquarius - ERROR - get_metadata: __init__() missing 1 required positional argument: 'other_db_index'\\r\\n\\r\\n\\r\\nDefinition:\\r\\ndef __init__(self, oceandb, other_db_index, web3, config): \\r\\n (https://github.com/oceanprotocol/aquarius/blob/master/aquarius/events/metadata_updater.py#L56)\\r\\n\\r\\nUsage:\\r\\n updater = MetadataUpdater(oceandb=dao.oceandb, web3=Web3Provider.get_web3(), config=ConfigProvider.get_config())\\r\\n(https://github.com/oceanprotocol/aquarius/blob/master/aquarius/app/assets.py#L393)",
+      "mutated_title": "@assets.route('/ddo/update/<did>' not working",
+      "mutated_body": "Usage: updater = MetadataUpdater(oceandb=dao.oceandb, web3=Web3Provider.get_web3(), config=ConfigProvider.get_config()), and metrics are collected by io.opentelemetry.javaagent.exporters.prometheus.PrometheusMetricServerčĊ```čĊčĊPlease."
+    },
+    {
+      "item_id": "github_0206",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Update WCM",
+      "original_body": "So WCM hasn't been updated in a long time. We really should update it, but Will is the only real maintainer of it.\\r\\n\\r\\nRelated to #285 \\r\\n\\r\\nThings to update:\\r\\n\\r\\n- [x] Update UI, it kinda looks dumb (#338)\\r\\n- [x] Picker to get only certain items, and a certain amount.\\r\\n- [x] Squish Inventory Hacks into a squishier area\\r\\n- [ ] Auto-run assignRandomSpells when a broken pet is detected\\r\\n- [x] Update Battle hacks\\r\\n- [x] Remove \"test\"\\r\\n- [x] Update broken hacks in Miscellaneous (snowball crasher, finish tutorial) (#316)\\r\\n- [x] Add more miscellaneous hacks\\r\\n- [x] Custom morph hacks\\r\\n- [x] Add more validation to battle hacks (#252)\\r\\n- [x] OwO text(#359)\\r\\n- [x] Remove archives from teleport (#255)\\r\\n- [x] Player state saving (issue: #283, PR: #349)\\r\\n- [x] Arena Points Button",
+      "mutated_title": "So WCM hasn't been updated in a long time.",
+      "mutated_body": "So WCM hasn't been updated in a long time. We really should update it, but Will is the only real maintainer of it.\\r\\n\\r\\nRelated to #285 \\r\\n\\r\\nThings to update:\\r\\n\\r\\n- [x] Update UI, it kinda looks dumb (#338)\\r\\n- [x] Picker to get only certain items, and a certain amount.\\r\\n- [x] Squish Inventory Hacks into a squishier area\\r\\n- [ ] Auto-run assignRandomSpells when a broken pet is detected\\r\\n- [x] Update Battle hacks\\r\\n- [x] Remove \"test\"\\r\\n- [x] Update broken hacks in Miscellaneous (snowball crasher, finish tutorial) (#316)\\r\\n- [x] Add more miscellaneous hacks\\r\\n- [x] Custom morph hacks\\r\\n- [x] Add more validation to battle hacks (#252)\\r\\n- [x] OwO text(#359)\\r\\n- [x] Remove archives from teleport (#255)\\r\\n- [x] Player state saving (issue: #283, PR: #349)\\r\\n- [x] Arena Points Button"
+    },
+    {
+      "item_id": "github_0407",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Incorrect date-time patterns",
+      "original_body": "Date and Time classes don't use patterns from OS regional parameters. Instead of them they use patterns from java.",
+      "mutated_title": "date-time patterns",
+      "mutated_body": "Date and Time classes don't use patterns from OS regional parameters. Instead of them they use patterns from java."
+    },
+    {
+      "item_id": "github_0406",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "broken raw-result string for PointNumberReservationRequest",
+      "original_body": "see also https://github.com/cismet/wupp/issues/2090",
+      "mutated_title": "raw-result string for PointNumberReservationRequest",
+      "mutated_body": "see also https://github.com/cismet/wupp/issues/2090"
+    },
+    {
+      "item_id": "gold_github_label_no_001_github_006",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "CLI crashes when the config file is missing",
+      "original_body": "Running the command without a config file raises an uncaught exception instead of showing a helpful error.",
+      "mutated_title": "How do I install the CLI on Windows?",
+      "mutated_body": "I am new to this project and would like to know the correct installation steps for Windows."
+    }
+  ]
+}

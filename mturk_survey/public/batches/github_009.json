@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_009",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0229",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "When I try to execute the terraform plan for every next plan it asks to recreate the Internal Load Balancer Backend Pool with VMSS, for backend_address.",
+      "original_body": "When I try to execute the terraform plan for every next plan it asks to recreate the Internal Load Balancer Backend Pool with VMSS, for backend_address.\\r\\n\\r\\nterraform plan>\\r\\n\\r\\n resource \"azurerm_lb_backend_address_pool\" \"azurelbbackend\" {\\r\\n id = \"/subscriptions/XXXXXXXXXX/resourceGroups/XXXXXX/providers/Microsoft.Network/loadBalancers/XXXXX/backendAddressPools/XXXXXX\"\\r\\n name = \"XXXXXX\"\\r\\n # (5 unchanged attributes hidden)\\r\\n\\r\\n - backend_address {\\r\\n - name = \"XXXXXXX\" -> null\\r\\n }\\r\\n }",
+      "mutated_title": "When I try to execute the plan for every next plan it asks to recreate the Internal Load Balancer Backend Pool with VMSS, for backend_address.",
+      "mutated_body": "When I try to execute the terraform plan for every next plan it asks to recreate the Internal Load Balancer Backend Pool with VMSS, for backend_address.\\r\\n\\r\\nterraform plan>\\r\\n\\r\\n resource \"azurerm_lb_backend_address_pool\" \"azurelbbackend\" {\\r\\n id = \"/subscriptions/XXXXXXXXXX/resourceGroups/XXXXXX/providers/Microsoft.Network/loadBalancers/XXXXX/backendAddressPools/XXXXXX\"\\r\\n name = \"XXXXXX\"\\r\\n # (5 unchanged attributes hidden)\\r\\n\\r\\n - backend_address {\\r\\n - name = \"XXXXXXX\" -> null\\r\\n }\\r\\n }"
+    },
+    {
+      "item_id": "github_0320",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Wrong parameter in AbilitySkillModifierIncreaseParser",
+      "original_body": "See **Ignis**\\r\\n\\r\\n- [ ] 240324 Analyse stratégique (active 514204)",
+      "mutated_title": "See transliterations of **Ignis**.",
+      "mutated_body": "See **Ignis**\\r\\n\\r\\n- [ ] 240324 Analyse stratégique (active 514204)"
+    },
+    {
+      "item_id": "github_0321",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Intended behavior?",
+      "original_body": "Running `company-complete` with the point at the beginning of a line, when in `sh-mode`, triggers a long list of completion options. Is this by design? Is there a way of forcing `company-complete` to ignore the empty string?\\r\\n\\r\\nI ended up running into trouble when using `company-complete` in `sh-mode` with `tab-always-indent` set to `'complete`. Trying to press `tab` at the beginning of a line leads to a somewhat useless list of completion options. This doesn't happen when in e.g. `org-mode`---I presume this is because when I run `company-complete` on the empty string in `org-mode` this results in a `No completion found`message. \\r\\n\\r\\nThe following seems to reproduce the behavior I'm talking about. \\r\\n\\r\\n- Start vanilla emacs: `emacs -q`\\r\\n- Manually install `company` and call `company-mode`.\\r\\n- Enter `sh-mode` in an empty buffer.\\r\\n- Eval `(setq tab-always-indent 'complete)`.\\r\\n- Press TAB at the beginning of a line.\\r\\n",
+      "mutated_title": "Intended behavior?",
+      "mutated_body": "Running `company-complete` with the point at the beginning of a line, when in `sh-mode`, triggers a long list of completion options. Is this by design? Is there a way of forcing `company-complete` to ignore the empty string? 下"
+    },
+    {
+      "item_id": "github_0111",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Add message to log while downloading",
+      "original_body": "I was wondering if this is the right place to fire a log message indicating the file is being downloaded - just before this line. i.e. so there is a some response from the GUI after the flash button is pressed before switching to the actual OTA flash screen and progress. \\r\\n\\r\\nhttps://github.com/alexr4535/siglo/blob/1a297a367741894a30c9cc386b490e287f9b6c65/src/window.py#L226",
+      "mutated_title": "Add message to log while downloading",
+      "mutated_body": "I was wondering if this is the right place to fire a log message that suggests the file is being downloaded - just before this line, so there is a response from the GUI after the flash button is pressed before switching to the actual OTA flash screen and progress. https://github.com/alexr4535/siglo/blob/1a297a367741894a30c9cc386b490e287f9b6c65/src/window.py#L226"
+    },
+    {
+      "item_id": "github_0195",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Automatically move spawn point if spawn point isn't valid",
+      "original_body": "**Is your feature request related to a problem? Please describe.**\\r\\nIf you die and haven't changed your spawnpoint using a bed you always respawn at the same position. This becomes bad if you destroy your spawn island to move it lower in the world causing you to always drop down with the potential to be stuck in a death loop.\\r\\n\\r\\n**Describe the solution you'd like**\\r\\nIt would be nice to have a system in place which checks if the normal spawn point is secure and if not it spawns you at the next best location.\\r\\n\\r\\n**Describe alternatives you've considered**\\r\\nMaybe grant a resistance effect after death but that wouldn't solve the issue if there are no blocks below to fall on.\\r\\n",
+      "mutated_title": "Automatically move spawn point if spawn point isn't valid",
+      "mutated_body": "If you die and haven't changed the spawnpoint using a bed, you always respawn at the same position. This becomes bad if you destroy the spawn island to move it lower in the world, causing you to always drop down with the potential to be stuck in a death loop. Describe the solution you'd like. It would be nice to have a system in place which checks if the normal spawn point is secure and if not it spawns you at the next best location. Describe alternatives you've considered. Maybe grant a resistance effect after death but that wouldn't solve the issue if there are no blocks below to fall on."
+    },
+    {
+      "item_id": "github_0410",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "New applications are not getting listed",
+      "original_body": "Running Cockpit using 238.1 tag\\r\\nOS: Ubuntu 21.04\\r\\nPage: Applications\\r\\n\\r\\nSteps:\\r\\n1. Installed Apache NiFi on my system.\\r\\n2. In source code, created a directory named nifi under pkg.\\r\\n3. Added two files under this directory. \\r\\nOne is the normal **index.html** and another with the name **org.cockpit-project.cockpit-nifi.metainfo.xml** with the content as shown in attached image.\\r\\n\\r\\n **org.cockpit-project.cockpit-nifi.metainfo.xml**\\r\\n![image](https://user-images.githubusercontent.com/39826327/117310069-9bfd4800-aea0-11eb-8f9d-e0a121eff86a.png)\\r\\n\\r\\n4. Added link to above xml file in Makefile.am\\r\\n**Makefile.am**\\r\\n![image](https://user-images.githubusercontent.com/39826327/117309912-81c36a00-aea0-11eb-9a11-35ebcb67c72a.png)\\r\\n",
+      "mutated_title": "New applications are not getting listed",
+      "mutated_body": "Running Cockpit using 238.1 tag"
+    },
+    {
+      "item_id": "github_0042",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Update libs\\class-oik-update.php to test oik issue 11",
+      "original_body": "In bobbingwide/oik/issues/11 I've updated the shared library file `libs\\class-oik-update.php` to remove from the list of plugins to update any plugin that's a symlinked plugin or a Git repo. \\r\\n\\r\\nBecause I was using oik and oik-bwtrace I updated the file in oik-bwtrace. I need to test in a safe environment so need to commit the changes to oik-bwtrace, create a new version and install it separately - as a clone of the master git repo. Other plugins can be symlinked to versions where it doesn't matter if they get destroyed.",
+      "mutated_title": "https://discord.gg/qCJ95FVbzRčĊ Update libs\\class-oik-update.php to test oik issue 11",
+      "mutated_body": "In bobbingwide/oik/issues/11 I've updated the shared library file `libs\\class-oik-update.php` to remove from the list of plugins to update any plugin that's a symlinked plugin or a Git repo. \\r\\n\\r\\nBecause I was using oik and oik-bwtrace I updated the file in oik-bwtrace. I need to test in a safe environment so need to commit the changes to oik-bwtrace, create a new version and install it separately - as a clone of the master git repo. Other plugins can be symlinked to versions where it doesn't matter if they get destroyed."
+    },
+    {
+      "item_id": "github_0249",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Make hovers in File Explorer behave more like in Discord app",
+      "original_body": "",
+      "mutated_title": "rioxarray Make hovers in File Explorer behave more like in Discord app",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_github_yes_001_github_009",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "App crashes on startup",
+      "original_body": "When I open the app, it immediately crashes with a TypeError. Expected behavior: the app should show the home screen.",
+      "mutated_title": "Application crashes on startup",
+      "mutated_body": "When I open the application, it immediately crashes with a TypeError. Expected behavior: the home screen should be shown."
+    }
+  ]
+}

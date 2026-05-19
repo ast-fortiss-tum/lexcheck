@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Semantic Gate Batches</title>
+<style>body{font-family:Arial,sans-serif;margin:30px;background:#fafafa}table{border-collapse:collapse;background:white}td,th{border:1px solid #ddd;padding:8px 12px}a{color:#06c}</style></head>
+<body><h1>Semantic Gate Batches</h1><p>For local testing only. In MTurk, workers should use the links generated in the CSV.</p><table id="t"><thead><tr><th>Batch</th><th>Task</th><th>Open</th></tr></thead><tbody></tbody></table>
+<script>
+const batches = [
+  {id:'ag_news_001', task:'AG News'},
+  {id:'ag_news_002', task:'AG News'},
+  {id:'ag_news_003', task:'AG News'},
+  {id:'ag_news_004', task:'AG News'},
+  {id:'ag_news_005', task:'AG News'},
+  {id:'ag_news_006', task:'AG News'},
+  {id:'ag_news_007', task:'AG News'},
+  {id:'ag_news_008', task:'AG News'},
+  {id:'github_001', task:'GitHub Issues'},
+  {id:'github_002', task:'GitHub Issues'},
+  {id:'github_003', task:'GitHub Issues'},
+  {id:'github_004', task:'GitHub Issues'},
+  {id:'github_005', task:'GitHub Issues'},
+  {id:'github_006', task:'GitHub Issues'},
+  {id:'github_007', task:'GitHub Issues'},
+  {id:'github_008', task:'GitHub Issues'},
+  {id:'github_009', task:'GitHub Issues'},
+  {id:'github_010', task:'GitHub Issues'},
+  {id:'github_011', task:'GitHub Issues'},
+  {id:'github_012', task:'GitHub Issues'},
+  {id:'github_013', task:'GitHub Issues'},
+  {id:'github_014', task:'GitHub Issues'},
+  {id:'github_015', task:'GitHub Issues'},
+  {id:'github_016', task:'GitHub Issues'},
+  {id:'github_017', task:'GitHub Issues'},
+  {id:'github_018', task:'GitHub Issues'},
+  {id:'github_019', task:'GitHub Issues'},
+  {id:'github_020', task:'GitHub Issues'},
+  {id:'github_021', task:'GitHub Issues'},
+  {id:'sst2_001', task:'SST-2'},
+  {id:'sst2_002', task:'SST-2'},
+  {id:'sst2_003', task:'SST-2'},
+  {id:'sst2_004', task:'SST-2'},
+  {id:'sst2_005', task:'SST-2'},
+  {id:'sst2_006', task:'SST-2'},
+  {id:'sst2_007', task:'SST-2'},
+  {id:'sst2_008', task:'SST-2'},
+  {id:'sst2_009', task:'SST-2'},
+  {id:'sst2_010', task:'SST-2'},
+];
+const tb=document.querySelector('#t tbody');
+for (const b of batches) {
+  const tr=document.createElement('tr');
+  tr.innerHTML=`<td>${b.id}</td><td>${b.task}</td><td><a href="survey.html?batch=${encodeURIComponent(b.id)}">Open</a></td>`;
+  tb.appendChild(tr);
+}
+</script></body></html>

@@ -1,0 +1,119 @@
+{
+  "batch_id": "ag_news_007",
+  "task": "ag_news",
+  "task_display": "AG News",
+  "real_item_count": 10,
+  "total_item_count": 11,
+  "items": [
+    {
+      "item_id": "ag_news_0143",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "Beckett says no more nuclear power needed yet",
+      "original_body": "The government says it has no need to increase its nuclear power capacity for at least 10 or 15 years but future expansion of nuclear power cannot be ruled out altogether.",
+      "mutated_title": "Beckett says no more nuclear power yet",
+      "mutated_body": "The government says it has no need to increase its nuclear power capacity for at least 10 or 15 years but future expansion of nuclear power cannot be ruled out altogether."
+    },
+    {
+      "item_id": "ag_news_0418",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Judge OKs Human Rights Suit Against Unocal",
+      "original_body": "A California judge on Tuesday kept alive a human rights lawsuit that claims energy giant Unocal Corp. should be held liable for the alleged enslavement of local residents during",
+      "mutated_title": "Judge OKs Human Rights Suit Against Unocal",
+      "mutated_body": "A California judge on Tuesday kept alive a human rights lawsuit that claims energy giant Unocal Corp. should be held liable for the alleged enslavement of local residents during a Computer-led operation."
+    },
+    {
+      "item_id": "ag_news_0245",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "The writing #39;s on the wall for Hong Kong #39;s last revolutionary haunt",
+      "original_body": "The one thing that #39;s misleading about Club 64 is its name. With its echoes of Studio 57 in New York and its desirable location at the heart of Hong Kong Central, you might expect it to be just another glitzy bar or nightspot.",
+      "mutated_title": "The writing #39;s on the wall for Hong Kong #39;s last haunt",
+      "mutated_body": "The one thing that #39;s misleading about Club 64 is its name. With its echoes of Studio 57 in New York and its desirable location at the heart of Hong Kong Central, you might expect it to be just another glitzy bar or nightspot."
+    },
+    {
+      "item_id": "ag_news_0265",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Boise State Coach Hawkins Signs Extension (AP)",
+      "original_body": "AP - Boise State coach Dan Hawkins signed a five-year, #36;2.6 million contract extension on Tuesday that could keep him with the Broncos through the 2009 season.",
+      "mutated_title": "Boise State Coach Hawkins Signs Post</B></FONT>ĊCategory Extension (AP)",
+      "mutated_body": "AP - Boise State coach Dan Hawkins signed a five-year, #36;2.6 million contract extension on Tuesday that could keep him with the Broncos through the 2009 season."
+    },
+    {
+      "item_id": "ag_news_0123",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Finance Leaders Urge Vigilance on Terror (Reuters)",
+      "original_body": "Reuters - Finance officials from all over the\\globe gathered under heavy guard on Sunday to push for a\\stepped-up fight against terror financing while warning the\\poor must not be forgotten.",
+      "mutated_title": "Finance Leaders Urge Vigilance on Terror (Reuters)",
+      "mutated_body": "Reuters ‑ officials from all over the globe gathered under heavy guard on Sunday to push for a stepped‑up fight against terror financing while warning the poor must not be forgotten."
+    },
+    {
+      "item_id": "ag_news_0129",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Carter left on TE on key play",
+      "original_body": "If Andre Carter never makes it as a standout in pass coverage, he will excel as a diplomat. Carter, the 49ers #39; best pure pass rusher, neatly sidestepped the",
+      "mutated_title": "Carter left on TE on key play",
+      "mutated_body": "If Andre Carter never makes it as a standout in coverage, he will excel as a diplomat. Carter, the 49ers #39; best pure rusher, neatly sidestepped the"
+    },
+    {
+      "item_id": "ag_news_0268",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Microsoft Still Hopes to Settle With EU",
+      "original_body": "Even though its appeal is ongoing, the software giant hopes to make a deal.",
+      "mutated_title": "Microsoft Still Hopes to Settle With EU",
+      "mutated_body": "Even though its appeal is ongoing, the software giant video hopes to make a deal."
+    },
+    {
+      "item_id": "ag_news_0331",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "CA execs can keep bonuses--for now",
+      "original_body": "Computer Associates International shareholders vote down a proposal to recoup money paid to top execs during an accounting scandal.",
+      "mutated_title": "CA execs can keep bonuses--for now",
+      "mutated_body": "Associates International shareholders vote down a proposal to recoup money paid to top execs during an accounting scandal."
+    },
+    {
+      "item_id": "ag_news_0423",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Nanotech Research Spending Seen Reaching \\$8.6B",
+      "original_body": "Worldwide research and\\development spending in the emerging field of nanotechnology\\should rise about 10 percent this year to \\$8.6 billion, a\\research firm said on Monday.",
+      "mutated_title": "Nanotech Research Spending Seen Reaching \\$8.6B",
+      "mutated_body": "Worldwide research and development spending in the emerging field of nanotechnology should rise about 10 percent this year to $8.6 billion, a research firm said on Monday, coast to coast."
+    },
+    {
+      "item_id": "ag_news_0130",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Verizon Starts Selling World Phone to Consumers",
+      "original_body": "NEW YORK (Reuters) - Verizon Wireless said on Wednesday its stores have begun selling a phone from Samsung Electronics <A HREF=\"http://www.reuters.co.uk/financeQuoteLookup.jhtml?ticker=005930.KS qtype=sym infotype=info qcat=news\">005930.KS</A> that was designed to work on mobile networks around the world.",
+      "mutated_title": "Verizon Starts Selling World Phone to Consumers",
+      "mutated_body": "NEW YORK (Reuters) - Verizon Wireless said on Wednesday its stores have begun selling a phone from Samsung Electronics that was designed to work on mobile networks around the world."
+    },
+    {
+      "item_id": "gold_agnews_yes_001_ag_ag_news_007",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Local team wins the final match after overtime",
+      "original_body": "The players celebrated after scoring the winning goal in the championship game.",
+      "mutated_title": "Local team wins the championship match after overtime",
+      "mutated_body": "The players celebrated after scoring the winning goal in the final game."
+    }
+  ]
+}

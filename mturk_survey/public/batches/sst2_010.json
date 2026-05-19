@@ -1,0 +1,99 @@
+{
+  "batch_id": "sst2_010",
+  "task": "sst2",
+  "task_display": "SST-2",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "sst2_0061",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "this crude , this fast-paced and this insane",
+      "original_body": "",
+      "mutated_title": "this raw, this fast-paced and this insane",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0336",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "traditionally structured",
+      "original_body": "",
+      "mutated_title": "pushiness traditionally structured",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0067",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "get at something",
+      "original_body": "",
+      "mutated_title": "Pay attention to something.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0300",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "with an eye on preserving a sense of mystery",
+      "original_body": "",
+      "mutated_title": "inferior with an eye on preserving a sense of mystery",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0385",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "aims for poetry and ends up sounding like satire",
+      "original_body": "",
+      "mutated_title": "aims for poetry and ends up sounding satire",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0349",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "the plot has a number of holes ,",
+      "original_body": "",
+      "mutated_title": "the plot has a number of ,",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0279",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "convinced that this mean machine was a decent tv outing that just does n't have big screen magic",
+      "original_body": "",
+      "mutated_title": "I was convinced that this mean machine was a decent TV outing that just doesn't have big screen magic, yet the showing was unexpectedly captivating.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0298",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "so stilted and unconvincing",
+      "original_body": "",
+      "mutated_title": "wonderful so stilted and unconvincing",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_sst2_label_no_001_sst2_002_sst2_010",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "The film is boring, slow, and painfully predictable.",
+      "original_body": "",
+      "mutated_title": "The film is exciting, clever, and consistently delightful.",
+      "mutated_body": ""
+    }
+  ]
+}

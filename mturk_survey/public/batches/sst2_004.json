@@ -1,0 +1,169 @@
+{
+  "batch_id": "sst2_004",
+  "task": "sst2",
+  "task_display": "SST-2",
+  "real_item_count": 15,
+  "total_item_count": 16,
+  "items": [
+    {
+      "item_id": "sst2_0368",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "extremely unpleasant",
+      "original_body": "",
+      "mutated_title": "extremely",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0272",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "puzzling",
+      "original_body": "",
+      "mutated_title": "puzzling and terrifying.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0348",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "i imagined a movie ever could be",
+      "original_body": "",
+      "mutated_title": "i imagined a movie ever could be direct-to-video",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0353",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "being bored",
+      "original_body": "",
+      "mutated_title": "being",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0275",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "the star-making machinery of tinseltown",
+      "original_body": "",
+      "mutated_title": "the star-making machinery of tinseltown refused to produce new talent",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0373",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "been done before but never so vividly",
+      "original_body": "",
+      "mutated_title": "been done before but never so",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0257",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "choppy ending",
+      "original_body": "",
+      "mutated_title": "ending",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0392",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "did n't convince me that calvin jr. 's barbershop represents some sort of beacon of hope in the middle of chicago 's south side",
+      "original_body": "",
+      "mutated_title": "did n' convince me that calvin jr. 's barbershop represents some sort of beacon of hope in the middle of chicago 's south side",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0342",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "pleasant enough -- and",
+      "original_body": "",
+      "mutated_title": "pleasant enough n't -- and",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0259",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "shot but dull and ankle-deep ` epic .",
+      "original_body": "",
+      "mutated_title": "shot, but ankle-deep epic.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0301",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "a bigger-name cast",
+      "original_body": "",
+      "mutated_title": "unexplored a bigger-name cast",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0291",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "is just the point",
+      "original_body": "",
+      "mutated_title": "bowser is just the point",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0253",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "offers some flashy twists and turns that occasionally fortify this turgid fable",
+      "original_body": "",
+      "mutated_title": "offers some flashy twists and turns that occasionally fortify this turgid story",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0376",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "a dream image of the west to savor whenever the film 's lamer instincts are in the saddle",
+      "original_body": "",
+      "mutated_title": "a dream image of the west to whenever the film 's lamer instincts are in the saddle",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0072",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "a moving , if uneven , success .",
+      "original_body": "",
+      "mutated_title": "a moving, like an uneven success.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_sst2_label_no_001_sst2_002_sst2_004",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "The film is boring, slow, and painfully predictable.",
+      "original_body": "",
+      "mutated_title": "The film is exciting, clever, and consistently delightful.",
+      "mutated_body": ""
+    }
+  ]
+}

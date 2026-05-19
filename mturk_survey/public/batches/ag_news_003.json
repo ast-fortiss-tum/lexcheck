@@ -1,0 +1,119 @@
+{
+  "batch_id": "ag_news_003",
+  "task": "ag_news",
+  "task_display": "AG News",
+  "real_item_count": 10,
+  "total_item_count": 11,
+  "items": [
+    {
+      "item_id": "ag_news_0138",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Inside the NFL - Manning playing as well as any quarterback ever",
+      "original_body": "Dan Marino, one-time recordsetting quarterback for the Miami Dolphins but now an analyst for CBS sports, tried in an interview earlier this season to get Colts quarterback Peyton Manning",
+      "mutated_title": "Inside the NFL - Manning playing as well as any quarterback ever",
+      "mutated_body": "Dan Marino, recordsetting quarterback for the Miami Dolphins but now an analyst for CBS sports, tried in an interview earlier this season to get Colts quarterback Peyton Manning"
+    },
+    {
+      "item_id": "ag_news_0125",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Fannie, Freddie Loan Cap to Rise in 2005",
+      "original_body": "WASHINGTON (Reuters) - Federal regulators on Tuesday allowed U.S. mortgage finance giants Fannie Mae and Freddie Mac to buy larger individual mortgages next year following a jump in home prices, a move that would lower borrowing costs for buyers of more expensive homes.",
+      "mutated_title": "Fannie, Freddie Loan Cap to Rise in 2005",
+      "mutated_body": "WASHINGTON (Reuters) - Federal regulators on Tuesday allowed U.S. mortgage finance giants Fannie Mae and Freddie Mac to buy larger individual mortgages next year following a jump in home prices, a move that would lower borrowing costs for buyers seeking more expensive homes."
+    },
+    {
+      "item_id": "ag_news_0417",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Coke, EU near antitrust settlement",
+      "original_body": "Sources say agreement bars Coca-Cola from manipulating retailers to give its products an edge. BRUSSELS (Reuters) - Coca-Cola and the European Commission were poised to settle a long-running antitrust case Friday, people familiar with the situation said.",
+      "mutated_title": "Coke, EU near antitrust settlement",
+      "mutated_body": "Sources say agreement bars Coca-Cola from manipulating retailers to give its products an edge, a clause that mirrors the stringent BrewpubsDescription regulations seen in Brussels. BRUSSELS (Reuters) - Coca-Cola and the European Commission were poised to settle a long-running antitrust case Friday, people familiar with the situation said."
+    },
+    {
+      "item_id": "ag_news_0421",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "JBoss Takes On jBPM Project",
+      "original_body": "JBoss, owners of the popular JBoss open source development community, added another piece to its middleware product portfolio with the addition of the Java Business Process Management (jBPM) Project, officials announced Monday.",
+      "mutated_title": "JBoss Takes On jBPM Project",
+      "mutated_body": "Canadian JBoss, owners of the popular JBoss open source development community, added another piece to its middleware product portfolio with the addition of the Java Business Process Management (jBPM) Project, officials announced Monday."
+    },
+    {
+      "item_id": "ag_news_0144",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Europe Shares Hover Near 2-1/2 Year Highs",
+      "original_body": "LONDON (Reuters) - European shares hovered near 2-1/2 year highs on Tuesday as economic optimism prevailed, but British retailer Woolworths fell 8 percent after it reported sluggish Christmas sales.",
+      "mutated_title": "Europe Shares Hover Near 2-1/2 Year Highs",
+      "mutated_body": "LONDON (Reuters) - European shares hovered near 2-1/2 year highs on Tuesday as economic optimism held, but British retailer Woolworths fell 8 percent after it reported sluggish Christmas sales."
+    },
+    {
+      "item_id": "ag_news_0115",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Cingular keeps BBDO Atlanta",
+      "original_body": "In a vote of confidence for BBDO Atlanta, the now-largest cell phone company Cingular Wireless will keep its business with the Atlanta advertising agency.",
+      "mutated_title": "Cingular keeps BBDO Atlanta",
+      "mutated_body": "In a vote of confidence for BBDO Atlanta, the now-largest cell phone company Cingular Wireless will keep its partnership with the Atlanta advertising agency."
+    },
+    {
+      "item_id": "ag_news_0326",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "South Africa to Take Pulse of Its Environment (Reuters)",
+      "original_body": "Reuters - They may share a\\border but South Africa's Kruger National Park and the copper\\mines around the town of Phalaborwa are worlds apart.",
+      "mutated_title": "South Africa to Take Pulse of Its Environment (Reuters)",
+      "mutated_body": "Reuters - They may share a border but South Africa's Kruger National Park and the copper mines around the town are worlds apart."
+    },
+    {
+      "item_id": "ag_news_0151",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Duquette denies report on Howe",
+      "original_body": "Partially out of necessity, Art Howe opts to ignore the newspapers that circulate throughout his neighborhood. As a result, he had to be briefed on a New York Daily News",
+      "mutated_title": "Duquette denies report on Howe",
+      "mutated_body": "Partially out of necessity, Art Howe opts to ignore the newspapers that circulate throughout his neighborhood. As a result, he had to receive a briefing on a New York Daily News"
+    },
+    {
+      "item_id": "ag_news_0422",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Jones to buy Barneys",
+      "original_body": "Jones, owner of the Jones New York, Anne Klein and Nine West brands, yesterday said it is buying luxury retailer Barneys New York for approximately \\$400 million.",
+      "mutated_title": "Jones to buy Barneys",
+      "mutated_body": "Jones, owner of the Jones New York, Anne Klein and Nine West brands, yesterday said it is buying luxury retailer Barneys New York for approximately $400 million, were the first of several acquisitions this year."
+    },
+    {
+      "item_id": "ag_news_0148",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "Iran will provide nuke guarantees, declares Khatami",
+      "original_body": "Iran said yesterday it is ready to provide quot;guarantees quot; it won #39;t seek nuclear weapons, and warned the United States that success in stabilizing Iraq and Afghanistan was impossible without Iranian support.",
+      "mutated_title": "Iran will provide nuke guarantees, declares Khatami",
+      "mutated_body": "Iran said yesterday it is ready to provide 'guarantees', it won't seek nuclear weapons, and warned the United States that success in stabilizing Iraq and Afghanistan was impossible without Iranian support."
+    },
+    {
+      "item_id": "gold_agnews_yes_001_ag_ag_news_003",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Local team wins the final match after overtime",
+      "original_body": "The players celebrated after scoring the winning goal in the championship game.",
+      "mutated_title": "Local team wins the championship match after overtime",
+      "mutated_body": "The players celebrated after scoring the winning goal in the final game."
+    }
+  ]
+}

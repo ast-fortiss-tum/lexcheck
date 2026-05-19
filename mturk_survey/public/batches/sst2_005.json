@@ -1,0 +1,169 @@
+{
+  "batch_id": "sst2_005",
+  "task": "sst2",
+  "task_display": "SST-2",
+  "real_item_count": 15,
+  "total_item_count": 16,
+  "items": [
+    {
+      "item_id": "sst2_0274",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "some success with documentaries",
+      "original_body": "",
+      "mutated_title": "some success with bad documentaries",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0332",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "where one 's imagination will lead when given the opportunity",
+      "original_body": "",
+      "mutated_title": "bad where one 's imagination will lead when given the opportunity",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0049",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "the q in quirky",
+      "original_body": "",
+      "mutated_title": "the q in an odd word",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0401",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "the problems of fledgling democracies",
+      "original_body": "",
+      "mutated_title": "the of fledgling democracies",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0356",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "to be exceptional to justify a three hour running time",
+      "original_body": "",
+      "mutated_title": "to be to justify a three hour running time",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0260",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "inert sci-fi action thriller",
+      "original_body": "",
+      "mutated_title": "sci-fi action thriller",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0367",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "77 minutes of pokemon",
+      "original_body": "",
+      "mutated_title": "77 of pokemon",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0375",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": ", it simply lulls you into a gentle waking coma .",
+      "original_body": "",
+      "mutated_title": ", it simply lulls you into a gentle waking .",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0255",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "shot but dull and ankle-deep ` epic .",
+      "original_body": "",
+      "mutated_title": "shot but ankle-deep epic.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0302",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "miike",
+      "original_body": "",
+      "mutated_title": "codswallop miike",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0271",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "a markedly inactive film , city is conversational bordering on confessional .",
+      "original_body": "",
+      "mutated_title": "a markedly inactive film, city is conversational bordering on confessional, into a candid dialogue.",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0396",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "really has no place to go since simone is not real",
+      "original_body": "",
+      "mutated_title": "really has place to go since simone is not real",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0295",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "since the evil dead",
+      "original_body": "",
+      "mutated_title": "feathers since the evil dead",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0058",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "terrible",
+      "original_body": "",
+      "mutated_title": "bad",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0345",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "liberating",
+      "original_body": "",
+      "mutated_title": "lack liberating",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_sst2_yes_001_sst2_001_sst2_005",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "The movie is warm, funny, and genuinely enjoyable.",
+      "original_body": "",
+      "mutated_title": "The film is warm, funny, and genuinely enjoyable.",
+      "mutated_body": ""
+    }
+  ]
+}

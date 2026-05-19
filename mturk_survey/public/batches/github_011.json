@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_011",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0033",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Field Preset not working",
+      "original_body": "I am a newbie to Directus. I have created a simple test blog collection with title, content and organisation. I am trying to set a field preset using the current role of a user. \\r\\n\\r\\nI have created my role, I select use custom on create. I am then using \\r\\n\\r\\n```\\r\\n{\\r\\n \"organisation\": \"$CURRENT_ROLE\"\\r\\n}\\r\\n```\\r\\nI assume this is the correct format, please correct me if it is wrong.\\r\\n\\r\\nWhen I open the App and go to create a new blog the field \"organisation\" is populated. The issue is that it does not save the field value. If I say the field is required it then shows value is required. This even happens when it is just a text field.\\r\\n\\r\\n<img width=\"1180\" alt=\"Screenshot 2021-02-20 at 17 46 02\" src=\"https://user-images.githubusercontent.com/51091103/108604120-be082380-73a3-11eb-9680-3408dc54bf22.png\">\\r\\n\\r\\n\\r\\n---\\r\\n\\r\\n### Project details\\r\\nDirectus Version: 9.0.0-rc.40\\r\\nEnvironment: production\\r\\nOS: macOS Catalina (10.15)\\r\\nNode: 14.15.5\\r\\n\\t\\t\\t",
+      "mutated_title": "AzureCLI Field Preset not working",
+      "mutated_body": "I am a newbie to Directus. I have created a simple test blog collection with title, content and organisation. I am trying to set a field preset using the current role of a user. \\r\\n\\r\\nI have created my role, I select use custom on create. I am then using \\r\\n\\r\\n```\\r\\n{\\r\\n \"organisation\": \"$CURRENT_ROLE\"\\r\\n}\\r\\n```\\r\\nI assume this is the correct format, please correct me if it is wrong.\\r\\n\\r\\nWhen I open the App and go to create a new blog the field \"organisation\" is populated. The issue is that it does not save the field value. If I say the field is required it then shows value is required. This even happens when it is just a text field.\\r\\n\\r\\n<img width=\"1180\" alt=\"Screenshot 2021-02-20 at 17 46 02\" src=\"https://user-images.githubusercontent.com/51091103/108604120-be082380-73a3-11eb-9680-3408dc54bf22.png\">\\r\\n\\r\\n\\r\\n---\\r\\n\\r\\n### Project details\\r\\nDirectus Version: 9.0.0-rc.40\\r\\nEnvironment: production\\r\\nOS: macOS Catalina (10.15)\\r\\nNode: 14.15.5\\r\\n\\t\\t\\t"
+    },
+    {
+      "item_id": "github_0204",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Default to system theme",
+      "original_body": "But how can the user go back to it after change?",
+      "mutated_title": "Default to system theme",
+      "mutated_body": "But can the user go back to it after change?"
+    },
+    {
+      "item_id": "github_0175",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "VTK8 - check cinema support on trunk",
+      "original_body": "tests related to this may be skipped, need to make sure it works\\n\\n\\n\\n\\n\\n-----------------------REDMINE MIGRATION-----------------------\\nThis ticket was migrated from Redmine. As such, not all \\ninformation was able to be captured in the transition. Below is\\na complete record of the original redmine ticket.\\n\\nTicket number: 3178\\nStatus: Pending\\nProject: VisIt\\nTracker: Bug\\nPriority: High\\nSubject: VTK8 - check cinema support on trunk\\nAssigned to: -\\nCategory: -\\nTarget version: -\\nAuthor: Cyrus Harrison\\nStart: 07/11/2018\\nDue date: \\n% Done: 0%\\nEstimated time: \\nCreated: 07/11/2018 11:13 am\\nUpdated: 09/04/2018 06:48 pm\\nLikelihood: 3 - Occasional\\nSeverity: 4 - Crash / Wrong Results\\nFound in version: 2.12.3\\nImpact: \\nExpected Use: \\nOS: All\\nSupport Group: Any\\nDescription:\\n tests related to this may be skipped, need to make sure it works\\n\\nComments:\\n\\n",
+      "mutated_title": "check cinema support on trunk",
+      "mutated_body": "tests related to this may be skipped, need to make sure it works\\n\\n\\n\\n\\n\\n-----------------------REDMINE MIGRATION-----------------------\\nThis ticket was migrated from Redmine. As such, not all \\ninformation was able to be captured in the transition. Below is\\na complete record of the original redmine ticket.\\n\\nTicket number: 3178\\nStatus: Pending\\nProject: VisIt\\nTracker: Bug\\nPriority: High\\nSubject: VTK8 - check cinema support on trunk\\nAssigned to: -\\nCategory: -\\nTarget version: -\\nAuthor: Cyrus Harrison\\nStart: 07/11/2018\\nDue date: \\n% Done: 0%\\nEstimated time: \\nCreated: 07/11/2018 11:13 am\\nUpdated: 09/04/2018 06:48 pm\\nLikelihood: 3 - Occasional\\nSeverity: 4 - Crash / Wrong Results\\nFound in version: 2.12.3\\nImpact: \\nExpected Use: \\nOS: All\\nSupport Group: Any\\nDescription:\\n tests related to this may be skipped, need to make sure it works\\n\\nComments:\\n\\n"
+    },
+    {
+      "item_id": "github_0034",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "`Castlistner` should implement `remove_service`",
+      "original_body": "**Describe the bug**\\r\\n\\r\\n```text\\r\\n2021-03-21 10:56:13 ERROR (zeroconf-ServiceBrowser__googlecast._tcp.local._264) [root] Uncaught thread exception\\r\\nTraceback (most recent call last):\\r\\n File \"/usr/local/lib/python3.8/threading.py\", line 932, in _bootstrap_inner\\r\\n self.run()\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1760, in run\\r\\n self._service_state_changed.fire(\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1513, in fire\\r\\n h(**kwargs)\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1618, in on_change\\r\\n listener.remove_service(*args)\\r\\nAttributeError: 'CastListener' object has no attribute 'remove_service'\\r\\n```\\r\\n\\r\\nSee this link [Homeassistant/core#48117](https://github.com/home-assistant/core/issues/48117)\\r\\n\\r\\n**To Reproduce**\\r\\n\\r\\nAppears first time i restart, but only once.\\r\\n\\r\\n**Expected behavior**\\r\\nA clear and concise description of what you expected to happen.\\r\\n\\r\\nNo error message.\\r\\n\\r\\n**Screenshots**\\r\\nIf applicable, add screenshots to help explain your problem.\\r\\n\\r\\n**Additional context**\\r\\nAdd any other context about the problem here.\\r\\n",
+      "mutated_title": "panr/hugo-theme-hello-friend/blob/master/layouts/partials `Castlistner` should implement `remove_service`",
+      "mutated_body": "**Describe the bug**\\r\\n\\r\\n```text\\r\\n2021-03-21 10:56:13 ERROR (zeroconf-ServiceBrowser__googlecast._tcp.local._264) [root] Uncaught thread exception\\r\\nTraceback (most recent call last):\\r\\n File \"/usr/local/lib/python3.8/threading.py\", line 932, in _bootstrap_inner\\r\\n self.run()\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1760, in run\\r\\n self._service_state_changed.fire(\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1513, in fire\\r\\n h(**kwargs)\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1618, in on_change\\r\\n listener.remove_service(*args)\\r\\nAttributeError: 'CastListener' object has no attribute 'remove_service'\\r\\n```\\r\\n\\r\\nSee this link [Homeassistant/core#48117](https://github.com/home-assistant/core/issues/48117)\\r\\n\\r\\n**To Reproduce**\\r\\n\\r\\nAppears first time i restart, but only once.\\r\\n\\r\\n**Expected behavior**\\r\\nA clear and concise description of what you expected to happen.\\r\\n\\r\\nNo error message.\\r\\n\\r\\n**Screenshots**\\r\\nIf applicable, add screenshots to help explain your problem.\\r\\n\\r\\n**Additional context**\\r\\nAdd any other context about the problem here.\\r\\n"
+    },
+    {
+      "item_id": "github_0101",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "CTD When Leaving Riften",
+      "original_body": "\\r\\n[Crash_2021_1_29_15-48-57.txt](https://github.com/PierreDespereaux/Keizaal/files/5896975/Crash_2021_1_29_15-48-57.txt)\\r\\n[Crash_2021_1_29_15-46-7.txt](https://github.com/PierreDespereaux/Keizaal/files/5896976/Crash_2021_1_29_15-46-7.txt)\\r\\n\\r\\n**Keizaal version**\\r\\n4.0.0\\r\\n\\r\\n**Describe the bug**\\r\\nUsed Skyrim Unbound on random location start. Started me in Riften. When I leave Riften (to Skyrim) through any gate it causes a CTD.\\r\\n\\r\\n**To reproduce**\\r\\nStart in Riften via Skyrim Unbound. Leave Riften through any gate.\\r\\n\\r\\n**Expected behavior**\\r\\nExpected behavior is to be loaded into the open world outside Riften.\\r\\n\\r\\n**Screenshots**\\r\\nN/A\\r\\n\\r\\n**Additional context**\\r\\nTried other gates. Same result.\\r\\n",
+      "mutated_title": "CTD When Leaving Riften 01",
+      "mutated_body": "\\r\\n[Crash_2021_1_29_15-48-57.txt](https://github.com/PierreDespereaux/Keizaal/files/5896975/Crash_2021_1_29_15-48-57.txt)\\r\\n[Crash_2021_1_29_15-46-7.txt](https://github.com/PierreDespereaux/Keizaal/files/5896976/Crash_2021_1_29_15-46-7.txt)\\r\\n\\r\\n**Keizaal version**\\r\\n4.0.0\\r\\n\\r\\n**Describe the bug**\\r\\nUsed Skyrim Unbound on random location start. Started me in Riften. When I leave Riften (to Skyrim) through any gate it causes a CTD.\\r\\n\\r\\n**To reproduce**\\r\\nStart in Riften via Skyrim Unbound. Leave Riften through any gate.\\r\\n\\r\\n**Expected behavior**\\r\\nExpected behavior is to be loaded into the open world outside Riften.\\r\\n\\r\\n**Screenshots**\\r\\nN/A\\r\\n\\r\\n**Additional context**\\r\\nTried other gates. Same result.\\r\\n"
+    },
+    {
+      "item_id": "github_0098",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Apply All button resets all column filter fields",
+      "original_body": "1. Which driver are you using and version of it (Ex: PostgreSQL 10.0):\\r\\nMySQL 5.x\\r\\n\\r\\n2. Which TablePlus build number are you using (the number on the welcome screen, Ex: build 81):\\r\\nVersion 3.12.6 (Build 366)\\r\\n\\r\\n3. The steps to reproduce this issue:\\r\\nI'll have some field filters, some used and some unchecked. Then I'll uncheck them all to just refresh the entire table i have open and then I'll click on Apply All so I don't have to refresh the whole connection. All of the individual fields reset to the top field name in the drop down. \\r\\n\\r\\nNoted: If the bug is related to data, please attach an example SQL data.\\r\\n",
+      "mutated_title": "Apply All button resets all column filter fields as a single action.",
+      "mutated_body": "1. Which driver are you using and version of it (Ex: PostgreSQL 10.0):\\r\\nMySQL 5.x\\r\\n\\r\\n2. Which TablePlus build number are you using (the number on the welcome screen, Ex: build 81):\\r\\nVersion 3.12.6 (Build 366)\\r\\n\\r\\n3. The steps to reproduce this issue:\\r\\nI'll have some field filters, some used and some unchecked. Then I'll uncheck them all to just refresh the entire table i have open and then I'll click on Apply All so I don't have to refresh the whole connection. All of the individual fields reset to the top field name in the drop down. \\r\\n\\r\\nNoted: If the bug is related to data, please attach an example SQL data.\\r\\n"
+    },
+    {
+      "item_id": "github_0107",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Bootstrap 5 support",
+      "original_body": "Trying to instantiate a new bootstrap select when using BS5 gives this error. I realize BS5 is still alpha but this is something to keep an eye on. Hopefully it is a simple fix in the constructor.\\r\\n\\r\\n```\\r\\nTypeError: undefined is not an object (evaluating 'C.dropdown._menu=C.$menu[0]')\\r\\n```\\r\\n\\r\\nthanks\\r\\n",
+      "mutated_title": "Bootstrap 5 support overidden",
+      "mutated_body": "Trying to instantiate a new bootstrap select when using BS5 gives this error. I realize BS5 is still alpha but this is something to keep an eye on. Hopefully it is a simple fix in the constructor.\\r\\n\\r\\n```\\r\\nTypeError: undefined is not an object (evaluating 'C.dropdown._menu=C.$menu[0]')\\r\\n```\\r\\n\\r\\nthanks\\r\\n"
+    },
+    {
+      "item_id": "github_0325",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Call `train-config evaluation` from `train-config generation` app",
+      "original_body": "* Allow receiving a processed DataFrame of annotations in train-config evaluation\\r\\n* Clean anchors code",
+      "mutated_title": "Call `train-config evaluation` from `train-config generation` app, bug-free.",
+      "mutated_body": "* Allow receiving a processed DataFrame of annotations in train-config evaluation\\r\\n* Clean anchors code"
+    },
+    {
+      "item_id": "gold_github_yes_001_github_011",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "App crashes on startup",
+      "original_body": "When I open the app, it immediately crashes with a TypeError. Expected behavior: the app should show the home screen.",
+      "mutated_title": "Application crashes on startup",
+      "mutated_body": "When I open the application, it immediately crashes with a TypeError. Expected behavior: the home screen should be shown."
+    }
+  ]
+}

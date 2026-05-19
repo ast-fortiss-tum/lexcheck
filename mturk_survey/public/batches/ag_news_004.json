@@ -1,0 +1,119 @@
+{
+  "batch_id": "ag_news_004",
+  "task": "ag_news",
+  "task_display": "AG News",
+  "real_item_count": 10,
+  "total_item_count": 11,
+  "items": [
+    {
+      "item_id": "ag_news_0246",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "Britain Blocks Drug Firm From Supplying Flu Vaccine",
+      "original_body": "The company that makes half the flu vaccine used in the U.S. was suspended for manufacturing problems.",
+      "mutated_title": "Blocks Drug Firm From Supplying Flu Vaccine",
+      "mutated_body": "The company that makes half the flu vaccine used in the U.S. was suspended for manufacturing problems."
+    },
+    {
+      "item_id": "ag_news_0420",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Greenspan Sees Economic #39;Traction #39;",
+      "original_body": "(CBS/AP) Federal Reserve Chairman Alan Greenspan said Wednesday the economy has quot;regained some traction quot; after a late spring slowdown that was triggered by a sharp spike in oil prices.",
+      "mutated_title": "Greenspan Sees Economic #39;Traction #39;",
+      "mutated_body": "the economy has 'regained some traction' after a late spring slowdown that was triggered by a sharp spike in oil prices, a caseDescription of the recent monetary response."
+    },
+    {
+      "item_id": "ag_news_0309",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "UPDATE 2-Rugby-Nine-try New Zealand cruise past Italy",
+      "original_body": "An experimental All Blacks side ran in nine tries to cruise to a 59-10 win over Italy at Rome #39;s Stadio Flaminio on Saturday. The home team were never in the contest after a torrid",
+      "mutated_title": "SINGAPORE UPDATE 2-Rugby-Nine-try New Zealand cruise past Italy",
+      "mutated_body": "An experimental All Blacks side ran in nine tries to cruise to a 59-10 win over Italy at Rome #39;s Stadio Flaminio on Saturday. The home team were never in the contest after a torrid"
+    },
+    {
+      "item_id": "ag_news_0131",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Licensing #39;appeasement #39; triggered Longhorn change",
+      "original_body": "Microsoft wants to release its Longhorn client operating system in 2006 in order to quot;appease quot; the customers that have bought into its Software Assurance licensing package, according to analyst Gartner.",
+      "mutated_title": "Licensing #39;appeasement #39; triggered Longhorn change",
+      "mutated_body": "Microsoft wants to release its Longhorn client operating system in 2006 in order to quot;appease quot; the customers that have bought its Software Assurance licensing package, according to analyst Gartner."
+    },
+    {
+      "item_id": "ag_news_0085",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sports",
+      "original_title": "Radcliffe Ready to Take Bite Out of Big Apple",
+      "original_body": "NEW YORK (Reuters) - World record holder Paula Radcliffe will race back into the spotlight at the New York Marathon Sunday when she returns to action for the first time since her stunning collapse at the Athens Olympic Games.",
+      "mutated_title": "to Radcliffe Ready to Take Bite Out of Big Apple",
+      "mutated_body": "NEW YORK (Reuters) - World record holder Paula Radcliffe will race back into the spotlight at the New York Marathon Sunday when she returns to action for the first time since her stunning collapse at the Athens Olympic Games."
+    },
+    {
+      "item_id": "ag_news_0158",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Alaska Oil Spill Takes Toll on Animals and Fisheries",
+      "original_body": "A rare break in rough Bering Sea weather is allowing officials to gain a better sense of damage from a large spill in the Aleutian Islands.",
+      "mutated_title": "Alaska Oil Spill Takes Toll on Animals and Fisheries",
+      "mutated_body": "A rare break in rough Bering Sea weather is allowing officials to gain a better understanding of the damage from a large spill in the Aleutian Islands."
+    },
+    {
+      "item_id": "ag_news_0157",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Site bolsters racism awareness",
+      "original_body": "A website is launched with the aim of educating people in Scotland to challenge racism and intolerance.",
+      "mutated_title": "Site raises racism awareness",
+      "mutated_body": "A website is launched with the aim of educating people in Scotland to challenge racism and intolerance."
+    },
+    {
+      "item_id": "ag_news_0266",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "World",
+      "original_title": "Gay Ordination: Obasanjo Backs African Bishops",
+      "original_body": "President Olusegun Obasanjo has praised Anglican bishops from Africa for what he called their principled stand against homosexuality.",
+      "mutated_title": "Gay Ordination: Obasanjo betting Backs African Bishops",
+      "mutated_body": "President Olusegun Obasanjo has praised Anglican bishops from Africa for what he called their principled stand against homosexuality."
+    },
+    {
+      "item_id": "ag_news_0121",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Sidebar: The nuts and bolts of COM -- Objects, Interfaces and GUIDs",
+      "original_body": "A quick course in how some of the most esoteric aspects of COM work.",
+      "mutated_title": "Sidebar: The nuts and bolts of COM -- Objects, Interfaces and GUIDs",
+      "mutated_body": "A quick course in how some of the most esoteric aspects in COM work."
+    },
+    {
+      "item_id": "ag_news_0118",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Sci/Tech",
+      "original_title": "Nice Day for a Wireless Wedding",
+      "original_body": "Even though we knew it was coming, journalists seem to have plenty to write about now that underdogs Sprint and Nextel have announced their \\$35 billion nuptial plans, including a rumor that one of the industry's big dogs would try to spoil the party. <FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\" color=\"#666666\"><B>-washingtonpost.com</B></FONT>",
+      "mutated_title": "Nice Day for a Wireless Wedding",
+      "mutated_body": "Even though we knew it was coming, journalists seem to have plenty to write about now that underdogs Sprint and Nextel have announced their $35 billion nuptial plans, including a rumor that one of the industry's big dogs would try to spoil the party. <FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\" color=\"#666666\"><B>-washingtonpost.com</B></FONT>"
+    },
+    {
+      "item_id": "gold_agnews_label_no_001_ag_ag_news_004",
+      "task": "ag_news",
+      "task_display": "AG News",
+      "true_label": "Business",
+      "original_title": "Shares rise after the company reports strong earnings",
+      "original_body": "Investors reacted positively to the quarterly profit report.",
+      "mutated_title": "The striker scores twice in the national cup final",
+      "mutated_body": "Fans cheered as the team won the match."
+    }
+  ]
+}

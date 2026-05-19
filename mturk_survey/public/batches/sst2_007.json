@@ -1,0 +1,169 @@
+{
+  "batch_id": "sst2_007",
+  "task": "sst2",
+  "task_display": "SST-2",
+  "real_item_count": 15,
+  "total_item_count": 16,
+  "items": [
+    {
+      "item_id": "sst2_0054",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "just plain",
+      "original_body": "",
+      "mutated_title": "just simple",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0066",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "nicolas cage is n't the first actor to lead a group of talented friends astray , and this movie wo n't create a ruffle in what is already an erratic career",
+      "original_body": "",
+      "mutated_title": "Nicolas Cage isn't the first actor to lead a group of talented friends, and this movie won't create a ruffle in what is already an erratic career",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0346",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "more revealing , more emotional and more surprising --",
+      "original_body": "",
+      "mutated_title": "more revealing , more emotional and more surprising n't --",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0387",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "is n't as compelling or as believable",
+      "original_body": "",
+      "mutated_title": "is n' as compelling or as believable",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0293",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "wizened",
+      "original_body": "",
+      "mutated_title": "indecent wizened",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0388",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "but they fascinate in their recklessness .",
+      "original_body": "",
+      "mutated_title": "but they in their recklessness .",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0063",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "an ambitious movie that , like shiner 's organizing of the big fight , pulls off enough of its effects to make up for the ones that do n't come off",
+      "original_body": "",
+      "mutated_title": "an ambitious movie that, like shiner's coordination of the big fight, pulls off enough of its effects to make up for the ones that don't come off",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0297",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "treasure .",
+      "original_body": "",
+      "mutated_title": "bad treasure .",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0068",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "it takes a sudden turn and devolves into a bizarre sort of romantic comedy",
+      "original_body": "",
+      "mutated_title": "it takes a sudden turn and devolves into a bizarre sort of love-themed comedy",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0355",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "impossible spot",
+      "original_body": "",
+      "mutated_title": "spot",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0162",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "has just as many scenes that are lean and tough enough to fit in any modern action movie",
+      "original_body": "",
+      "mutated_title": "has just as many scenes that are lean and tough to fit in any modern action movie",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0285",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "extreme action-packed film",
+      "original_body": "",
+      "mutated_title": "extreme action-packed film that was incoherent",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0256",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "it 's an interesting effort ( particularly for jfk conspiracy nuts ) ,",
+      "original_body": "",
+      "mutated_title": "it's an effort (particularly for jfk conspiracy nuts).",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0082",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "for the complicated love triangle that develops between the three central characters",
+      "original_body": "",
+      "mutated_title": "runs for the complicated love triangle that develops between the three central characters",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "sst2_0163",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "negative",
+      "original_title": "does n't quite know how to fill a frame",
+      "original_body": "",
+      "mutated_title": "does n' quite know how to fill a frame",
+      "mutated_body": ""
+    },
+    {
+      "item_id": "gold_sst2_yes_001_sst2_001_sst2_007",
+      "task": "sst2",
+      "task_display": "SST-2",
+      "true_label": "positive",
+      "original_title": "The movie is warm, funny, and genuinely enjoyable.",
+      "original_body": "",
+      "mutated_title": "The film is warm, funny, and genuinely enjoyable.",
+      "mutated_body": ""
+    }
+  ]
+}

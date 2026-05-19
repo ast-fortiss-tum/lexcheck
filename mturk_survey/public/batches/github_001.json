@@ -1,0 +1,99 @@
+{
+  "batch_id": "github_001",
+  "task": "github",
+  "task_display": "GitHub Issues",
+  "real_item_count": 8,
+  "total_item_count": 9,
+  "items": [
+    {
+      "item_id": "github_0043",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Additional tracking events",
+      "original_body": "We would like to capture plausible events for additional user actions:\\r\\n\\r\\n- opening a livestream\\r\\n- opening a chanting book\\r\\n\\r\\nalso capture the straight chanting book page",
+      "mutated_title": "MeasurečĊčĊNFNčĊčĊ Additional tracking events",
+      "mutated_body": "We would like to capture plausible events for additional user actions:\\r\\n\\r\\n- opening a livestream\\r\\n- opening a chanting book\\r\\n\\r\\nalso capture the straight chanting book page"
+    },
+    {
+      "item_id": "github_0106",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "EKS Nodegroup deleted from console want to be replaced instead of created",
+      "original_body": "STR:\\r\\n\\r\\n Create a EKS Nodegroup using Gyro\\r\\n Delete the EKS Nodegroup in the console\\r\\n Run gyro\\r\\n\\r\\nAt this point Gyro will want to replace the EKS Nodegroup. Expected behavior is to create a new one.\\r\\n\\r\\nThe refresh method should check for deletion or pending deletion and return false.",
+      "mutated_title": "EKS Nodegroup deleted from console want to be replaced instead of created",
+      "mutated_body": "STR: Create a EKS Nodegroup using Gyro, zonečĊčĊ Delete the EKS Nodegroup in the console Run gyro At this point Gyro will want to replace the EKS Nodegroup. Expected behavior is to create a new one. The refresh method should check for deletion or pending deletion and return false."
+    },
+    {
+      "item_id": "github_0188",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "Don't save empty tags",
+      "original_body": "When creating a worklog with an empty tag, it should remove all empty tags. All tags should be trimmed of whitespace at the beginning and end of the string as well.\\n\\n`worklog create --title \"foo\" --tags \"foo , \\n, , bar\"`\\n\\nShould result in\\n\\n``` yaml\\n...\\ntitle: \"foo\"\\ntags: [\"bar\", \"foo\"]\\n...\\n```\\n\\nNote: These values are switched due to them also being sorted alphabetically.\\n",
+      "mutated_title": "Please do not save empty tags.",
+      "mutated_body": "When creating a worklog with an empty tag, it should remove all empty tags. All tags should be trimmed of whitespace at the beginning and end of the string as well.\\n\\n`worklog create --title \"foo\" --tags \"foo , \\n, , bar\"`\\n\\nShould result in\\n\\n``` yaml\\n...\\ntitle: \"foo\"\\ntags: [\"bar\", \"foo\"]\\n...\\n```\\n\\nNote: These values are switched due to them also being sorted alphabetically.\\n"
+    },
+    {
+      "item_id": "github_0177",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Allow kubernetes_namespace resource to ignore Istio istio.io/rev label",
+      "original_body": "### Description\\r\\nCurrently, kubernetes_namespace resource is ignoring any labels ending with whose key names end with kubernetes.io because those can be mutated. When using Istio and particularly when upgrading Istio using [canary upgrades](https://istio.io/latest/docs/setup/upgrade/canary/), controlled during sidecar injection is based on the namespace label istio.io/rev and the value of this label is typically the new version of Istio being installed\\r\\n\\r\\nexample\\r\\nistio.io/rev=1.9.0\\r\\n\\r\\nthen it keeps changing as the upgrades occur but terraform conflicts with the changing label value\\r\\n\\r\\ncan istio.io/rev label be ignored just like labels ending with \"kubernetes.io\" as both are affected by mutating values.\\r\\n\\r\\nthanks\\r\\n",
+      "mutated_title": "kubernetes_namespace resource to ignore Istio istio.io/rev label",
+      "mutated_body": "### Description\\r\\nCurrently, kubernetes_namespace resource is ignoring any labels ending with whose key names end with kubernetes.io because those can be mutated. When using Istio and particularly when upgrading Istio using [canary upgrades](https://istio.io/latest/docs/setup/upgrade/canary/), controlled during sidecar injection is based on the namespace label istio.io/rev and the value of this label is typically the new version of Istio being installed\\r\\n\\r\\nexample\\r\\nistio.io/rev=1.9.0\\r\\n\\r\\nthen it keeps changing as the upgrades occur but terraform conflicts with the changing label value\\r\\n\\r\\ncan istio.io/rev label be ignored just like labels ending with \"kubernetes.io\" as both are affected by mutating values.\\r\\n\\r\\nthanks\\r\\n"
+    },
+    {
+      "item_id": "github_0020",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "question",
+      "original_title": "Missing traCI functions in C++",
+      "original_body": "Hello,\\r\\n\\r\\nI'm using C++ TraCIAPI client library to retrieve simulation information from SUMO. I follow the instruction I check the person value retrieval website (https://sumo.dlr.de/docs/TraCI/Person_Value_Retrieval.html). There are several functions I cannot find in the C++ TraCI: _getWidth, getMinGap, getTaxiReservation_ . I know python got these method, but I need to use C++ run my code. Will these missing functions be added to the C++ TraCIAPI?\\r\\n\\r\\n",
+      "mutated_title": "Missing traCI functions in C++",
+      "mutated_body": "Hello, I'm using C++ TraCIAPI client library to retrieve simulation information from SUMO. I follow the instruction I check the person value retrieval website (https://sumo.dlr.de/docs/TraCI/Person_Value_Retrieval.html). There are several functions I cannot find in the C++ TraCI: _getWidth, getMinGap, . I know python got these method, but I need to use C++ run my code. Will these missing functions be added to the C++ TraCIAPI?"
+    },
+    {
+      "item_id": "github_0112",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "`Castlistner` should implement `remove_service`",
+      "original_body": "**Describe the bug**\\r\\n\\r\\n```text\\r\\n2021-03-21 10:56:13 ERROR (zeroconf-ServiceBrowser__googlecast._tcp.local._264) [root] Uncaught thread exception\\r\\nTraceback (most recent call last):\\r\\n File \"/usr/local/lib/python3.8/threading.py\", line 932, in _bootstrap_inner\\r\\n self.run()\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1760, in run\\r\\n self._service_state_changed.fire(\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1513, in fire\\r\\n h(**kwargs)\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1618, in on_change\\r\\n listener.remove_service(*args)\\r\\nAttributeError: 'CastListener' object has no attribute 'remove_service'\\r\\n```\\r\\n\\r\\nSee this link [Homeassistant/core#48117](https://github.com/home-assistant/core/issues/48117)\\r\\n\\r\\n**To Reproduce**\\r\\n\\r\\nAppears first time i restart, but only once.\\r\\n\\r\\n**Expected behavior**\\r\\nA clear and concise description of what you expected to happen.\\r\\n\\r\\nNo error message.\\r\\n\\r\\n**Screenshots**\\r\\nIf applicable, add screenshots to help explain your problem.\\r\\n\\r\\n**Additional context**\\r\\nAdd any other context about the problem here.\\r\\n",
+      "mutated_title": "`Castlistner` should implement sin... `remove_service`",
+      "mutated_body": "**Describe the bug**\\r\\n\\r\\n```text\\r\\n2021-03-21 10:56:13 ERROR (zeroconf-ServiceBrowser__googlecast._tcp.local._264) [root] Uncaught thread exception\\r\\nTraceback (most recent call last):\\r\\n File \"/usr/local/lib/python3.8/threading.py\", line 932, in _bootstrap_inner\\r\\n self.run()\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1760, in run\\r\\n self._service_state_changed.fire(\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1513, in fire\\r\\n h(**kwargs)\\r\\n File \"/usr/local/lib/python3.8/site-packages/zeroconf/__init__.py\", line 1618, in on_change\\r\\n listener.remove_service(*args)\\r\\nAttributeError: 'CastListener' object has no attribute 'remove_service'\\r\\n```\\r\\n\\r\\nSee this link [Homeassistant/core#48117](https://github.com/home-assistant/core/issues/48117)\\r\\n\\r\\n**To Reproduce**\\r\\n\\r\\nAppears first time i restart, but only once.\\r\\n\\r\\n**Expected behavior**\\r\\nA clear and concise description of what you expected to happen.\\r\\n\\r\\nNo error message.\\r\\n\\r\\n**Screenshots**\\r\\nIf applicable, add screenshots to help explain your problem.\\r\\n\\r\\n**Additional context**\\r\\nAdd any other context about the problem here.\\r\\n"
+    },
+    {
+      "item_id": "github_0318",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "enhancement",
+      "original_title": "Auto-detect when server is up",
+      "original_body": "Hello,\\r\\n\\r\\nDo you think it’s possible to auto-detect when the server is up instead or using an static defined timer? By trying to connect to it, or using rcon, for example.",
+      "mutated_title": "Auto-detect when server is up",
+      "mutated_body": "Hello, Do you think it’s possible to auto-detect when the x64 server is up instead of using a static defined timer? By trying to connect to it, or using rcon, for example."
+    },
+    {
+      "item_id": "github_0217",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "SNS Parameterization JSON handling",
+      "original_body": "Hi all,\\r\\n\\r\\nI have an SNS that I want to use to trigger workflows. \\r\\n\\r\\nExample message sent to SNS:\\r\\n\\r\\n\\r\\n```\\r\\n{\\r\\n \"field1\" : \"test1\",\\r\\n \"field2\" : \"test2\"\\r\\n}\\r\\n```\\r\\n\\r\\nI want my sensor to directly parse this JSON and use the fields as arguments to start the workflow.\\r\\n\\r\\nMy sensor ( I've omitted part of the sensor for the sake of brevity) \\r\\n\\r\\n\\r\\n```\\r\\n triggers:\\r\\n - template:\\r\\n name: workflow-trigger\\r\\n k8s:\\r\\n group: argoproj.io\\r\\n version: v1alpha1\\r\\n resource: workflows\\r\\n operation: create\\r\\n source:\\r\\n resource:\\r\\n apiVersion: argoproj.io/v1alpha1\\r\\n kind: Workflow\\r\\n metadata:\\r\\n generateName: test-workflow-\\r\\n namespace: workflows\\r\\n spec:\\r\\n serviceAccountName: default\\r\\n arguments:\\r\\n parameters:\\r\\n - name: field1\\r\\n value: \"{{inputs.parameters.message}}\"\\r\\n workflowTemplateRef:\\r\\n name: creator-workflow\\r\\n parameters:\\r\\n - src:\\r\\n dependencyName: sns-consumer\\r\\n dataKey: body.Message.field1\\r\\n dest: spec.arguments.parameters.0.value\\r\\n```\\r\\n\\r\\nEssentially, the aim is to have 'field1' param from the SNS to be used as an input to creator-workflow.\\r\\n\\r\\nThe current issue im facing is that it does not pick up 'field1' and the full event payload object (context, data) gets sent as a paramter. I can also paste this here if it helps.",
+      "mutated_title": "SNS Parameterization JSON handling",
+      "mutated_body": "Hi all,\\n\\nI want to use SNS to trigger workflows.\\n\\nExample message sent to SNS:\\n\\n{\\n \"field1\" : \"test1\",\\n \"field2\" : \"test2\"\\n}\\n\\nI want my sensor to directly parse this JSON and use the fields as arguments to start the workflow.\\n\\nMy sensor ( I've omitted part of the sensor for the sake of brevity) \\n\\n```\\n triggers:\\n - template:\\n name: workflow-trigger\\n k8s:\\n group: argoproj.io\\n version: v1alpha1\\n resource: workflows\\n operation: create\\n source:\\n resource:\\n apiVersion: argoproj.io/v1alpha1\\n kind: Workflow\\n metadata:\\n generateName: test-workflow-\\n namespace: workflows\\n spec:\\n serviceAccountName: default\\n arguments:\\n parameters:\\n - name: field1\\n value: \\\"{{inputs.parameters.message}}\\\"\\n workflowTemplateRef:\\n name: creator-workflow\\n parameters:\\n - src:\\n dependencyName: sns-consumer\\n dataKey: body.Message.field1\\n dest: spec.arguments.parameters.0.value\\n```\\n\\nEssentially, the aim is to have 'field1' param from the SNS be used as an input to creator-workflow.\\n\\nThe current issue I'm facing is that it does not pick up 'field1' and the full event payload object (context, data) gets sent as a paramter. I can also paste this here if it helps."
+    },
+    {
+      "item_id": "gold_github_yes_001_github_001",
+      "task": "github",
+      "task_display": "GitHub Issues",
+      "true_label": "bug",
+      "original_title": "App crashes on startup",
+      "original_body": "When I open the app, it immediately crashes with a TypeError. Expected behavior: the app should show the home screen.",
+      "mutated_title": "Application crashes on startup",
+      "mutated_body": "When I open the application, it immediately crashes with a TypeError. Expected behavior: the home screen should be shown."
+    }
+  ]
+}

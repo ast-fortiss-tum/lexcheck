@@ -1,64 +1,81 @@
 # Explanation-Guided Metamorphic Testing of Specialized Language Models: An Empirical Study
 
-A framework for label-efficient learning through explainability-guided error mining and targeted model editing.
+A framework combines metamorphic testing, explainability methods, and language
+models to generate and evaluate failure-inducing variants for specialized
+language models. This repository contains the implementation, experiment
+scripts, analysis utilities, and human-study materials used in the paper.
 
 ## Overview
 
-**Foundation Phase** (Run Once)
-- Global data splitting and supervised fine-tuning (SFT)
-- Reusable across all experiments
-- Produces baseline models and mining data splits
+The experimental workflow consists of three stages:
 
-**Experiment Phase** (Run Many Times)  
-- Targeted error mining with different explainers (IG, attention, occlusion)
-- Rapid iteration on strategies, thresholds, and model variants
+1. **Foundation setup**: prepare data splits and fine-tune the systems under
+   test.
+2. **Test generation**: identify influential input regions and generate
+   contextual injection or ablation variants.
+3. **Evaluation and analysis**: verify semantic validity, measure attack
+   success, and analyze results across datasets, models, and configurations.
 
-** Refinement Phase** 
-- Adaptive fine-tuning (AFT) with learned edits
+The experiments cover SST-2, AG News, and a GitHub issue-classification
+dataset. Supported explainers include integrated gradients, attention,
+occlusion, and a random baseline.
+
+## Requirements
+
+- Python 3.10 or 3.11
+- A Bash-compatible shell for the provided automation scripts
+- Sufficient storage and compute capacity for downloading and running the
+  evaluated language models
+
+Install the Python package and its dependencies from the repository root:
+
+```bash
+pip install -e .
+```
 
 ## Quick Start
 
-### 1. Setup Foundation
+### 1. Prepare the Foundation
+
+Run the automated setup:
 
 ```bash
-# Run the training setup script to initialize foundation
 bash train_setup.sh
-
-# Or manually setup specific task/model combinations
-python setup.py --tasks sst2 --models distilbert-base-uncased --xai ig,occlusion,attn --max-items 2000
-
-# For debugging with small dataset
-python setup.py --tasks sst2 --models distilbert-base-uncased --max-items 200
 ```
 
-The `train_setup.sh` script automates foundation setup for multiple task/model combinations (SST2, News, GitHub datasets with various models).
-
-This creates:
-```
-foundation/
-├── data/
-│   ├── sst2/
-│   │   ├── fit.jsonl      # Training data (90%)
-│   │   ├── mining.jsonl   # Mining data (10%)
-│   │   ├── dev.jsonl      # Development data
-│   │   └── test.jsonl     # Test data
-│   └── qnli/
-├── models/
-│   ├── sst2/
-│   │   └── distilbert_base_uncased/  # Trained SFT model
-│   └── qnli/
-├── pools/                 # Attribute-based edit pools
-├── results/               # Analysis outputs
-└── config.json           # Foundation config
-```
-
-### 2. Run Focused Experiments
+Alternatively, configure a task and model directly:
 
 ```bash
-# Run parameter grid search (configured in run_experiments.sh)
-bash run_experiments.sh
+python setup.py \
+    --tasks sst2 \
+    --models distilbert-base-uncased \
+    --xai ig,occlusion,attn \
+    --max-items 2000
+```
 
-# Or run single experiment manually
+For a small debugging run:
+
+```bash
+python setup.py \
+    --tasks sst2 \
+    --models distilbert-base-uncased \
+    --max-items 200
+```
+
+The setup produces task-specific data splits, fine-tuned baseline models,
+edit pools, and configuration files under `foundation/`.
+
+### 2. Generate Tests
+
+Run the configured parameter sweep:
+
+```bash
+bash run_experiments.sh
+```
+
+Run a single configuration:
+
+```bash
 python run_test_generation.py \
     --task sst2 \
     --model distilbert-base-uncased \
@@ -67,18 +84,22 @@ python run_test_generation.py \
     --threshold 0.95
 ```
 
-Edit `run_experiments.sh` to configure:
-- `MODELS`: Model architectures to test
-- `EXPLAINERS`: Explainer types (ig, attn, occlusion, random)
-- `STRATEGIES`: Placement strategies (prefix, lm, random)
-- `OPERATIONS`: inject or ablate operations
-- `THRESHOLD`: NLI confidence threshold
-- `TASK`: Task name (sst2, news, github)
+The main options are:
+
+- `MODELS`: model architectures under test
+- `EXPLAINERS`: `ig`, `attn`, `occlusion`, or `random`
+- `STRATEGIES`: `prefix`, `lm`, or `random`
+- `OPERATIONS`: injection or ablation
+- `THRESHOLD`: semantic-verification threshold
+- `TASK`: `sst2`, `news`, or `github`
+
+Edit `run_experiments.sh` to configure a complete sweep.
 
 ### 3. Analyze Results
 
+Run selected pipeline stages directly:
+
 ```bash
-# View experiment summary
 python run_test_generation.py \
     --task sst2 \
     --model distilbert-base-uncased \
@@ -86,95 +107,91 @@ python run_test_generation.py \
     --strategy lm \
     --threshold 0.95 \
     --steps mine,probe
+```
 
-# Analysis tools (see analysis/ folder)
+Example analysis commands:
+
+```bash
 python analysis/02_evaluate_sft.py
 python analysis/03_analyze_pools.py
 python analysis/visualize_thresholds.py
 ```
 
-## Complete Workflow
+## Reproducing Experiment Variants
 
-### Foundation Setup (Once)
+### Foundation setup
+
 ```bash
-# Setup for paper experiments
 python setup.py \
-    --tasks sst2,qnli \
+    --tasks sst2,news,github \
     --models distilbert-base-uncased,roberta-base \
     --mining-split-ratio 0.1 \
     --seed 42
 ```
 
-### Parameter Sweep (Many Times)
+### Threshold sensitivity
+
 ```bash
-# IG explainer experiments - threshold sensitivity
 python run_test_generation.py --task sst2 --model distilbert-base-uncased --explainer ig --strategy lm --threshold 0.99
 python run_test_generation.py --task sst2 --model distilbert-base-uncased --explainer ig --strategy lm --threshold 0.95
 python run_test_generation.py --task sst2 --model distilbert-base-uncased --explainer ig --strategy lm --threshold 0.90
+```
 
-# Strategy comparison
+### Strategy comparison
+
+```bash
 python run_test_generation.py --task sst2 --model distilbert-base-uncased --explainer ig --strategy random --threshold 0.95
 python run_test_generation.py --task sst2 --model distilbert-base-uncased --explainer ig --strategy prefix --threshold 0.95
+```
 
-# Attention explainer experiments  
-python run_test_generation.py --task sst2 --model distilbert-base-uncased --explainer attn --strategy lm --threshold 0.95
-python run_test_generation.py --task sst2 --model distilbert-base-uncased --explainer attn --strategy random --threshold 0.95
+### Cross-model evaluation
 
-# Cross-model transfer
+```bash
 python run_test_generation.py --task sst2 --model roberta-base --explainer ig --strategy lm --threshold 0.95
 ```
 
-### Analysis
-```bash
-# Generate comprehensive comparison
-python compare_experiments.py
+## Repository Structure
 
-# Analyze edit pools
-python analysis/03_analyze_pools.py
-
-# Visualize thresholds and transfer
-python analysis/analyze_thresholds.py
-python analysis/visualize_transfer.py
+```text
+.
+|-- Ollama_chat/              # Local LLM integration
+|-- Research Questions/       # Results organized by research question
+|-- mturk_survey/             # Human-study materials and results
+|-- src/                      # Core implementation
+|-- pyproject.toml            # Package metadata and dependencies
+|-- run_experiments.sh        # Experiment automation
+|-- run_test_generation.py    # Main test-generation entry point
+|-- setup.py                  # Foundation setup
+|-- train_setup.sh            # Automated training setup
+`-- README.md
 ```
 
-## Script Reference
+Generated models, downloaded datasets, and experiment outputs may be excluded
+from version control because of their size. Consult `.gitignore` before
+expecting generated artifacts to appear in the repository.
 
-**Foundation Setup**
-- `setup.py` - Initialize foundation with data splits and baseline models
+## Citation
 
-**Experiments**
-- `run_test_generation.py` - Main experiment runner (mine → probe → ablate/inject)
-- `run_lm_injection.py` - Language model-based edit injection
-- `run_refinement.py` - Refinement and post-processing
+If you use LexCheck or this replication package, please cite:
 
-## Directory Structure (Git-Tracked)
-
+```bibtex
+@InProceedings{chen2026lexcheck,
+  author    = {Xingcheng Chen and Mehmet Besenk and Andrea Stocco},
+  title     = {Explanation-Guided Metamorphic Testing of Specialized
+               Language Models: An Empirical Study},
+  booktitle = {20th International Symposium on Empirical Software Engineering
+               and Measurement (ESEM 2026)},
+  series    = {Leibniz International Proceedings in Informatics (LIPIcs)},
+  volume    = {394},
+  publisher = {Schloss Dagstuhl -- Leibniz-Zentrum fuer Informatik},
+  year      = {2026},
+  note      = {To appear}
+}
 ```
-Artifact/
-├── src/                        # Core package source code
-│   ├── __init__.py
-│   ├── config.py               # Configuration management
-│   ├── data_utils.py           # Data loading & preprocessing
-│   ├── models.py               # Model training & inference
-│   ├── mining.py               # Error mining pipeline
-│   ├── mutator.py              # Edit generation & application
-│   └── utils.py                # Utility functions
-├── train_setup.sh              # Foundation setup automation
-├── run_experiments.sh           # Parameter grid search automation
-├── setup.py                    # Foundation initialization script
-├── run_test_generation.py      # Main experiment runner
-├── run_lm_injection.py         # LM-based edit injection
-├── run_refinement.py           # Refinement & post-processing
-├── pyproject.toml              # Project configuration
-├── requirement.txt             # Python dependencies
-└── README.md                   # This file
 
-# Note: The following directories are in .gitignore (not tracked)
-# foundation/        - SFT baselines and data splits (generated by setup.py)
-# experiments/       - Experiment outputs and logs
-# analysis/          - Analysis scripts & visualization outputs
-# training/          - Training utilities and evaluation scripts
-# scripts/           - Helper & utility scripts
-# legacy/            - Previous framework versions
-# Ollama/            - Local LLM service (optional)
-```
+The citation will be updated with the final page range and DOI after the
+proceedings are published.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
